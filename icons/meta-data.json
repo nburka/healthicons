@@ -11,7 +11,7 @@
    "Tank",
    "dhis2:war"
   ],
-  "title": "War"
+  "title": "Tank"
  },
  {
   "id": "vespa_motorcycle",
@@ -133,12 +133,26 @@
   "tags": [
    "4x4",
    "4×4",
+   "Jeep",
    "Off-Road",
    "Sport Utility Vehicle",
    "Truck",
    "dhis2:4x4"
   ],
   "title": "SUV"
+ },
+ {
+  "id": "drone",
+  "category": "vehicles",
+  "path": "vehicles/drone",
+  "tags": [
+   "Aircraft",
+   "Autonomous Flying Vehicle",
+   "Drone",
+   "Flight",
+   "dhis2:drone"
+  ],
+  "title": "Drone"
  },
  {
   "id": "triangle_small",
@@ -305,42 +319,6 @@
   "title": "Circle Large"
  },
  {
-  "id": "rural_post",
-  "category": "places",
-  "path": "places/rural_post",
-  "tags": [
-   "Hospital",
-   "Rural Post",
-   "Small Hospital",
-   "dhis2:rural_post"
-  ],
-  "title": "Rural Clinic"
- },
- {
-  "id": "proper_roof",
-  "category": "places",
-  "path": "places/proper_roof",
-  "tags": [
-   "Building",
-   "House",
-   "Hut",
-   "dhis2:proper_roof"
-  ],
-  "title": "Home with Proper Roof"
- },
- {
-  "id": "palm_branches_roof",
-  "category": "places",
-  "path": "places/palm_branches_roof",
-  "tags": [
-   "Building",
-   "House",
-   "Hut",
-   "dhis2:palm_branches_roof"
-  ],
-  "title": "Home with Roof Made of Palm Branches"
- },
- {
   "id": "market_stall",
   "category": "places",
   "path": "places/market_stall",
@@ -352,32 +330,6 @@
    "dhis2:market_stall"
   ],
   "title": "Market Stall"
- },
- {
-  "id": "letrina",
-  "category": "places",
-  "path": "places/letrina",
-  "tags": [
-   "Bathroom",
-   "Biffy",
-   "Bog",
-   "Crapper",
-   "Dunny",
-   "Honey Bucket",
-   "John",
-   "Kybo",
-   "Latrine",
-   "Long Drop",
-   "Outdoor Toilet",
-   "Portaloo",
-   "Privy",
-   "Thunderbox",
-   "Toilet",
-   "WC",
-   "Water Closet",
-   "dhis2:letrina"
-  ],
-  "title": "Outhouse"
  },
  {
   "id": "hospital",
@@ -392,30 +344,16 @@
   "title": "Hospital"
  },
  {
-  "id": "home",
+  "id": "home_alt",
   "category": "places",
-  "path": "places/home",
+  "path": "places/home_alt",
   "tags": [
    "Door",
    "House",
    "Roof",
    "dhis2:home"
   ],
-  "title": "Home"
- },
- {
-  "id": "forest_persons",
-  "category": "places",
-  "path": "places/forest_persons",
-  "tags": [
-   "Nature",
-   "Person",
-   "Tree",
-   "Walking",
-   "Woods",
-   "dhis2:forest_persons"
-  ],
-  "title": "Person in Forest"
+  "title": "Home ALT"
  },
  {
   "id": "forest",
@@ -429,19 +367,6 @@
    "dhis2:forest"
   ],
   "title": "Forest"
- },
- {
-  "id": "emergency_post",
-  "category": "places",
-  "path": "places/emergency_post",
-  "tags": [
-   "Cross",
-   "Emergency Post",
-   "Tent",
-   "War Hospital",
-   "dhis2:emergency_post"
-  ],
-  "title": "Field Hospital"
  },
  {
   "id": "city",
@@ -472,75 +397,15 @@
   "title": "Church"
  },
  {
-  "id": "ambulatory_clinic",
-  "category": "places",
-  "path": "places/ambulatory_clinic",
-  "tags": [
-   "Ambulatory Clinic",
-   "Hospital",
-   "Office",
-   "Small Hospital",
-   "dhis2:ambulatory_clinic"
-  ],
-  "title": "Clinic"
- },
- {
   "id": "virus",
-  "category": "objects",
-  "path": "objects/virus",
+  "category": "symbols",
+  "path": "symbols/virus",
   "tags": [
    "Infection",
    "Infectious Disease",
    "dhis2:virus"
   ],
   "title": "Virus"
- },
- {
-  "id": "stock_out",
-  "category": "objects",
-  "path": "objects/stock_out",
-  "tags": [
-   "Empty Box",
-   "Medicines",
-   "dhis2:stock_out"
-  ],
-  "title": "Stock Out"
- },
- {
-  "id": "running_water",
-  "category": "objects",
-  "path": "objects/running_water",
-  "tags": [
-   "Clean Water",
-   "Drinking Water",
-   "Running Water",
-   "Sanitation",
-   "dhis2:running_water"
-  ],
-  "title": "Water Tap"
- },
- {
-  "id": "rdt_result_out_stock",
-  "category": "objects",
-  "path": "objects/rdt_result_out_stock",
-  "tags": [
-   "Empty Box",
-   "Retroviral",
-   "dhis2:rdt_result_out_stock"
-  ],
-  "title": "RDT Stock Out"
- },
- {
-  "id": "phone",
-  "category": "objects",
-  "path": "objects/phone",
-  "tags": [
-   "Call",
-   "Communication",
-   "Telephone",
-   "dhis2:phone"
-  ],
-  "title": "Phone"
  },
  {
   "id": "money_bag",
@@ -553,66 +418,6 @@
    "dhis2:money_bag"
   ],
   "title": "Money Bag"
- },
- {
-  "id": "justice",
-  "category": "objects",
-  "path": "objects/justice",
-  "tags": [
-   "Law",
-   "Legal",
-   "Scales",
-   "dhis2:justice"
-  ],
-  "title": "Justice"
- },
- {
-  "id": "i_utensils",
-  "category": "objects",
-  "path": "objects/i_utensils",
-  "tags": [
-   "Tools",
-   "dhis2:i_utensils"
-  ],
-  "title": "Utensils"
- },
- {
-  "id": "hot_meal",
-  "category": "objects",
-  "path": "objects/hot_meal",
-  "tags": [
-   "Food",
-   "Meal",
-   "dhis2:hot_meal"
-  ],
-  "title": "Hot Meal"
- },
- {
-  "id": "credit_card",
-  "category": "objects",
-  "path": "objects/credit_card",
-  "tags": [
-   "Currency",
-   "Mastercard",
-   "Money",
-   "Payment",
-   "Visa",
-   "dhis2:credit_card"
-  ],
-  "title": "Credit Card"
- },
- {
-  "id": "construction",
-  "category": "objects",
-  "path": "objects/construction",
-  "tags": [
-   "Build",
-   "Construction",
-   "Settings",
-   "Tool",
-   "dhis2:construction"
-  ],
-  "title": "Hammer"
  },
  {
   "id": "coins",
@@ -637,105 +442,6 @@
    "dhis2:bills"
   ],
   "title": "Money Bills"
- },
- {
-  "id": "network_5g",
-  "category": "network",
-  "path": "network/network_5g",
-  "tags": [
-   "Bandwidth",
-   "Connection",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:5g"
-  ],
-  "title": "5G"
- },
- {
-  "id": "network_4g",
-  "category": "network",
-  "path": "network/network_4g",
-  "tags": [
-   "Bandwidth",
-   "Connection",
-   "LTE",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:4g"
-  ],
-  "title": "4G"
- },
- {
-  "id": "medium_bars",
-  "category": "network",
-  "path": "network/medium_bars",
-  "tags": [
-   "Connection",
-   "Medium",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:medium_bars"
-  ],
-  "title": "Medium Bars"
- },
- {
-  "id": "low_bars",
-  "category": "network",
-  "path": "network/low_bars",
-  "tags": [
-   "Connection",
-   "Network",
-   "Phone",
-   "Slow",
-   "Speed",
-   "dhis2:low_bars"
-  ],
-  "title": "Low Bars"
- },
- {
-  "id": "high_bars",
-  "category": "network",
-  "path": "network/high_bars",
-  "tags": [
-   "Connection",
-   "Fast",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:high_bars"
-  ],
-  "title": "High Bars"
- },
- {
-  "id": "3g",
-  "category": "network",
-  "path": "network/3g",
-  "tags": [
-   "Bandwidth",
-   "Connection",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:3g"
-  ],
-  "title": "3G"
- },
- {
-  "id": "2g",
-  "category": "network",
-  "path": "network/2g",
-  "tags": [
-   "Bandwidth",
-   "Connection",
-   "Network",
-   "Phone",
-   "Speed",
-   "dhis2:2g"
-  ],
-  "title": "2G"
  },
  {
   "id": "pills_4",
@@ -799,17 +505,27 @@
  },
  {
   "id": "oral_contraception_pillsx28",
-  "category": "medications",
-  "path": "medications/oral_contraception_pillsx28",
-  "tags": [],
-  "title": "Oral Contraception Pillsx 28"
+  "category": "family",
+  "path": "family/oral_contraception_pillsx28",
+  "tags": [
+   "Birth Control Pills",
+   "Contraception",
+   "Female Contraception",
+   "dhis2:oral_contraception_pillsx28"
+  ],
+  "title": "Oral Contraceptive 28"
  },
  {
   "id": "oral_contraception_pillsx21",
-  "category": "medications",
-  "path": "medications/oral_contraception_pillsx21",
-  "tags": [],
-  "title": "Oral Contraception Pillsx 21"
+  "category": "family",
+  "path": "family/oral_contraception_pillsx21",
+  "tags": [
+   "Birth Control Pills",
+   "Contraception",
+   "Female Contraception",
+   "dhis2:oral_contraception_pillsx21"
+  ],
+  "title": "Oral Contraceptive 21"
  },
  {
   "id": "medicines",
@@ -973,30 +689,6 @@
   "title": "Synergist Insecticide Bioassays"
  },
  {
-  "id": "rdt_result_pv_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_pv_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_pv_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result PV"
- },
- {
-  "id": "rdt_result_pv_invalid_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_pv_invalid_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_pv_invalid_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result PV Invalid"
- },
- {
   "id": "rdt_result_pv",
   "category": "diagnostics",
   "path": "diagnostics/rdt_result_pv",
@@ -1019,30 +711,6 @@
    "dhis2:rdt_result_positive"
   ],
   "title": "Rapid Diagnostic Testing Result Positive"
- },
- {
-  "id": "rdt_result_pf_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_pf_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_pf_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result PF"
- },
- {
-  "id": "rdt_result_pf_invalid_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_pf_invalid_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_pf_invalid_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result PF Invalid"
  },
  {
   "id": "rdt_result_pf_invalid",
@@ -1069,30 +737,6 @@
   "title": "Rapid Diagnostic Testing Result No Test"
  },
  {
-  "id": "rdt_result_neg_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_neg_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_neg_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result Negative"
- },
- {
-  "id": "rdt_result_neg_invalid_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_neg_invalid_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_neg_invalid_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result Negative Invalid"
- },
- {
   "id": "rdt_result_neg_invalid",
   "category": "diagnostics",
   "path": "diagnostics/rdt_result_neg_invalid",
@@ -1117,30 +761,6 @@
   "title": "Rapid Diagnostic Testing Result Negative"
  },
  {
-  "id": "rdt_result_mixed_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_mixed_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_mixed_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result Mixed"
- },
- {
-  "id": "rdt_result_mixed_invalid_rectangular",
-  "category": "diagnostics",
-  "path": "diagnostics/rdt_result_mixed_invalid_rectangular",
-  "tags": [
-   "Diagnostic",
-   "RDT",
-   "Testing",
-   "dhis2:rdt_result_mixed_invalid_rectangular"
-  ],
-  "title": "Rapid Diagnostic Testing Result Mixed Invalid"
- },
- {
   "id": "rdt_result_mixed_invalid",
   "category": "diagnostics",
   "path": "diagnostics/rdt_result_mixed_invalid",
@@ -1162,31 +782,31 @@
    "Testing",
    "dhis2:rdt_result_mixed"
   ],
-  "title": "Rapid Diagnostic Testing Result Mixed"
+  "title": "Rapid Diagnostic Testing Result Mixed Positve"
  },
  {
-  "id": "rdt_result_mixed",
+  "id": "rdt_result_pv_invalid",
   "category": "diagnostics",
-  "path": "diagnostics/rdt_result_mixed",
+  "path": "diagnostics/rdt_result_pv_invalid",
   "tags": [
    "Diagnostic",
    "RDT",
    "Testing",
-   "dhis2:rdt_result_mixed"
+   "dhis2:rdt_result_pv_invalid"
   ],
-  "title": "Rapid Diagnostic Testing Result Mixed"
+  "title": "Rapid Diagnostic Testing Result Invalid"
  },
  {
-  "id": "rdt_result_mixed",
+  "id": "rdt_result_pf",
   "category": "diagnostics",
-  "path": "diagnostics/rdt_result_mixed",
+  "path": "diagnostics/rdt_result_pf",
   "tags": [
    "Diagnostic",
    "RDT",
    "Testing",
-   "dhis2:rdt_result_mixed"
+   "dhis2:rdt_result_pf"
   ],
-  "title": "Rapid Diagnostic Testing Mixed"
+  "title": "Rapid Diagnostic Testing PF"
  },
  {
   "id": "rdt_result_invalid",
@@ -1283,18 +903,6 @@
   "title": "Malaria Negative"
  },
  {
-  "id": "intensity_concentration_bioassays",
-  "category": "diagnostics",
-  "path": "diagnostics/intensity_concentration_bioassays",
-  "tags": [
-   "Diagnostic",
-   "Malaria",
-   "Mosquito",
-   "dhis2:intensity_concentration_bioassays"
-  ],
-  "title": "Intensity Concentration Bioassays"
- },
- {
   "id": "hiv_self_test",
   "category": "diagnostics",
   "path": "diagnostics/hiv_self_test",
@@ -1346,18 +954,6 @@
   "title": "Weight Scale"
  },
  {
-  "id": "treated_water",
-  "category": "devices",
-  "path": "devices/treated_water",
-  "tags": [
-   "Clean Water",
-   "Drinking Water",
-   "Hygeine",
-   "dhis2:treated_water"
-  ],
-  "title": "Treated Water"
- },
- {
   "id": "thermometer",
   "category": "devices",
   "path": "devices/thermometer",
@@ -1370,20 +966,6 @@
    "dhis2:thermometer"
   ],
   "title": "Temperature"
- },
- {
-  "id": "tac",
-  "category": "devices",
-  "path": "devices/tac",
-  "tags": [
-   "CAT Scan",
-   "CT Scan",
-   "Computed Tomography",
-   "Diagnostic Imaging",
-   "Radiology",
-   "dhis2:tac"
-  ],
-  "title": "CT Scan"
  },
  {
   "id": "syringe",
@@ -1431,26 +1013,15 @@
   "title": "Stethoscope"
  },
  {
-  "id": "sayana_press",
+  "id": "ppe_sanitizer",
   "category": "devices",
-  "path": "devices/sayana_press",
-  "tags": [
-   "Contraceptive",
-   "Family Planning",
-   "dhis2:syana_press"
-  ],
-  "title": "Syana Press"
- },
- {
-  "id": "sanitizer",
-  "category": "devices",
-  "path": "devices/sanitizer",
+  "path": "devices/ppe_sanitizer",
   "tags": [
    "Infection Control",
    "PPE",
    "dhis2:sanitizer"
   ],
-  "title": "Sanitizer"
+  "title": "PPE Sanitizer"
  },
  {
   "id": "ppe_mask_n95",
@@ -1574,20 +1145,20 @@
   "title": "Microscope"
  },
  {
-  "id": "mask",
+  "id": "ppe-mask",
   "category": "devices",
-  "path": "devices/mask",
+  "path": "devices/ppe-mask",
   "tags": [
    "Infection Control",
    "PPE",
    "dhis2:ppe_mask"
   ],
-  "title": "Mask"
+  "title": "PPE Surgical Mask"
  },
  {
   "id": "male_condom",
-  "category": "devices",
-  "path": "devices/male_condom",
+  "category": "family",
+  "path": "family/male_condom",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1597,22 +1168,9 @@
   "title": "Male Condom"
  },
  {
-  "id": "llin",
-  "category": "devices",
-  "path": "devices/llin",
-  "tags": [
-   "Device",
-   "Insecticide",
-   "Long Lasting Insecticidal Nets",
-   "Mosquito",
-   "dhis2:llin"
-  ],
-  "title": "Bed Net"
- },
- {
   "id": "iud",
-  "category": "devices",
-  "path": "devices/iud",
+  "category": "family",
+  "path": "family/iud",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1637,8 +1195,8 @@
  },
  {
   "id": "implant",
-  "category": "devices",
-  "path": "devices/implant",
+  "category": "family",
+  "path": "family/implant",
   "tags": [
    "Device",
    "dhis2:implant"
@@ -1662,8 +1220,8 @@
  },
  {
   "id": "hormonal_ring",
-  "category": "devices",
-  "path": "devices/hormonal_ring",
+  "category": "family",
+  "path": "family/hormonal_ring",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1672,22 +1230,9 @@
   "title": "Hormonal Ring"
  },
  {
-  "id": "fever",
-  "category": "devices",
-  "path": "devices/fever",
-  "tags": [
-   "Fever",
-   "High",
-   "Temperature",
-   "Thermometer",
-   "dhis2:fever"
-  ],
-  "title": "High Temperature"
- },
- {
   "id": "female_condom",
-  "category": "devices",
-  "path": "devices/female_condom",
+  "category": "family",
+  "path": "family/female_condom",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1698,8 +1243,8 @@
  },
  {
   "id": "family_planning",
-  "category": "devices",
-  "path": "devices/family_planning",
+  "category": "family",
+  "path": "family/family_planning",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1711,46 +1256,9 @@
   "title": "Family Planning"
  },
  {
-  "id": "drone",
-  "category": "devices",
-  "path": "devices/drone",
-  "tags": [
-   "Aircraft",
-   "Autonomous Flying Vehicle",
-   "Drone",
-   "Flight",
-   "dhis2:drone"
-  ],
-  "title": "Drone"
- },
- {
-  "id": "discriminating_concentration_bioassays",
-  "category": "devices",
-  "path": "devices/discriminating_concentration_bioassays",
-  "tags": [
-   "Mosquito",
-   "Test",
-   "dhis2:discriminating_concentration_bioassays"
-  ],
-  "title": "Discriminating Concentration Bioassays"
- },
- {
-  "id": "copper_iud",
-  "category": "devices",
-  "path": "devices/copper_iud",
-  "tags": [
-   "Contraceptive",
-   "Family Planning",
-   "IUD",
-   "Intrauterine Device",
-   "dhis2:copper_iud"
-  ],
-  "title": "Copper Intrauterine Device"
- },
- {
   "id": "contraceptive_patch",
-  "category": "devices",
-  "path": "devices/contraceptive_patch",
+  "category": "family",
+  "path": "family/contraceptive_patch",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1760,21 +1268,9 @@
   "title": "Contraceptive Patch"
  },
  {
-  "id": "contraceptive_injection",
-  "category": "devices",
-  "path": "devices/contraceptive_injection",
-  "tags": [
-   "Contraceptive",
-   "Family Planning",
-   "Injection",
-   "dhis2:contraceptive_injection"
-  ],
-  "title": "Contraceptive Injection"
- },
- {
   "id": "contraceptive_diaphragm",
-  "category": "devices",
-  "path": "devices/contraceptive_diaphragm",
+  "category": "family",
+  "path": "family/contraceptive_diaphragm",
   "tags": [
    "Contraceptive",
    "Diaphragm",
@@ -1782,64 +1278,6 @@
    "dhis2:contraceptive_diaphragm"
   ],
   "title": "Contraceptive Diaphragm"
- },
- {
-  "id": "cold_chain",
-  "category": "devices",
-  "path": "devices/cold_chain",
-  "tags": [
-   "Cold",
-   "Cold Chain",
-   "Cool",
-   "Freezer",
-   "Low",
-   "Refrigeration",
-   "Temperature",
-   "Thermometer",
-   "dhis2:cold_chain"
-  ],
-  "title": "Cold Temperature"
- },
- {
-  "id": "clinical_a",
-  "category": "devices",
-  "path": "devices/clinical_a",
-  "tags": [
-   "Diagnostic",
-   "Lab",
-   "Liquid",
-   "Science",
-   "dhis2:clinical_a"
-  ],
-  "title": "Test Tube"
- },
- {
-  "id": "blood_pressure_monitor",
-  "category": "devices",
-  "path": "devices/blood_pressure_monitor",
-  "tags": [
-   "BP",
-   "Cardiology",
-   "Device",
-   "Heart",
-   "Hypertension",
-   "dhis2:blood_pressure_monitor"
-  ],
-  "title": "Blood Pressure Monitor"
- },
- {
-  "id": "blood_pressure_2",
-  "category": "devices",
-  "path": "devices/blood_pressure_2",
-  "tags": [
-   "BP",
-   "Cardiology",
-   "Device",
-   "Heart",
-   "Hypertension",
-   "dhis2:blood_pressure_2"
-  ],
-  "title": "Blood Pressure Monitor ALT"
  },
  {
   "id": "blood_pressure",
@@ -1857,144 +1295,16 @@
   "title": "Hypertension"
  },
  {
-  "id": "blood_rh_p",
+  "id": "blood_bag",
   "category": "blood",
-  "path": "blood/blood_rh_p",
+  "path": "blood/blood_bag",
   "tags": [
    "Bag",
    "Blood",
    "Hematology",
-   "RH Positive",
-   "Transfusion",
-   "dhis2:blood_rh_p"
+   "Transfusion"
   ],
-  "title": "Blood Type RH+"
- },
- {
-  "id": "blood_rh_n",
-  "category": "blood",
-  "path": "blood/blood_rh_n",
-  "tags": [
-   "Bag",
-   "Blood",
-   "Hematology",
-   "RH Negative",
-   "Transfusion",
-   "dhis2:blood_rh_n"
-  ],
-  "title": "Blood Type RH-"
- },
- {
-  "id": "blood_o_p",
-  "category": "blood",
-  "path": "blood/blood_o_p",
-  "tags": [
-   "Bag",
-   "Blood",
-   "Hematology",
-   "O Positive",
-   "Transfusion",
-   "dhis2:blood_o_p"
-  ],
-  "title": "Blood Type O+"
- },
- {
-  "id": "blood_o_n",
-  "category": "blood",
-  "path": "blood/blood_o_n",
-  "tags": [
-   "Bag",
-   "Blood",
-   "Hematology",
-   "O Negative",
-   "Transfusion",
-   "dhis2:blood_o_n"
-  ],
-  "title": "Blood Type O-"
- },
- {
-  "id": "blood_b_p",
-  "category": "blood",
-  "path": "blood/blood_b_p",
-  "tags": [
-   "B Positive",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_b_p"
-  ],
-  "title": "Blood Type B+"
- },
- {
-  "id": "blood_b_n",
-  "category": "blood",
-  "path": "blood/blood_b_n",
-  "tags": [
-   "B Negative",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_b_n"
-  ],
-  "title": "Blood Type B-"
- },
- {
-  "id": "blood_ab_p",
-  "category": "blood",
-  "path": "blood/blood_ab_p",
-  "tags": [
-   "AB Positive",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_ab_p"
-  ],
-  "title": "Blood Type AB+"
- },
- {
-  "id": "blood_ab_n",
-  "category": "blood",
-  "path": "blood/blood_ab_n",
-  "tags": [
-   "AB Negative",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_ab_n"
-  ],
-  "title": "Blood Type AB-"
- },
- {
-  "id": "blood_a_p",
-  "category": "blood",
-  "path": "blood/blood_a_p",
-  "tags": [
-   "A Positive",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_a_p"
-  ],
-  "title": "Blood Type A+"
- },
- {
-  "id": "blood_a_n",
-  "category": "blood",
-  "path": "blood/blood_a_n",
-  "tags": [
-   "A Negative",
-   "Bag",
-   "Blood",
-   "Hematology",
-   "Transfusion",
-   "dhis2:blood_a_n"
-  ],
-  "title": "Blood Type A-"
+  "title": "Blood Bag"
  },
  {
   "id": "heart",
@@ -2072,20 +1382,6 @@
   "title": "Kidneys"
  },
  {
-  "id": "eyes",
-  "category": "body",
-  "path": "body/eyes",
-  "tags": [
-   "Iris",
-   "Lens",
-   "Ocular",
-   "Ophthalmology",
-   "Organ",
-   "Pupil"
-  ],
-  "title": "Eye"
- },
- {
   "id": "dna",
   "category": "body",
   "path": "body/dna",
@@ -2122,32 +1418,6 @@
   "title": "Checkmark"
  },
  {
-  "id": "water_treatment",
-  "category": "symbols",
-  "path": "symbols/water_treatment",
-  "tags": [
-   "Arrows",
-   "Drop",
-   "Water",
-   "dhis2:water_treatment"
-  ],
-  "title": "Water Treatment"
- },
- {
-  "id": "vih",
-  "category": "symbols",
-  "path": "symbols/vih",
-  "tags": [
-   "AIDS",
-   "HIV",
-   "Infection",
-   "Infectious Disease",
-   "Virus",
-   "dhis2:vih"
-  ],
-  "title": "HIV"
- },
- {
   "id": "un_paved_road",
   "category": "symbols",
   "path": "symbols/un_paved_road",
@@ -2163,84 +1433,72 @@
   "id": "tally",
   "category": "symbols",
   "path": "symbols/tally",
-  "tags": [],
+  "tags": [
+   "Add",
+   "Addition",
+   "Count",
+   "Math",
+   "Register"
+  ],
   "title": "Tally"
  },
  {
   "id": "stop",
   "category": "symbols",
   "path": "symbols/stop",
-  "tags": [],
-  "title": "Stop"
- },
- {
-  "id": "social_distancing",
-  "category": "symbols",
-  "path": "symbols/social_distancing",
   "tags": [
-   "Apart",
-   "Arrows",
-   "Between",
-   "Social Distance",
-   "Space",
-   "dhis2:social_distancing"
+   "Fingers",
+   "Halt",
+   "Hand",
+   "Warning",
+   "dhis2:stop"
   ],
-  "title": "Social Distancing"
+  "title": "Stop"
  },
  {
   "id": "smoking_cessation",
   "category": "symbols",
   "path": "symbols/smoking_cessation",
-  "tags": [],
-  "title": "Smoking Cessation"
+  "tags": [
+   "Banned",
+   "Smoking",
+   "Tobacco"
+  ],
+  "title": "No Smoking"
  },
  {
   "id": "smoking",
   "category": "symbols",
   "path": "symbols/smoking",
-  "tags": [],
+  "tags": [
+   "Smoking",
+   "Tobacco"
+  ],
   "title": "Smoking"
- },
- {
-  "id": "sexual_reproductive_health",
-  "category": "symbols",
-  "path": "symbols/sexual_reproductive_health",
-  "tags": [],
-  "title": "Sexual Reproductive Health"
  },
  {
   "id": "rx",
   "category": "symbols",
   "path": "symbols/rx",
-  "tags": [],
-  "title": "Rx"
+  "tags": [
+   "Medication",
+   "Pharmacy",
+   "Rx",
+   "Script"
+  ],
+  "title": "Prescription Alt"
  },
  {
   "id": "running_water_alt",
   "category": "symbols",
   "path": "symbols/running_water_alt",
-  "tags": [],
-  "title": "Running Water Alt"
- },
- {
-  "id": "ribbon",
-  "category": "symbols",
-  "path": "symbols/ribbon",
-  "tags": [],
-  "title": "Ribbon"
- },
- {
-  "id": "referral",
-  "category": "symbols",
-  "path": "symbols/referral",
   "tags": [
-   "Admission",
-   "Entrance",
-   "Hospital",
-   "Transfer",
-   "dhis2:referral"
+   "Appliance",
+   "Plumbing",
+   "Running Water",
+   "Water"
   ],
-  "title": "Referral"
+  "title": "Water Tap"
  },
  {
   "id": "question_triangle",
@@ -2298,8 +1556,13 @@
   "id": "prescription_document",
   "category": "symbols",
   "path": "symbols/prescription_document",
-  "tags": [],
-  "title": "Prescription Document"
+  "tags": [
+   "Medication",
+   "Pharmacy",
+   "Rx",
+   "Script"
+  ],
+  "title": "Prescription"
  },
  {
   "id": "positive",
@@ -2331,21 +1594,33 @@
   "id": "poison",
   "category": "symbols",
   "path": "symbols/poison",
-  "tags": [],
+  "tags": [
+   "Bottle",
+   "Toxic",
+   "Toxin",
+   "dhis2:poison"
+  ],
   "title": "Poison"
  },
  {
   "id": "peace",
   "category": "symbols",
   "path": "symbols/peace",
-  "tags": [],
+  "tags": [
+   "Symbol",
+   "dhis2:peace"
+  ],
   "title": "Peace"
  },
  {
   "id": "paved_road_alt",
   "category": "symbols",
   "path": "symbols/paved_road_alt",
-  "tags": [],
+  "tags": [
+   "Curve",
+   "Road",
+   "dhis2:paved_road_alt"
+  ],
   "title": "Paved Road Alt"
  },
  {
@@ -2407,15 +1682,16 @@
   "id": "negative",
   "category": "symbols",
   "path": "symbols/negative",
-  "tags": [],
-  "title": "Negative"
- },
- {
-  "id": "mosquito",
-  "category": "symbols",
-  "path": "symbols/mosquito",
-  "tags": [],
-  "title": "Mosquito"
+  "tags": [
+   "Circle",
+   "Delete",
+   "Negative",
+   "No Entry",
+   "Remove",
+   "Subtract",
+   "dhis2:negative"
+  ],
+  "title": "Minus"
  },
  {
   "id": "megaphone",
@@ -2448,15 +1724,15 @@
   "id": "medical_advice",
   "category": "symbols",
   "path": "symbols/medical_advice",
-  "tags": [],
-  "title": "Medical Advice"
- },
- {
-  "id": "malaria_outbreak",
-  "category": "symbols",
-  "path": "symbols/malaria_outbreak",
-  "tags": [],
-  "title": "Malaria Outbreak"
+  "tags": [
+   "Advice",
+   "Call Center",
+   "Information",
+   "Phone",
+   "Phone line",
+   "dhis2:medical_advice"
+  ],
+  "title": "Medical Advice Hotline"
  },
  {
   "id": "magnifying_glass",
@@ -2487,53 +1763,26 @@
   "title": "Low Level"
  },
  {
-  "id": "insecticide_resistance",
-  "category": "symbols",
-  "path": "symbols/insecticide_resistance",
-  "tags": [
-   "Mosquito",
-   "dhis2:insecticide_resistance"
-  ],
-  "title": "Insecticide Resistant"
- },
- {
   "id": "info",
   "category": "symbols",
   "path": "symbols/info",
-  "tags": [],
+  "tags": [
+   "About",
+   "Circle",
+   "Information",
+   "dhis2:info"
+  ],
   "title": "Info"
  },
  {
   "id": "imm",
   "category": "symbols",
   "path": "symbols/imm",
-  "tags": [],
-  "title": "Imm"
- },
- {
-  "id": "i_schedule_school_date_time",
-  "category": "symbols",
-  "path": "symbols/i_schedule_school_date_time",
   "tags": [
-   "Appointment",
-   "Cal",
-   "Event",
-   "Time",
-   "dhis2:i_schedule_school_date_time"
+   "IMM",
+   "dhis2:imm"
   ],
-  "title": "Calendar Schedule"
- },
- {
-  "id": "i_note_action",
-  "category": "symbols",
-  "path": "symbols/i_note_action",
-  "tags": [
-   "Class",
-   "Paper",
-   "Test",
-   "dhis2:i_note_action"
-  ],
-  "title": "Notes"
+  "title": "IMM"
  },
  {
   "id": "i_exam_qualification",
@@ -2547,20 +1796,6 @@
    "dhis2:I_exam_qualification"
   ],
   "title": "Exam"
- },
- {
-  "id": "i_exam_multiple_choice",
-  "category": "symbols",
-  "path": "symbols/i_exam_multiple_choice",
-  "tags": [
-   "Document",
-   "Exam",
-   "Note",
-   "Paper",
-   "Test",
-   "dhis2:i_exam_multiple_choice"
-  ],
-  "title": "Exam Multiple-Choice"
  },
  {
   "id": "i_documents_denied",
@@ -2587,57 +1822,18 @@
   "title": "Approved Document"
  },
  {
-  "id": "i_certificate_paper",
-  "category": "symbols",
-  "path": "symbols/i_certificate_paper",
-  "tags": [
-   "Document",
-   "Paper",
-   "Test",
-   "dhis2:i_certificate"
-  ],
-  "title": "Certificate"
- },
- {
-  "id": "hpv",
-  "category": "symbols",
-  "path": "symbols/hpv",
-  "tags": [
-   "Human Papillomavirus",
-   "Infection",
-   "Infectious Disease",
-   "Virus",
-   "dhis2:vih"
-  ],
-  "title": "HPV"
- },
- {
   "id": "hospital_symbol",
   "category": "symbols",
   "path": "symbols/hospital_symbol",
-  "tags": [],
+  "tags": [
+   "Building",
+   "Clinic",
+   "H",
+   "Hospital",
+   "Sign",
+   "Symbol"
+  ],
   "title": "Hospital Symbol"
- },
- {
-  "id": "hiv_pos",
-  "category": "symbols",
-  "path": "symbols/hiv_pos",
-  "tags": [],
-  "title": "Hiv Pos"
- },
- {
-  "id": "hiv_neg",
-  "category": "symbols",
-  "path": "symbols/hiv_neg",
-  "tags": [],
-  "title": "Hiv Neg"
- },
- {
-  "id": "hiv_ind",
-  "category": "symbols",
-  "path": "symbols/hiv_ind",
-  "tags": [],
-  "title": "Hiv Ind"
  },
  {
   "id": "high_level",
@@ -2675,38 +1871,36 @@
   "path": "symbols/heart",
   "tags": [
    "Cardiology",
-   "Like dhis2:heart",
-   "Love"
+   "Favorite",
+   "Like",
+   "Love",
+   "dhis2:heart"
   ],
   "title": "Heart"
- },
- {
-  "id": "health_worker_form",
-  "category": "symbols",
-  "path": "symbols/health_worker_form",
-  "tags": [
-   "Doctor",
-   "Document",
-   "Nurse",
-   "Paper",
-   "Patient",
-   "Test",
-   "dhis2:health_worker_form"
-  ],
-  "title": "Health Worker Form"
  },
  {
   "id": "health_data_sync",
   "category": "symbols",
   "path": "symbols/health_data_sync",
-  "tags": [],
+  "tags": [
+   "Data flow",
+   "Flow",
+   "Synchronization",
+   "dhis2:health_data_sync"
+  ],
   "title": "Health Data Sync"
  },
  {
   "id": "health_data_security",
   "category": "symbols",
   "path": "symbols/health_data_security",
-  "tags": [],
+  "tags": [
+   "Locked",
+   "Operations",
+   "Secops",
+   "Secure",
+   "dhis2:health_data_security"
+  ],
   "title": "Health Data Security"
  },
  {
@@ -2738,6 +1932,20 @@
   "title": "Location"
  },
  {
+  "id": "exercise",
+  "category": "symbols",
+  "path": "symbols/exercise",
+  "tags": [
+   "Fitness",
+   "Strong",
+   "Weightlifting",
+   "Weights",
+   "Wellness",
+   "dhis2:exercise"
+  ],
+  "title": "Exercise"
+ },
+ {
   "id": "electricity",
   "category": "symbols",
   "path": "symbols/electricity",
@@ -2765,9 +1973,9 @@
   "title": "Ecology"
  },
  {
-  "id": "donkey",
+  "id": "animal_donkey",
   "category": "symbols",
-  "path": "symbols/donkey",
+  "path": "symbols/animal_donkey",
   "tags": [
    "Animal",
    "Ass",
@@ -2775,7 +1983,7 @@
    "Mule",
    "dhis2:donkey"
   ],
-  "title": "Donkey"
+  "title": "Animal Donkey"
  },
  {
   "id": "diabetes_measure",
@@ -2816,18 +2024,6 @@
   "title": "DHIS2 Logo"
  },
  {
-  "id": "default",
-  "category": "symbols",
-  "path": "symbols/default",
-  "tags": [
-   "Document",
-   "Paper",
-   "Test",
-   "dhis2:default"
-  ],
-  "title": "Document Edit"
- },
- {
   "id": "death_alt2",
   "category": "symbols",
   "path": "symbols/death_alt2",
@@ -2866,38 +2062,16 @@
   "title": "Death"
  },
  {
-  "id": "contraceptive_voucher",
-  "category": "symbols",
-  "path": "symbols/contraceptive_voucher",
-  "tags": [
-   "Condom",
-   "Contraception",
-   "Sperm",
-   "dhis2:contraceptive_voucher"
-  ],
-  "title": "Contraceptive"
- },
- {
-  "id": "contact_support",
-  "category": "symbols",
-  "path": "symbols/contact_support",
-  "tags": [
-   "Chat",
-   "Contact",
-   "FAQ",
-   "Help",
-   "Question Mark",
-   "Speech Bubble",
-   "dhis2:contact_support"
-  ],
-  "title": "Support"
- },
- {
   "id": "community_meeting",
   "category": "symbols",
   "path": "symbols/community_meeting",
-  "tags": [],
-  "title": "Community Meeting"
+  "tags": [
+   "Group",
+   "Meditation",
+   "Tree",
+   "dhis2:community_meeting"
+  ],
+  "title": "Outdoor Meeting"
  },
  {
   "id": "communication",
@@ -2954,8 +2128,8 @@
  },
  {
   "id": "cervical_cancer",
-  "category": "symbols",
-  "path": "symbols/cervical_cancer",
+  "category": "conditions",
+  "path": "conditions/cervical_cancer",
   "tags": [
    "Cancer",
    "Cervix",
@@ -2992,7 +2166,13 @@
   "id": "cannabis",
   "category": "symbols",
   "path": "symbols/cannabis",
-  "tags": [],
+  "tags": [
+   "CDB",
+   "Hemp",
+   "Marijuana",
+   "Wacky Tobaccy",
+   "Weed"
+  ],
   "title": "Cannabis"
  },
  {
@@ -3008,18 +2188,18 @@
   "title": "Calendar"
  },
  {
-  "id": "breeding_sites",
-  "category": "symbols",
-  "path": "symbols/breeding_sites",
-  "tags": [],
-  "title": "Breeding Sites"
- },
- {
   "id": "book",
   "category": "symbols",
   "path": "symbols/book",
-  "tags": [],
-  "title": "Book"
+  "tags": [
+   "Book",
+   "Dictionary",
+   "Guide",
+   "Records",
+   "Textbook",
+   "dhis2:book"
+  ],
+  "title": "Medical Book"
  },
  {
   "id": "award_trophy",
@@ -3083,39 +2263,6 @@
   "title": "Warning"
  },
  {
-  "id": "young_people",
-  "category": "people",
-  "path": "people/young_people",
-  "tags": [
-   "Boy",
-   "Child",
-   "Female",
-   "Girl",
-   "Kids",
-   "Male",
-   "Teen",
-   "Young",
-   "Youth",
-   "dhis2:young_people"
-  ],
-  "title": "Youth"
- },
- {
-  "id": "woman",
-  "category": "people",
-  "path": "people/woman",
-  "tags": [
-   "Female",
-   "Gender",
-   "Girl",
-   "Sex",
-   "Symbol",
-   "Woman",
-   "dhis2:woman"
-  ],
-  "title": "Woman"
- },
- {
   "id": "wold_care",
   "category": "people",
   "path": "people/wold_care",
@@ -3157,98 +2304,9 @@
   "title": "Wash Hands"
  },
  {
-  "id": "vomiting",
-  "category": "people",
-  "path": "people/vomiting",
-  "tags": [
-   "Gastro",
-   "Nausea",
-   "Person",
-   "Sick",
-   "Spew",
-   "Stomach Flu",
-   "Symptom",
-   "Throw Up",
-   "dhis2:vomiting"
-  ],
-  "title": "Vomiting"
- },
- {
-  "id": "underweight",
-  "category": "people",
-  "path": "people/underweight",
-  "tags": [
-   "Patient",
-   "People",
-   "Thin",
-   "Underweight",
-   "Vitals",
-   "dhis2:underweight"
-  ],
-  "title": "Underweight"
- },
- {
-  "id": "truck_driver",
-  "category": "people",
-  "path": "people/truck_driver",
-  "tags": [
-   "Driver",
-   "Lorry",
-   "Road",
-   "Truck",
-   "Vehicle",
-   "Wheel",
-   "Worker",
-   "dhis2:truck_driver"
-  ],
-  "title": "Truck Driver"
- },
- {
-  "id": "travel",
-  "category": "people",
-  "path": "people/travel",
-  "tags": [
-   "Flight",
-   "Person",
-   "Suitcase",
-   "Travel",
-   "dhis2:travel"
-  ],
-  "title": "Traveller"
- },
- {
-  "id": "traumatism",
-  "category": "people",
-  "path": "people/traumatism",
-  "tags": [
-   "ER",
-   "Emergency",
-   "Injury",
-   "Patient",
-   "People",
-   "Trauma",
-   "dhis2:traumatism"
-  ],
-  "title": "Trauma"
- },
- {
-  "id": "transgender",
-  "category": "people",
-  "path": "people/transgender",
-  "tags": [
-   "Gender",
-   "Sex",
-   "Symbol",
-   "Trans",
-   "Transgender",
-   "dhis2:transgender"
-  ],
-  "title": "Transgender"
- },
- {
   "id": "tb",
-  "category": "people",
-  "path": "people/tb",
+  "category": "conditions",
+  "path": "conditions/tb",
   "tags": [
    "Lungs",
    "Organ",
@@ -3256,105 +2314,6 @@
    "dhis2:tb"
   ],
   "title": "Tuberculosis"
- },
- {
-  "id": "symptom",
-  "category": "people",
-  "path": "people/symptom",
-  "tags": [
-   "Diagnosis",
-   "Evaluation",
-   "Patient",
-   "Person",
-   "dhis2:symptom"
-  ],
-  "title": "Symptoms"
- },
- {
-  "id": "sweating",
-  "category": "people",
-  "path": "people/sweating",
-  "tags": [
-   "Fever",
-   "Illness",
-   "Person",
-   "Sick",
-   "Symptom dhis2:sweating",
-   "Temperature"
-  ],
-  "title": "Sweating"
- },
- {
-  "id": "sti",
-  "category": "people",
-  "path": "people/sti",
-  "tags": [
-   "Disease",
-   "Illness",
-   "Person",
-   "STD",
-   "STI",
-   "Sex",
-   "Sexual",
-   "Sick",
-   "Symptom dhis2:sti"
-  ],
-  "title": "Sexually Transmitted Infection"
- },
- {
-  "id": "spraying",
-  "category": "people",
-  "path": "people/spraying",
-  "tags": [
-   "Crop Spray",
-   "Herbicide",
-   "Insecticide",
-   "Person",
-   "Worker",
-   "dhis2:spraying"
-  ],
-  "title": "Spraying"
- },
- {
-  "id": "security_worker",
-  "category": "people",
-  "path": "people/security_worker",
-  "tags": [
-   "Guard",
-   "Prison",
-   "Worker",
-   "dhis2:security_worker"
-  ],
-  "title": "Security Worker"
- },
- {
-  "id": "sad",
-  "category": "people",
-  "path": "people/sad",
-  "tags": [
-   "Bad",
-   "Face",
-   "Frown",
-   "Negative",
-   "Sad",
-   "dhis2:sad"
-  ],
-  "title": "Sad"
- },
- {
-  "id": "rmnh",
-  "category": "people",
-  "path": "people/rmnh",
-  "tags": [
-   "Antenatal",
-   "Baby",
-   "Child",
-   "Mother",
-   "Postnatal",
-   "RMNH",
-   "dhis2:rmnh"
-  ],
-  "title": "Reproductive Maternal and Newborn Health"
  },
  {
   "id": "refused",
@@ -3369,139 +2328,6 @@
    "dhis2:refused"
   ],
   "title": "Hand"
- },
- {
-  "id": "pwid",
-  "category": "people",
-  "path": "people/pwid",
-  "tags": [
-   "Arm",
-   "Drugs",
-   "IV",
-   "Intravenous",
-   "Narcotics",
-   "Needle",
-   "People",
-   "dhis2:pwid"
-  ],
-  "title": "People Who Inject Drugs"
- },
- {
-  "id": "pregnant_3638w",
-  "category": "people",
-  "path": "people/pregnant_3638w",
-  "tags": [
-   "ANC",
-   "Antenatal",
-   "Mother",
-   "Person",
-   "Pregnancy",
-   "Woman",
-   "dhis2:pregnant_3638w"
-  ],
-  "title": "36-38 Weeks Pregnant"
- },
- {
-  "id": "pregnant_2426w",
-  "category": "people",
-  "path": "people/pregnant_2426w",
-  "tags": [
-   "ANC",
-   "Antenatal",
-   "Mother",
-   "Person",
-   "Pregnancy",
-   "Woman",
-   "dhis2:pregnant_2426w"
-  ],
-  "title": "24-26 Weeks Pregnant"
- },
- {
-  "id": "pregnant_32w",
-  "category": "people",
-  "path": "people/pregnant_32w",
-  "tags": [
-   "ANC",
-   "Antenatal",
-   "Mother",
-   "Person",
-   "Pregnancy",
-   "Woman",
-   "dhis2:pregnant_32w"
-  ],
-  "title": "32 Weeks Pregnant"
- },
- {
-  "id": "pregnant_0812w",
-  "category": "people",
-  "path": "people/pregnant_0812w",
-  "tags": [
-   "ANC",
-   "Antenatal",
-   "Mother",
-   "Person",
-   "Pregnancy",
-   "Woman",
-   "dhis2:pregnant_0812w"
-  ],
-  "title": "8-12 Weeks Pregnant"
- },
- {
-  "id": "pregnant",
-  "category": "people",
-  "path": "people/pregnant",
-  "tags": [
-   "ANC",
-   "Mother",
-   "Person",
-   "Pregnancy",
-   "Woman",
-   "antenatal",
-   "dhis2:pregnant"
-  ],
-  "title": "Pregnant"
- },
- {
-  "id": "pneumonia",
-  "category": "people",
-  "path": "people/pneumonia",
-  "tags": [
-   "Lung",
-   "Lungs",
-   "Organ",
-   "Pneumonia",
-   "dhis2:pneumonia"
-  ],
-  "title": "Pneumonia"
- },
- {
-  "id": "plantation_worker",
-  "category": "people",
-  "path": "people/plantation_worker",
-  "tags": [
-   "Agriculture",
-   "Farmer",
-   "Pitchfork",
-   "Plantation",
-   "Worker",
-   "dhis2:plantation_worker"
-  ],
-  "title": "Plantation Worker"
- },
- {
-  "id": "person",
-  "category": "people",
-  "path": "people/person",
-  "tags": [
-   "Adult",
-   "Avatar",
-   "Man",
-   "Parent",
-   "User",
-   "Woman",
-   "dhis2:person"
-  ],
-  "title": "Person"
  },
  {
   "id": "people",
@@ -3519,18 +2345,2825 @@
   "title": "People"
  },
  {
-  "id": "overweight",
+  "id": "miner_worker_alt",
   "category": "people",
-  "path": "people/overweight",
+  "path": "people/miner_worker_alt",
   "tags": [
-   "Obese",
-   "Overweight",
-   "Patient",
-   "People",
-   "Vitals",
-   "dhis2:overweight"
+   "Helmet",
+   "Industry",
+   "Miner",
+   "Worker",
+   "dhis2:miner_worker"
   ],
-  "title": "Overweight"
+  "title": "Person Miner ALT"
+ },
+ {
+  "id": "mental_disorders",
+  "category": "people",
+  "path": "people/mental_disorders",
+  "tags": [
+   "Brain",
+   "Head",
+   "Mental Health",
+   "Neurology",
+   "Spine",
+   "dhis2:mental_disorders"
+  ],
+  "title": "Mental Disorder"
+ },
+ {
+  "id": "group_discussion_meeting",
+  "category": "people",
+  "path": "people/group_discussion_meeting",
+  "tags": [
+   "Chat",
+   "Discussion",
+   "Forum",
+   "Meeting",
+   "People",
+   "Speech",
+   "dhis2:discussion_meeting"
+  ],
+  "title": "Discussion"
+ },
+ {
+  "id": "forum",
+  "category": "people",
+  "path": "people/forum",
+  "tags": [
+   "Chat",
+   "Discussion",
+   "Forum",
+   "Meeting",
+   "People",
+   "Speech",
+   "dhis2:forum"
+  ],
+  "title": "Chat"
+ },
+ {
+  "id": "diarrhea",
+  "category": "conditions",
+  "path": "conditions/diarrhea",
+  "tags": [
+   "Diarrhea",
+   "Feces",
+   "Person",
+   "Sick",
+   "Symptom",
+   "dhis2:diarrhea"
+  ],
+  "title": "Diarrhea"
+ },
+ {
+  "id": "diabetes",
+  "category": "people",
+  "path": "people/diabetes",
+  "tags": [
+   "Blood",
+   "Blood Test Hand"
+  ],
+  "title": "Diabetes"
+ },
+ {
+  "id": "deaf",
+  "category": "conditions",
+  "path": "conditions/deaf",
+  "tags": [
+   "Ear",
+   "Hearing",
+   "Hearing Impaired"
+  ],
+  "title": "Deaf"
+ },
+ {
+  "id": "clean_hands",
+  "category": "people",
+  "path": "people/clean_hands",
+  "tags": [
+   "Clean",
+   "Fingers",
+   "Hand",
+   "Hygiene",
+   "Sanitation",
+   "dhis2:clean_hands"
+  ],
+  "title": "Clean Hands"
+ },
+ {
+  "id": "child_cognition",
+  "category": "people",
+  "path": "people/child_cognition",
+  "tags": [
+   "Brain",
+   "Education",
+   "Head",
+   "Learning",
+   "Mental Health",
+   "Neurology",
+   "Spine",
+   "dhis2:child_cognition"
+  ],
+  "title": "Child Cognition"
+ },
+ {
+  "id": "asthma",
+  "category": "people",
+  "path": "people/asthma",
+  "tags": [
+   "Inhaler",
+   "Lungs",
+   "Mouth",
+   "Respiratory"
+  ],
+  "title": "Asthma"
+ },
+ {
+  "id": "allergies",
+  "category": "conditions",
+  "path": "conditions/allergies",
+  "tags": [
+   "Hand",
+   "Rash",
+   "dhis2:allergies"
+  ],
+  "title": "Allergies"
+ },
+ {
+  "id": "spreadsheets",
+  "category": "objects",
+  "path": "objects/spreadsheets",
+  "tags": [
+   "Calculation",
+   "Data",
+   "Excel",
+   "Sheets"
+  ],
+  "title": "Spreadsheet"
+ },
+ {
+  "id": "desktop_app",
+  "category": "objects",
+  "path": "objects/desktop_app",
+  "tags": [
+   "Computer",
+   "Desktop",
+   "Icons",
+   "MacOS",
+   "Monitor",
+   "Operating System",
+   "Windows"
+  ],
+  "title": "Desktop App"
+ },
+ {
+  "id": "village",
+  "category": "places",
+  "path": "places/village",
+  "tags": [
+   "Camp",
+   "Houses",
+   "Huts",
+   "Tents",
+   "Town",
+   "dhis2:village"
+  ],
+  "title": "Village"
+ },
+ {
+  "id": "ministry_of_health",
+  "category": "places",
+  "path": "places/ministry_of_health",
+  "tags": [
+   "Government",
+   "Hospital",
+   "Office",
+   "Official",
+   "dhis2:ministry_of_health"
+  ],
+  "title": "Ministry of Health"
+ },
+ {
+  "id": "home",
+  "category": "places",
+  "path": "places/home",
+  "tags": [
+   "Accommodation",
+   "Door",
+   "House",
+   "Roof"
+  ],
+  "title": "Home"
+ },
+ {
+  "id": "call_centre",
+  "category": "people",
+  "path": "people/call_centre",
+  "tags": [
+   "Headset",
+   "Help",
+   "Phone",
+   "Talking"
+  ],
+  "title": "Call Center"
+ },
+ {
+  "id": "excel_logo",
+  "category": "symbols",
+  "path": "symbols/excel_logo",
+  "tags": [
+   "Document",
+   "Logo",
+   "Spreadsheet"
+  ],
+  "title": "Excel"
+ },
+ {
+  "id": "openMRS_logo",
+  "category": "symbols",
+  "path": "symbols/openMRS_logo",
+  "tags": [
+   "EHR",
+   "EMR",
+   "Logo",
+   "Open Medical Records System"
+  ],
+  "title": "OpenMRS"
+ },
+ {
+  "id": "wheelchair_alt",
+  "category": "devices",
+  "path": "devices/wheelchair_alt",
+  "tags": [
+   "Transport"
+  ],
+  "title": "Wheelchair ALT"
+ },
+ {
+  "id": "intravenous_bag",
+  "category": "devices",
+  "path": "devices/intravenous_bag",
+  "tags": [
+   "Bag",
+   "Blood",
+   "Drip",
+   "IV",
+   "Liquid"
+  ],
+  "title": "Intravenous Bag"
+ },
+ {
+  "id": "A",
+  "category": "typography",
+  "path": "typography/A",
+  "tags": [
+   "Letter"
+  ],
+  "title": "A"
+ },
+ {
+  "id": "B",
+  "category": "typography",
+  "path": "typography/B",
+  "tags": [
+   "Letter"
+  ],
+  "title": "B"
+ },
+ {
+  "id": "C",
+  "category": "typography",
+  "path": "typography/C",
+  "tags": [
+   "Letter"
+  ],
+  "title": "C"
+ },
+ {
+  "id": "D",
+  "category": "typography",
+  "path": "typography/D",
+  "tags": [
+   "Letter"
+  ],
+  "title": "D"
+ },
+ {
+  "id": "E",
+  "category": "typography",
+  "path": "typography/E",
+  "tags": [
+   "Letter"
+  ],
+  "title": "E"
+ },
+ {
+  "id": "F",
+  "category": "typography",
+  "path": "typography/F",
+  "tags": [
+   "Letter"
+  ],
+  "title": "F"
+ },
+ {
+  "id": "G",
+  "category": "typography",
+  "path": "typography/G",
+  "tags": [
+   "Letter"
+  ],
+  "title": "G"
+ },
+ {
+  "id": "H",
+  "category": "typography",
+  "path": "typography/H",
+  "tags": [
+   "Letter"
+  ],
+  "title": "H"
+ },
+ {
+  "id": "I",
+  "category": "typography",
+  "path": "typography/I",
+  "tags": [
+   "Letter"
+  ],
+  "title": "I"
+ },
+ {
+  "id": "J",
+  "category": "typography",
+  "path": "typography/J",
+  "tags": [
+   "Letter"
+  ],
+  "title": "J"
+ },
+ {
+  "id": "K",
+  "category": "typography",
+  "path": "typography/K",
+  "tags": [
+   "Letter"
+  ],
+  "title": "K"
+ },
+ {
+  "id": "L",
+  "category": "typography",
+  "path": "typography/L",
+  "tags": [
+   "Letter"
+  ],
+  "title": "L"
+ },
+ {
+  "id": "M",
+  "category": "typography",
+  "path": "typography/M",
+  "tags": [
+   "Letter"
+  ],
+  "title": "M"
+ },
+ {
+  "id": "N",
+  "category": "typography",
+  "path": "typography/N",
+  "tags": [
+   "Letter"
+  ],
+  "title": "N"
+ },
+ {
+  "id": "O",
+  "category": "typography",
+  "path": "typography/O",
+  "tags": [
+   "Letter"
+  ],
+  "title": "O"
+ },
+ {
+  "id": "P",
+  "category": "typography",
+  "path": "typography/P",
+  "tags": [
+   "Letter"
+  ],
+  "title": "P"
+ },
+ {
+  "id": "Q",
+  "category": "typography",
+  "path": "typography/Q",
+  "tags": [
+   "Letter"
+  ],
+  "title": "Q"
+ },
+ {
+  "id": "R",
+  "category": "typography",
+  "path": "typography/R",
+  "tags": [
+   "Letter"
+  ],
+  "title": "R"
+ },
+ {
+  "id": "S",
+  "category": "typography",
+  "path": "typography/S",
+  "tags": [
+   "Letter"
+  ],
+  "title": "S"
+ },
+ {
+  "id": "T",
+  "category": "typography",
+  "path": "typography/T",
+  "tags": [
+   "Letter"
+  ],
+  "title": "T"
+ },
+ {
+  "id": "U",
+  "category": "typography",
+  "path": "typography/U",
+  "tags": [
+   "Letter"
+  ],
+  "title": "U"
+ },
+ {
+  "id": "V",
+  "category": "typography",
+  "path": "typography/V",
+  "tags": [
+   "Letter"
+  ],
+  "title": "V"
+ },
+ {
+  "id": "W",
+  "category": "typography",
+  "path": "typography/W",
+  "tags": [
+   "Letter"
+  ],
+  "title": "W"
+ },
+ {
+  "id": "X",
+  "category": "typography",
+  "path": "typography/X",
+  "tags": [
+   "Letter"
+  ],
+  "title": "X"
+ },
+ {
+  "id": "Y",
+  "category": "typography",
+  "path": "typography/Y",
+  "tags": [
+   "Letter"
+  ],
+  "title": "Y"
+ },
+ {
+  "id": "Z",
+  "category": "typography",
+  "path": "typography/Z",
+  "tags": [
+   "Letter"
+  ],
+  "title": "Z"
+ },
+ {
+  "id": "!",
+  "category": "typography",
+  "path": "typography/!",
+  "tags": [
+   "Attention",
+   "Letter",
+   "Punctuation"
+  ],
+  "title": "Exclamation Point"
+ },
+ {
+  "id": "question_mark",
+  "category": "typography",
+  "path": "typography/question_mark",
+  "tags": [
+   "Help",
+   "Letter",
+   "Punctuation",
+   "Question"
+  ],
+  "title": "Question mark"
+ },
+ {
+  "id": "dollar",
+  "category": "typography",
+  "path": "typography/dollar",
+  "tags": [
+   "Currency",
+   "Dollar",
+   "Finance",
+   "Letter",
+   "Money"
+  ],
+  "title": "Dollar sign"
+ },
+ {
+  "id": "ghana",
+  "category": "typography",
+  "path": "typography/ghana",
+  "tags": [
+   "Currency",
+   "Finance",
+   "Ghana",
+   "Letter",
+   "Money"
+  ],
+  "title": "Cedi"
+ },
+ {
+  "id": "yen",
+  "category": "typography",
+  "path": "typography/yen",
+  "tags": [
+   "Currency",
+   "Finance",
+   "Japan",
+   "Letter",
+   "Money"
+  ],
+  "title": "Yen"
+ },
+ {
+  "id": "rupee",
+  "category": "typography",
+  "path": "typography/rupee",
+  "tags": [
+   "Currency",
+   "Finance",
+   "India",
+   "Letter",
+   "Money"
+  ],
+  "title": "Rupee"
+ },
+ {
+  "id": "accident_and_emergency",
+  "category": "specialties",
+  "path": "specialties/accident_and_emergency",
+  "tags": [
+   "Ambulance",
+   "Critical Care",
+   "Department",
+   "Emergency",
+   "Light",
+   "Speciality"
+  ],
+  "title": "Accident and Emergency"
+ },
+ {
+  "id": "admissions",
+  "category": "specialties",
+  "path": "specialties/admissions",
+  "tags": [
+   "Admissions",
+   "Department",
+   "Door",
+   "Entrance",
+   "OPD",
+   "Open",
+   "Outpatient",
+   "Registration",
+   "Speciality"
+  ],
+  "title": "Admissions"
+ },
+ {
+  "id": "coronary_care_unit",
+  "category": "specialties",
+  "path": "specialties/coronary_care_unit",
+  "tags": [
+   "Cardiology",
+   "Coronary Care",
+   "Department",
+   "Heart",
+   "Pulse",
+   "Speciality"
+  ],
+  "title": "Coronary Care"
+ },
+ {
+  "id": "critical_care",
+  "category": "specialties",
+  "path": "specialties/critical_care",
+  "tags": [
+   "Critical Care",
+   "Department",
+   "Emergency",
+   "Heartbeat",
+   "ICU",
+   "Intensive Care Unit",
+   "Monitor",
+   "NICU",
+   "Pulse",
+   "Speciality"
+  ],
+  "title": "Critical Care"
+ },
+ {
+  "id": "discharge_lounge",
+  "category": "specialties",
+  "path": "specialties/discharge_lounge",
+  "tags": [
+   "Chair",
+   "Department",
+   "Discharge",
+   "Exit",
+   "Leave",
+   "Lounge",
+   "Speciality"
+  ],
+  "title": "Discharge Lounge"
+ },
+ {
+  "id": "cardiology",
+  "category": "specialties",
+  "path": "specialties/cardiology",
+  "tags": [
+   "Cardiologist",
+   "Coronary Care",
+   "Department",
+   "Heart",
+   "Organ",
+   "Speciality"
+  ],
+  "title": "Cardiology"
+ },
+ {
+  "id": "ear",
+  "category": "body",
+  "path": "body/ear",
+  "tags": [
+   "Auditory",
+   "ENT",
+   "Eardrum",
+   "Listen",
+   "Organ",
+   "Sound"
+  ],
+  "title": "Ear"
+ },
+ {
+  "id": "hematology",
+  "category": "specialties",
+  "path": "specialties/hematology",
+  "tags": [
+   "Blood",
+   "Department",
+   "Speciality"
+  ],
+  "title": "Hematology"
+ },
+ {
+  "id": "nephrology",
+  "category": "specialties",
+  "path": "specialties/nephrology",
+  "tags": [
+   "Department",
+   "Kidneys",
+   "Speciality"
+  ],
+  "title": "Nephrology"
+ },
+ {
+  "id": "obstetricsmonia",
+  "category": "specialties",
+  "path": "specialties/obstetricsmonia",
+  "tags": [
+   "Baby",
+   "Birth",
+   "Childbirth",
+   "Department",
+   "Gynecology",
+   "Obgyn",
+   "Obstetrics",
+   "Speciality"
+  ],
+  "title": "Obstetricsmonia"
+ },
+ {
+  "id": "opthalmology",
+  "category": "specialties",
+  "path": "specialties/opthalmology",
+  "tags": [
+   "Department",
+   "Eye",
+   "Sight",
+   "Speciality",
+   "Vision"
+  ],
+  "title": "Opthalmology"
+ },
+ {
+  "id": "respirology",
+  "category": "specialties",
+  "path": "specialties/respirology",
+  "tags": [
+   "Breathing",
+   "Department",
+   "Lungs",
+   "Pulmonary",
+   "Specialty"
+  ],
+  "title": "Respirology"
+ },
+ {
+  "id": "psychology",
+  "category": "specialties",
+  "path": "specialties/psychology",
+  "tags": [
+   "Brain",
+   "Department",
+   "Psych",
+   "Psychiatry",
+   "Specialty"
+  ],
+  "title": "Psychology"
+ },
+ {
+  "id": "medical_records",
+  "category": "specialties",
+  "path": "specialties/medical_records",
+  "tags": [
+   "Chart",
+   "Department",
+   "Library",
+   "PHI",
+   "Patient Chart",
+   "Records",
+   "Speciality"
+  ],
+  "title": "Medical Records"
+ },
+ {
+  "id": "oncology",
+  "category": "specialties",
+  "path": "specialties/oncology",
+  "tags": [
+   "Cancer",
+   "Chemotherapy",
+   "Department",
+   "Speciality"
+  ],
+  "title": "Oncology"
+ },
+ {
+  "id": "orthopaedics",
+  "category": "specialties",
+  "path": "specialties/orthopaedics",
+  "tags": [
+   "Bones",
+   "Department",
+   "Joints",
+   "Ortho",
+   "Spine"
+  ],
+  "title": "Orthopaedics"
+ },
+ {
+  "id": "radiology",
+  "category": "specialties",
+  "path": "specialties/radiology",
+  "tags": [
+   "Department",
+   "Radiology",
+   "Specialty",
+   "Xray"
+  ],
+  "title": "Radiology"
+ },
+ {
+  "id": "speech_language_therapy",
+  "category": "specialties",
+  "path": "specialties/speech_language_therapy",
+  "tags": [
+   "Department",
+   "Language",
+   "Pathology",
+   "SLP",
+   "Specialty",
+   "Speech",
+   "Therapy"
+  ],
+  "title": "Speech Language Therapy"
+ },
+ {
+  "id": "gynecology",
+  "category": "specialties",
+  "path": "specialties/gynecology",
+  "tags": [
+   "Department",
+   "Female",
+   "Reproduction",
+   "Sex Organs",
+   "Speciality",
+   "Uterus",
+   "Woman Health",
+   "Womens Health"
+  ],
+  "title": "Gynecology"
+ },
+ {
+  "id": "gastroenterology",
+  "category": "specialties",
+  "path": "specialties/gastroenterology",
+  "tags": [
+   "Department",
+   "GI",
+   "Speciality",
+   "Stomach"
+  ],
+  "title": "Gastroenterology"
+ },
+ {
+  "id": "finance_dept",
+  "category": "specialties",
+  "path": "specialties/finance_dept",
+  "tags": [
+   "Accounting",
+   "Cashier",
+   "Department",
+   "Finance",
+   "Heart",
+   "Payments",
+   "Speciality"
+  ],
+  "title": "Finance"
+ },
+ {
+  "id": "hematology_laboratory",
+  "category": "specialties",
+  "path": "specialties/hematology_laboratory",
+  "tags": [
+   "Blood",
+   "Department",
+   "Lab",
+   "Laboratory",
+   "Speciality"
+  ],
+  "title": "Hematology Lab"
+ },
+ {
+  "id": "human_resoruces",
+  "category": "specialties",
+  "path": "specialties/human_resoruces",
+  "tags": [
+   "Department",
+   "Group",
+   "HR",
+   "Hiring",
+   "People",
+   "Speciality",
+   "Team"
+  ],
+  "title": "Human Resources"
+ },
+ {
+  "id": "0",
+  "category": "typography",
+  "path": "typography/0",
+  "tags": [
+   "Number",
+   "Zero"
+  ],
+  "title": "0"
+ },
+ {
+  "id": "1",
+  "category": "typography",
+  "path": "typography/1",
+  "tags": [
+   "Number",
+   "One"
+  ],
+  "title": "1"
+ },
+ {
+  "id": "2",
+  "category": "typography",
+  "path": "typography/2",
+  "tags": [
+   "Number",
+   "Two"
+  ],
+  "title": "2"
+ },
+ {
+  "id": "3",
+  "category": "typography",
+  "path": "typography/3",
+  "tags": [
+   "Number",
+   "Three"
+  ],
+  "title": "3"
+ },
+ {
+  "id": "4",
+  "category": "typography",
+  "path": "typography/4",
+  "tags": [
+   "Four",
+   "Number"
+  ],
+  "title": "4"
+ },
+ {
+  "id": "5",
+  "category": "typography",
+  "path": "typography/5",
+  "tags": [
+   "Five",
+   "Number"
+  ],
+  "title": "5"
+ },
+ {
+  "id": "6",
+  "category": "typography",
+  "path": "typography/6",
+  "tags": [
+   "Number",
+   "Six"
+  ],
+  "title": "6"
+ },
+ {
+  "id": "7",
+  "category": "typography",
+  "path": "typography/7",
+  "tags": [
+   "Number",
+   "Seven"
+  ],
+  "title": "7"
+ },
+ {
+  "id": "8",
+  "category": "typography",
+  "path": "typography/8",
+  "tags": [
+   "Eight",
+   "Number"
+  ],
+  "title": "8"
+ },
+ {
+  "id": "9",
+  "category": "typography",
+  "path": "typography/9",
+  "tags": [
+   "Nine",
+   "Number"
+  ],
+  "title": "9"
+ },
+ {
+  "id": "female_reproductive_system",
+  "category": "body",
+  "path": "body/female_reproductive_system",
+  "tags": [
+   "Gynecology",
+   "Health",
+   "Organ",
+   "Ovary",
+   "Uterus",
+   "Vagina",
+   "Woman"
+  ],
+  "title": "Female Reproductive System"
+ },
+ {
+  "id": "spine",
+  "category": "body",
+  "path": "body/spine",
+  "tags": [
+   "Back",
+   "Organ",
+   "Spinal Cord",
+   "Vertebrae"
+  ],
+  "title": "Spine"
+ },
+ {
+  "id": "entry",
+  "category": "symbols",
+  "path": "symbols/entry",
+  "tags": [
+   "Doorway",
+   "Entrance",
+   "Login",
+   "Open",
+   "Open Door",
+   "Sign in"
+  ],
+  "title": "Entry"
+ },
+ {
+  "id": "health",
+  "category": "symbols",
+  "path": "symbols/health",
+  "tags": [
+   "Cross",
+   "Hospital",
+   "Medicine",
+   "Protect",
+   "Symbol"
+  ],
+  "title": "Health Shield"
+ },
+ {
+  "id": "health_alt",
+  "category": "symbols",
+  "path": "symbols/health_alt",
+  "tags": [
+   "Cross",
+   "Hospital",
+   "Medicine",
+   "Symbol"
+  ],
+  "title": "Health ALT"
+ },
+ {
+  "id": "health_literacy",
+  "category": "symbols",
+  "path": "symbols/health_literacy",
+  "tags": [
+   "Book",
+   "Document",
+   "Library",
+   "Medicine",
+   "Symbol"
+  ],
+  "title": "Health Literacy"
+ },
+ {
+  "id": "register_book",
+  "category": "symbols",
+  "path": "symbols/register_book",
+  "tags": [
+   "Book",
+   "Document",
+   "Documentation",
+   "Health Record",
+   "Library",
+   "Medicine",
+   "Registry",
+   "Symbol"
+  ],
+  "title": "Health Register Book"
+ },
+ {
+  "id": "chart_bar",
+  "category": "symbols",
+  "path": "symbols/chart_bar",
+  "tags": [
+   "Bar Chart",
+   "Data",
+   "Graph",
+   "Visualization"
+  ],
+  "title": "Chart Bars"
+ },
+ {
+  "id": "chart_bar_stacked",
+  "category": "symbols",
+  "path": "symbols/chart_bar_stacked",
+  "tags": [
+   "Bar Chart",
+   "Data",
+   "Graph",
+   "Visualization"
+  ],
+  "title": "Chart Split Bars"
+ },
+ {
+  "id": "chart_line",
+  "category": "symbols",
+  "path": "symbols/chart_line",
+  "tags": [
+   "Data",
+   "Graph",
+   "Line Chart",
+   "Node",
+   "Visualization"
+  ],
+  "title": "Chart Line"
+ },
+ {
+  "id": "chart_line_stacked",
+  "category": "symbols",
+  "path": "symbols/chart_line_stacked",
+  "tags": [
+   "Data",
+   "Graph",
+   "Line Chart",
+   "Node",
+   "Visualization"
+  ],
+  "title": "Chart Double Line"
+ },
+ {
+  "id": "chart_pie",
+  "category": "symbols",
+  "path": "symbols/chart_pie",
+  "tags": [
+   "Data",
+   "Graph",
+   "Node",
+   "Pie Chart",
+   "Visualization"
+  ],
+  "title": "Chart Pie"
+ },
+ {
+  "id": "blood_a_n",
+  "category": "blood",
+  "path": "blood/blood_a_n",
+  "tags": [
+   "A Negative",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_a_n"
+  ],
+  "title": "Blood Type A-"
+ },
+ {
+  "id": "blood_a_p",
+  "category": "blood",
+  "path": "blood/blood_a_p",
+  "tags": [
+   "A Positive",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_a_p"
+  ],
+  "title": "Blood Type A+"
+ },
+ {
+  "id": "blood_ab_n",
+  "category": "blood",
+  "path": "blood/blood_ab_n",
+  "tags": [
+   "AB Negative",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_ab_n"
+  ],
+  "title": "Blood Type AB-"
+ },
+ {
+  "id": "blood_ab_p",
+  "category": "blood",
+  "path": "blood/blood_ab_p",
+  "tags": [
+   "AB Positive",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_ab_p"
+  ],
+  "title": "Blood Type AB+"
+ },
+ {
+  "id": "blood_b_n",
+  "category": "blood",
+  "path": "blood/blood_b_n",
+  "tags": [
+   "B Negative",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_b_n"
+  ],
+  "title": "Blood Type B-"
+ },
+ {
+  "id": "blood_b_p",
+  "category": "blood",
+  "path": "blood/blood_b_p",
+  "tags": [
+   "B Positive",
+   "Bag",
+   "Blood",
+   "Hematology",
+   "Transfusion",
+   "dhis2:blood_b_p"
+  ],
+  "title": "Blood Type B+"
+ },
+ {
+  "id": "blood_o_n",
+  "category": "blood",
+  "path": "blood/blood_o_n",
+  "tags": [
+   "Bag",
+   "Blood",
+   "Hematology",
+   "O Negative",
+   "Transfusion",
+   "dhis2:blood_o_n"
+  ],
+  "title": "Blood Type O-"
+ },
+ {
+  "id": "blood_o_p",
+  "category": "blood",
+  "path": "blood/blood_o_p",
+  "tags": [
+   "Bag",
+   "Blood",
+   "Hematology",
+   "O Positive",
+   "Transfusion",
+   "dhis2:blood_o_p"
+  ],
+  "title": "Blood Type O+"
+ },
+ {
+  "id": "blood_rh_n",
+  "category": "blood",
+  "path": "blood/blood_rh_n",
+  "tags": [
+   "Bag",
+   "Blood",
+   "Hematology",
+   "RH Negative",
+   "Transfusion",
+   "dhis2:blood_rh_n"
+  ],
+  "title": "Blood Type RH-"
+ },
+ {
+  "id": "blood_rh_p",
+  "category": "blood",
+  "path": "blood/blood_rh_p",
+  "tags": [
+   "Bag",
+   "Blood",
+   "Hematology",
+   "RH Positive",
+   "Transfusion",
+   "dhis2:blood_rh_p"
+  ],
+  "title": "Blood Type RH+"
+ },
+ {
+  "id": "i_groups_perspective_crowd",
+  "category": "people",
+  "path": "people/i_groups_perspective_crowd",
+  "tags": [
+   "Community",
+   "Crowd",
+   "Group",
+   "Person",
+   "Three People",
+   "Users",
+   "dhis2:i_groups_perspective_crowd"
+  ],
+  "title": "Group"
+ },
+ {
+  "id": "nurse",
+  "category": "people",
+  "path": "people/nurse",
+  "tags": [
+   "HCW",
+   "Healthcare Worker",
+   "Hospital Staff",
+   "Nurse",
+   "Staff Nurse",
+   "Worker",
+   "dhis2:nurse"
+  ],
+  "title": "Person Nurse"
+ },
+ {
+  "id": "military_worker",
+  "category": "people",
+  "path": "people/military_worker",
+  "tags": [
+   "Armed Services",
+   "Army",
+   "Gun",
+   "Helmet",
+   "Soldier",
+   "Uniform",
+   "dhis2:military_worker"
+  ],
+  "title": "Person Military"
+ },
+ {
+  "id": "truck_driver",
+  "category": "people",
+  "path": "people/truck_driver",
+  "tags": [
+   "Driver",
+   "Lorry",
+   "Road",
+   "Truck",
+   "Vehicle",
+   "Wheel",
+   "Worker",
+   "dhis2:truck_driver"
+  ],
+  "title": "Person Truck Driver"
+ },
+ {
+  "id": "security_worker",
+  "category": "people",
+  "path": "people/security_worker",
+  "tags": [
+   "Guard",
+   "Officer",
+   "Prison",
+   "Worker",
+   "dhis2:security_worker"
+  ],
+  "title": "Person Security Worker"
+ },
+ {
+  "id": "construction_worker",
+  "category": "people",
+  "path": "people/construction_worker",
+  "tags": [
+   "Builder",
+   "Construction",
+   "Helmet",
+   "Worker",
+   "dhis2:construction_worker"
+  ],
+  "title": "Person Construction Worker"
+ },
+ {
+  "id": "palm_branches_roof",
+  "category": "places",
+  "path": "places/palm_branches_roof",
+  "tags": [
+   "Building",
+   "House",
+   "Hut",
+   "dhis2:palm_branches_roof"
+  ],
+  "title": "Home with Roof Made of Palm Branches"
+ },
+ {
+  "id": "proper_roof",
+  "category": "places",
+  "path": "places/proper_roof",
+  "tags": [
+   "Building",
+   "House",
+   "Hut",
+   "dhis2:proper_roof"
+  ],
+  "title": "Home with Proper Roof"
+ },
+ {
+  "id": "letrina",
+  "category": "places",
+  "path": "places/letrina",
+  "tags": [
+   "Bathroom",
+   "Biffy",
+   "Bog",
+   "Crapper",
+   "Dunny",
+   "Honey Bucket",
+   "John",
+   "Kybo",
+   "Latrine",
+   "Long Drop",
+   "Outdoor Toilet",
+   "Portaloo",
+   "Privy",
+   "Thunderbox",
+   "Toilet",
+   "WC",
+   "Water Closet",
+   "dhis2:letrina"
+  ],
+  "title": "Latrine"
+ },
+ {
+  "id": "letrina_alt",
+  "category": "places",
+  "path": "places/letrina_alt",
+  "tags": [
+   "Bathroom",
+   "Biffy",
+   "Bog",
+   "Crapper",
+   "Dunny",
+   "Honey Bucket",
+   "John",
+   "Kybo",
+   "Latrine",
+   "Long Drop",
+   "Outdoor Toilet",
+   "Portaloo",
+   "Privy",
+   "Thunderbox",
+   "Toilet",
+   "WC",
+   "Water Closet"
+  ],
+  "title": "Latrine ALT"
+ },
+ {
+  "id": "temple",
+  "category": "places",
+  "path": "places/temple",
+  "tags": [
+   "House of Worship",
+   "Religion",
+   "Worship"
+  ],
+  "title": "Temple"
+ },
+ {
+  "id": "temple_alt",
+  "category": "places",
+  "path": "places/temple_alt",
+  "tags": [
+   "House of Worship",
+   "Religion",
+   "Worship"
+  ],
+  "title": "Temple Alt"
+ },
+ {
+  "id": "mosque",
+  "category": "places",
+  "path": "places/mosque",
+  "tags": [
+   "House of Worship",
+   "Islam",
+   "Muslim",
+   "Religion",
+   "Worship"
+  ],
+  "title": "Mosque"
+ },
+ {
+  "id": "emergency_post",
+  "category": "places",
+  "path": "places/emergency_post",
+  "tags": [
+   "Cross",
+   "Emergency Post",
+   "Tent",
+   "War Hospital",
+   "dhis2:emergency_post"
+  ],
+  "title": "Field Hospital"
+ },
+ {
+  "id": "rural_post",
+  "category": "places",
+  "path": "places/rural_post",
+  "tags": [
+   "Hospital",
+   "Rural Post",
+   "Small Hospital",
+   "dhis2:rural_post"
+  ],
+  "title": "Rural Clinic"
+ },
+ {
+  "id": "ambulatory_clinic",
+  "category": "places",
+  "path": "places/ambulatory_clinic",
+  "tags": [
+   "Ambulatory Clinic",
+   "Hospital",
+   "Office",
+   "Small Hospital",
+   "dhis2:ambulatory_clinic"
+  ],
+  "title": "Clinic"
+ },
+ {
+  "id": "contact_support",
+  "category": "symbols",
+  "path": "symbols/contact_support",
+  "tags": [
+   "Chat",
+   "Contact",
+   "FAQ",
+   "Help",
+   "Question Mark",
+   "Speech Bubble",
+   "dhis2:contact_support"
+  ],
+  "title": "Support"
+ },
+ {
+  "id": "i_note_action",
+  "category": "symbols",
+  "path": "symbols/i_note_action",
+  "tags": [
+   "Class",
+   "Paper",
+   "Test",
+   "dhis2:i_note_action"
+  ],
+  "title": "Notes"
+ },
+ {
+  "id": "i_certificate_paper",
+  "category": "symbols",
+  "path": "symbols/i_certificate_paper",
+  "tags": [
+   "Document",
+   "Paper",
+   "Test",
+   "dhis2:i_certificate"
+  ],
+  "title": "Certificate"
+ },
+ {
+  "id": "breeding_sites",
+  "category": "symbols",
+  "path": "symbols/breeding_sites",
+  "tags": [
+   "Disease",
+   "Eggs",
+   "Larva",
+   "dhis2:breeding_sites"
+  ],
+  "title": "Breeding Sites"
+ },
+ {
+  "id": "health_worker_form",
+  "category": "symbols",
+  "path": "symbols/health_worker_form",
+  "tags": [
+   "Doctor",
+   "Document",
+   "Nurse",
+   "Paper",
+   "Patient",
+   "Test",
+   "dhis2:health_worker_form"
+  ],
+  "title": "Health Worker Form"
+ },
+ {
+  "id": "sexual_reproductive_health",
+  "category": "symbols",
+  "path": "symbols/sexual_reproductive_health",
+  "tags": [
+   "Female",
+   "Gender",
+   "Male",
+   "Sex",
+   "Symbols",
+   "dhis2:sexual_reproductive_health"
+  ],
+  "title": "Gender Symbols"
+ },
+ {
+  "id": "hpv",
+  "category": "conditions",
+  "path": "conditions/hpv",
+  "tags": [
+   "Human Papillomavirus",
+   "Infection",
+   "Infectious Disease",
+   "Virus",
+   "dhis2:vih"
+  ],
+  "title": "HPV"
+ },
+ {
+  "id": "vih",
+  "category": "conditions",
+  "path": "conditions/vih",
+  "tags": [
+   "AIDS",
+   "HIV",
+   "Infection",
+   "Infectious Disease",
+   "Virus",
+   "dhis2:vih"
+  ],
+  "title": "HIV"
+ },
+ {
+  "id": "water_treatment",
+  "category": "symbols",
+  "path": "symbols/water_treatment",
+  "tags": [
+   "Arrows",
+   "Drop",
+   "Water",
+   "dhis2:water_treatment"
+  ],
+  "title": "Water Treatment"
+ },
+ {
+  "id": "social_distancing",
+  "category": "symbols",
+  "path": "symbols/social_distancing",
+  "tags": [
+   "Apart",
+   "Arrows",
+   "Between",
+   "Social Distance",
+   "Space",
+   "dhis2:social_distancing"
+  ],
+  "title": "Social Distancing"
+ },
+ {
+  "id": "default",
+  "category": "symbols",
+  "path": "symbols/default",
+  "tags": [
+   "Document",
+   "Paper",
+   "Test",
+   "dhis2:default"
+  ],
+  "title": "Document Edit"
+ },
+ {
+  "id": "i_exam_multiple_choice",
+  "category": "symbols",
+  "path": "symbols/i_exam_multiple_choice",
+  "tags": [
+   "Document",
+   "Exam",
+   "Note",
+   "Paper",
+   "Test",
+   "dhis2:i_exam_multiple_choice"
+  ],
+  "title": "Exam Multiple-Choice"
+ },
+ {
+  "id": "i_schedule_school_date_time",
+  "category": "symbols",
+  "path": "symbols/i_schedule_school_date_time",
+  "tags": [
+   "Appointment",
+   "Cal",
+   "Event",
+   "Time",
+   "dhis2:i_schedule_school_date_time"
+  ],
+  "title": "Calendar Schedule"
+ },
+ {
+  "id": "hot_meal",
+  "category": "objects",
+  "path": "objects/hot_meal",
+  "tags": [
+   "Food",
+   "Meal",
+   "dhis2:hot_meal"
+  ],
+  "title": "Hot Meal"
+ },
+ {
+  "id": "justice",
+  "category": "objects",
+  "path": "objects/justice",
+  "tags": [
+   "Law",
+   "Legal",
+   "Scales",
+   "dhis2:justice"
+  ],
+  "title": "Justice"
+ },
+ {
+  "id": "phone",
+  "category": "objects",
+  "path": "objects/phone",
+  "tags": [
+   "Call",
+   "Communication",
+   "Telephone",
+   "dhis2:phone"
+  ],
+  "title": "Phone"
+ },
+ {
+  "id": "credit_card",
+  "category": "objects",
+  "path": "objects/credit_card",
+  "tags": [
+   "Currency",
+   "Mastercard",
+   "Money",
+   "Payment",
+   "Visa",
+   "dhis2:credit_card"
+  ],
+  "title": "Credit Card"
+ },
+ {
+  "id": "construction",
+  "category": "objects",
+  "path": "objects/construction",
+  "tags": [
+   "Build",
+   "Construction",
+   "Settings",
+   "Tool",
+   "dhis2:construction"
+  ],
+  "title": "Hammer"
+ },
+ {
+  "id": "running_water",
+  "category": "objects",
+  "path": "objects/running_water",
+  "tags": [
+   "Clean Water",
+   "Drinking Water",
+   "Running Water",
+   "Sanitation",
+   "dhis2:running_water"
+  ],
+  "title": "Water Tap"
+ },
+ {
+  "id": "expectorate",
+  "category": "emotions",
+  "path": "emotions/expectorate",
+  "tags": [
+   "Aerosol",
+   "Cough",
+   "Emoji",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Sneeze",
+   "dhis2:expectorate"
+  ],
+  "title": "Expectorate"
+ },
+ {
+  "id": "fever",
+  "category": "emotions",
+  "path": "emotions/fever",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Fever",
+   "Frown",
+   "Negative",
+   "Sick",
+   "Symptom",
+   "Thermometer",
+   "dhis2:fever"
+  ],
+  "title": "Fever"
+ },
+ {
+  "id": "sad",
+  "category": "emotions",
+  "path": "emotions/sad",
+  "tags": [
+   "Bad",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Frown",
+   "Negative",
+   "Sad",
+   "dhis2:sad"
+  ],
+  "title": "Sad"
+ },
+ {
+  "id": "measles",
+  "category": "emotions",
+  "path": "emotions/measles",
+  "tags": [
+   "Disease",
+   "Emoji",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Fever",
+   "Measles",
+   "dhis2:measles"
+  ],
+  "title": "Measles"
+ },
+ {
+  "id": "ok",
+  "category": "emotions",
+  "path": "emotions/ok",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Happy",
+   "OK",
+   "Okay",
+   "Smile",
+   "dhis2:ok"
+  ],
+  "title": "Smile"
+ },
+ {
+  "id": "angry",
+  "category": "emotions",
+  "path": "emotions/angry",
+  "tags": [
+   "Anger",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Mad",
+   "Upset"
+  ],
+  "title": "Angry"
+ },
+ {
+  "id": "confused",
+  "category": "emotions",
+  "path": "emotions/confused",
+  "tags": [
+   "Concern",
+   "Confusion",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face"
+  ],
+  "title": "Confused"
+ },
+ {
+  "id": "crying",
+  "category": "emotions",
+  "path": "emotions/crying",
+  "tags": [
+   "Crying",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Sad",
+   "Tears"
+  ],
+  "title": "Crying"
+ },
+ {
+  "id": "nauseous",
+  "category": "emotions",
+  "path": "emotions/nauseous",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Nausea",
+   "Nauseous",
+   "Puke",
+   "Sick",
+   "Vomit"
+  ],
+  "title": "Nauseous"
+ },
+ {
+  "id": "loudly_crying",
+  "category": "emotions",
+  "path": "emotions/loudly_crying",
+  "tags": [
+   "Crying",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Sad",
+   "Tears"
+  ],
+  "title": "Loudly Crying"
+ },
+ {
+  "id": "not_ok",
+  "category": "emotions",
+  "path": "emotions/not_ok",
+  "tags": [
+   "Bad",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Frown",
+   "Negative",
+   "dhis2:not_ok"
+  ],
+  "title": "Frown"
+ },
+ {
+  "id": "neutral",
+  "category": "emotions",
+  "path": "emotions/neutral",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Neutral",
+   "OK",
+   "Okay",
+   "dhis2:neutral"
+  ],
+  "title": "Neutral"
+ },
+ {
+  "id": "happy",
+  "category": "emotions",
+  "path": "emotions/happy",
+  "tags": [
+   "Content",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Joy",
+   "Laugh",
+   "Smile",
+   "dhis2:happy"
+  ],
+  "title": "Happy"
+ },
+ {
+  "id": "coughing",
+  "category": "emotions",
+  "path": "emotions/coughing",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Sick",
+   "Sneeze",
+   "Symptom"
+  ],
+  "title": "Coughing"
+ },
+ {
+  "id": "vomitting",
+  "category": "emotions",
+  "path": "emotions/vomitting",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Puke",
+   "Sick",
+   "Symptom"
+  ],
+  "title": "Vomiting"
+ },
+ {
+  "id": "masked",
+  "category": "emotions",
+  "path": "emotions/masked",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Mask",
+   "PPE",
+   "Sick",
+   "Surgery"
+  ],
+  "title": "Masked"
+ },
+ {
+  "id": "eyeglasses",
+  "category": "emotions",
+  "path": "emotions/eyeglasses",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Eyeglasses",
+   "Eyeglasses",
+   "Face",
+   "Optometry",
+   "Spectacles"
+  ],
+  "title": "Glasses"
+ },
+ {
+  "id": "bandaged",
+  "category": "emotions",
+  "path": "emotions/bandaged",
+  "tags": [
+   "Bandage",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Head Injury",
+   "Injury",
+   "Sick"
+  ],
+  "title": "Bandage"
+ },
+ {
+  "id": "dizzy",
+  "category": "emotions",
+  "path": "emotions/dizzy",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Nausea",
+   "Nauseous"
+  ],
+  "title": "Dizzy"
+ },
+ {
+  "id": "tongue",
+  "category": "emotions",
+  "path": "emotions/tongue",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Mouth"
+  ],
+  "title": "Tongue"
+ },
+ {
+  "id": "woozy",
+  "category": "emotions",
+  "path": "emotions/woozy",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Nausea",
+   "Nauseous",
+   "Sick"
+  ],
+  "title": "Woozy"
+ },
+ {
+  "id": "sweating",
+  "category": "emotions",
+  "path": "emotions/sweating",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Fever",
+   "Perspiration",
+   "Sweat"
+  ],
+  "title": "Sweating"
+ },
+ {
+  "id": "nervous",
+  "category": "emotions",
+  "path": "emotions/nervous",
+  "tags": [
+   "Clenched Teeth",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Nerves",
+   "Teeth"
+  ],
+  "title": "Nervous"
+ },
+ {
+  "id": "sleepy",
+  "category": "emotions",
+  "path": "emotions/sleepy",
+  "tags": [
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Exhausted",
+   "Face",
+   "Sleeping",
+   "Tired"
+  ],
+  "title": "Sleepy"
+ },
+ {
+  "id": "calm",
+  "category": "emotions",
+  "path": "emotions/calm",
+  "tags": [
+   "Calm",
+   "Comfort",
+   "Emoji",
+   "Emoticon",
+   "Emotion",
+   "Face",
+   "Relaxed"
+  ],
+  "title": "Calm"
+ },
+ {
+  "id": "thermometer_digital",
+  "category": "devices",
+  "path": "devices/thermometer_digital",
+  "tags": [
+   "Fever",
+   "Temperature",
+   "Thermometer"
+  ],
+  "title": "Thermometer Digital"
+ },
+ {
+  "id": "endocrinology",
+  "category": "specialties",
+  "path": "specialties/endocrinology",
+  "tags": [
+   "Department",
+   "Endocrine glands",
+   "Hormones"
+  ],
+  "title": "Endocrinology"
+ },
+ {
+  "id": "speech_language_therapy",
+  "category": "people",
+  "path": "people/speech_language_therapy",
+  "tags": [
+   "Face",
+   "Language",
+   "SLP",
+   "Speaking",
+   "Speech Pathology",
+   "Therapy"
+  ],
+  "title": "Speech Language Therapy"
+ },
+ {
+  "id": "ppe_apron",
+  "category": "devices",
+  "path": "devices/ppe_apron",
+  "tags": [
+   "Apron",
+   "Clothing",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Apron"
+ },
+ {
+  "id": "blood_drop",
+  "category": "body",
+  "path": "body/blood_drop",
+  "tags": [
+   "Blood",
+   "Circulatory System"
+  ],
+  "title": "Blood Drop"
+ },
+ {
+  "id": "hepatology",
+  "category": "specialties",
+  "path": "specialties/hepatology",
+  "tags": [
+   "Department",
+   "Liver"
+  ],
+  "title": "Hepatology"
+ },
+ {
+  "id": "pharmacy",
+  "category": "specialties",
+  "path": "specialties/pharmacy",
+  "tags": [
+   "Department",
+   "Drugs",
+   "Medication",
+   "Medicines",
+   "Pharmacy"
+  ],
+  "title": "Pharmacy"
+ },
+ {
+  "id": "wheelchair",
+  "category": "devices",
+  "path": "devices/wheelchair",
+  "tags": [
+   "Accessibility",
+   "Disability",
+   "Disabled",
+   "Wheelchair"
+  ],
+  "title": "Wheelchair"
+ },
+ {
+  "id": "liver",
+  "category": "body",
+  "path": "body/liver",
+  "tags": [
+   "Hepatology",
+   "Liver",
+   "Organ"
+  ],
+  "title": "Liver"
+ },
+ {
+  "id": "ppe_face_shield",
+  "category": "devices",
+  "path": "devices/ppe_face_shield",
+  "tags": [
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Face Shield"
+ },
+ {
+  "id": "ppe_goggles",
+  "category": "devices",
+  "path": "devices/ppe_goggles",
+  "tags": [
+   "Eye",
+   "Eye Protection",
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Goggles"
+ },
+ {
+  "id": "ppe_suit",
+  "category": "devices",
+  "path": "devices/ppe_suit",
+  "tags": [
+   "Hazardous Materials",
+   "Hazmat",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Suit"
+ },
+ {
+  "id": "arm",
+  "category": "body",
+  "path": "body/arm",
+  "tags": [
+   "Arm",
+   "Hand",
+   "Joint"
+  ],
+  "title": "Arm"
+ },
+ {
+  "id": "cleaning",
+  "category": "objects",
+  "path": "objects/cleaning",
+  "tags": [
+   "Broom",
+   "Cache",
+   "Cleaning",
+   "Sanitation"
+  ],
+  "title": "Cleaning"
+ },
+ {
+  "id": "defibrilator",
+  "category": "devices",
+  "path": "devices/defibrilator",
+  "tags": [
+   "Cardiology",
+   "ER",
+   "Electrical",
+   "Emergency",
+   "Heart"
+  ],
+  "title": "Defibrilator"
+ },
+ {
+  "id": "discharge",
+  "category": "symbols",
+  "path": "symbols/discharge",
+  "tags": [
+   "Chair",
+   "Department",
+   "Exit",
+   "Hospital"
+  ],
+  "title": "Discharge"
+ },
+ {
+  "id": "leg",
+  "category": "body",
+  "path": "body/leg",
+  "tags": [
+   "Foot",
+   "Knee",
+   "Leg"
+  ],
+  "title": "Leg"
+ },
+ {
+  "id": "low_vision",
+  "category": "conditions",
+  "path": "conditions/low_vision",
+  "tags": [
+   "Eye",
+   "Eyes",
+   "Opthamology",
+   "Optometry",
+   "Sight",
+   "Vision"
+  ],
+  "title": "Low Vision"
+ },
+ {
+  "id": "eye",
+  "category": "body",
+  "path": "body/eye",
+  "tags": [
+   "Eye",
+   "Ocular",
+   "Oculus",
+   "Sight",
+   "Vision"
+  ],
+  "title": "Eye"
+ },
+ {
+  "id": "pharmacy",
+  "category": "symbols",
+  "path": "symbols/pharmacy",
+  "tags": [
+   "Department",
+   "Drugs",
+   "Medications",
+   "Pharmacist",
+   "Pharmacy",
+   "Pills"
+  ],
+  "title": "Pharmacy"
+ },
+ {
+  "id": "xray",
+  "category": "devices",
+  "path": "devices/xray",
+  "tags": [
+   "Chest",
+   "Exam",
+   "Radiology",
+   "Xray"
+  ],
+  "title": "X-ray"
+ },
+ {
+  "id": "mouth",
+  "category": "body",
+  "path": "body/mouth",
+  "tags": [
+   "Face",
+   "Lips",
+   "Mouth",
+   "Oral"
+  ],
+  "title": "Mouth"
+ },
+ {
+  "id": "pharmacy_alt",
+  "category": "symbols",
+  "path": "symbols/pharmacy_alt",
+  "tags": [
+   "Department",
+   "Drugs",
+   "Medications",
+   "Pharmacist",
+   "Pharmacy",
+   "Pills"
+  ],
+  "title": "Pharmacy"
+ },
+ {
+  "id": "respirator",
+  "category": "devices",
+  "path": "devices/respirator",
+  "tags": [
+   "Breathing",
+   "Mask",
+   "Outbreak",
+   "PPE",
+   "Safety",
+   "Virus"
+  ],
+  "title": "PPE Respirator"
+ },
+ {
+  "id": "rheumatology",
+  "category": "specialties",
+  "path": "specialties/rheumatology",
+  "tags": [
+   "Bones",
+   "Department",
+   "Joints",
+   "Ortho",
+   "Spine"
+  ],
+  "title": "Rheumatology"
+ },
+ {
+  "id": "joints",
+  "category": "body",
+  "path": "body/joints",
+  "tags": [
+   "Bones",
+   "Joints",
+   "Ortho",
+   "Orthopaedics"
+  ],
+  "title": "Joints"
+ },
+ {
+  "id": "rural_post_alt",
+  "category": "places",
+  "path": "places/rural_post_alt",
+  "tags": [
+   "Clinic",
+   "Hospital",
+   "Local",
+   "PHC",
+   "Primary Care",
+   "Village"
+  ],
+  "title": "Rural Post ALT"
+ },
+ {
+  "id": "umbrella",
+  "category": "objects",
+  "path": "objects/umbrella",
+  "tags": [
+   "Transgender"
+  ],
+  "title": "Umbrella"
+ },
+ {
+  "id": "simple_logo",
+  "category": "symbols",
+  "path": "symbols/simple_logo",
+  "tags": [
+   "App",
+   "HIT",
+   "Health IT",
+   "Open Source"
+  ],
+  "title": "Simple.org"
+ },
+ {
+  "id": "bandage_adhesive",
+  "category": "objects",
+  "path": "objects/bandage_adhesive",
+  "tags": [
+   "Bandage",
+   "Bandaid",
+   "Contusion",
+   "Cut",
+   "Injury"
+  ],
+  "title": "Bandage"
+ },
+ {
+  "id": "rdt_result_out_stock",
+  "category": "objects",
+  "path": "objects/rdt_result_out_stock",
+  "tags": [
+   "Empty Box",
+   "Retroviral",
+   "dhis2:rdt_result_out_stock"
+  ],
+  "title": "Stock Out RDT"
+ },
+ {
+  "id": "stock_out",
+  "category": "objects",
+  "path": "objects/stock_out",
+  "tags": [
+   "Empty Box",
+   "Medicines",
+   "dhis2:stock_out"
+  ],
+  "title": "Stock Out"
+ },
+ {
+  "id": "i_utensils",
+  "category": "objects",
+  "path": "objects/i_utensils",
+  "tags": [
+   "Office",
+   "Pen",
+   "Ruler",
+   "Tools",
+   "dhis2:i_utensils"
+  ],
+  "title": "Utensils"
+ },
+ {
+  "id": "outpatient_department",
+  "category": "specialties",
+  "path": "specialties/outpatient_department",
+  "tags": [
+   "Department",
+   "Doctor",
+   "Examination",
+   "OPD",
+   "Outpatient Department",
+   "Triage"
+  ],
+  "title": "Outpatient"
+ },
+ {
+  "id": "malaria_outbreak",
+  "category": "symbols",
+  "path": "symbols/malaria_outbreak",
+  "tags": [
+   "Malaria",
+   "Mosquito",
+   "Outbreak",
+   "dhis2:malaria_outbreak"
+  ],
+  "title": "Mosquitos"
+ },
+ {
+  "id": "insecticide_resistance",
+  "category": "symbols",
+  "path": "symbols/insecticide_resistance",
+  "tags": [
+   "Mosquito",
+   "dhis2:insecticide_resistance"
+  ],
+  "title": "Insecticide Resistant"
+ },
+ {
+  "id": "hiv_ind",
+  "category": "conditions",
+  "path": "conditions/hiv_ind",
+  "tags": [
+   "AIDS",
+   "HIV",
+   "dhis2:hiv_ind"
+  ],
+  "title": "HIV Inconclusive"
+ },
+ {
+  "id": "hiv_neg",
+  "category": "conditions",
+  "path": "conditions/hiv_neg",
+  "tags": [
+   "AIDS",
+   "HIV",
+   "dhis2:hiv_neg"
+  ],
+  "title": "HIV Negative"
+ },
+ {
+  "id": "hiv_pos",
+  "category": "conditions",
+  "path": "conditions/hiv_pos",
+  "tags": [
+   "AIDS",
+   "HIV",
+   "dhis2:hiv_pos"
+  ],
+  "title": "HIV Positive"
+ },
+ {
+  "id": "mosquito",
+  "category": "symbols",
+  "path": "symbols/mosquito",
+  "tags": [
+   "Animal",
+   "Disease",
+   "Insect",
+   "Malaria",
+   "dhis2:mosquito"
+  ],
+  "title": "Mosquito"
+ },
+ {
+  "id": "ribbon",
+  "category": "symbols",
+  "path": "symbols/ribbon",
+  "tags": [
+   "AIDS",
+   "Campaign",
+   "Cancer",
+   "HIV",
+   "Ribbon"
+  ],
+  "title": "HIV"
+ },
+ {
+  "id": "referral",
+  "category": "symbols",
+  "path": "symbols/referral",
+  "tags": [
+   "Admission",
+   "Entrance",
+   "Hospital",
+   "Transfer",
+   "dhis2:referral"
+  ],
+  "title": "Referral"
+ },
+ {
+  "id": "body",
+  "category": "body",
+  "path": "body/body",
+  "tags": [
+   "Body",
+   "Human",
+   "Limbs"
+  ],
+  "title": "Body"
+ },
+ {
+  "id": "msm",
+  "category": "people",
+  "path": "people/msm",
+  "tags": [
+   "Male",
+   "Man",
+   "Sex",
+   "dhis2:msm"
+  ],
+  "title": "Men Who Have Sex With Men"
+ },
+ {
+  "id": "sti",
+  "category": "conditions",
+  "path": "conditions/sti",
+  "tags": [
+   "Disease",
+   "Illness",
+   "Person",
+   "STD",
+   "STI",
+   "Sex",
+   "Sexual",
+   "Sick",
+   "Symptom dhis2:sti"
+  ],
+  "title": "Sexually Transmitted Infection"
+ },
+ {
+  "id": "boy_0105y",
+  "category": "people",
+  "path": "people/boy_0105y",
+  "tags": [
+   "Boy",
+   "Child",
+   "Male",
+   "Toddler",
+   "dhis2:boy_0105y"
+  ],
+  "title": "Child 1-5 Years"
+ },
+ {
+  "id": "child_program",
+  "category": "people",
+  "path": "people/child_program",
+  "tags": [
+   "Boy",
+   "Child",
+   "Child Program",
+   "Family",
+   "Female",
+   "Girl",
+   "Kids",
+   "Male",
+   "Siblings",
+   "Young",
+   "Youth",
+   "dhis2:child_program"
+  ],
+  "title": "Children"
+ },
+ {
+  "id": "girl_0105y",
+  "category": "people",
+  "path": "people/girl_0105y",
+  "tags": [
+   "Child",
+   "Female",
+   "Girl",
+   "Toddler",
+   "dhis2:girl_0105y"
+  ],
+  "title": "Girl 1-5 Years"
+ },
+ {
+  "id": "girl_1015y",
+  "category": "people",
+  "path": "people/girl_1015y",
+  "tags": [
+   "Child",
+   "Female",
+   "Girl",
+   "Teen",
+   "dhis2:girl_1015y"
+  ],
+  "title": "Child Female 10-15 Years"
+ },
+ {
+  "id": "male_and_female",
+  "category": "people",
+  "path": "people/male_and_female",
+  "tags": [
+   "Couple",
+   "Man",
+   "People",
+   "Woman",
+   "dhis2:male_and_female"
+  ],
+  "title": "Male and Female"
+ },
+ {
+  "id": "female_and_male",
+  "category": "people",
+  "path": "people/female_and_male",
+  "tags": [
+   "Couple",
+   "Man",
+   "People",
+   "Woman",
+   "dhis2:female_and_male"
+  ],
+  "title": "Female and Male"
+ },
+ {
+  "id": "man",
+  "category": "people",
+  "path": "people/man",
+  "tags": [
+   "Boy",
+   "Gender",
+   "Male",
+   "Man",
+   "Sex",
+   "Symbol",
+   "dhis2:man"
+  ],
+  "title": "Person"
  },
  {
   "id": "outpatient",
@@ -3549,46 +5182,129 @@
   "title": "Outpatient"
  },
  {
-  "id": "old_woman",
+  "id": "baby_male_0203m",
   "category": "people",
-  "path": "people/old_woman",
+  "path": "people/baby_male_0203m",
   "tags": [
-   "Female",
-   "Geriatric",
-   "Old",
-   "Symbol",
-   "Woman",
-   "dhis2:old_woman"
+   "Boy",
+   "Diaper",
+   "Infant",
+   "dhis2:baby_male_0203m"
   ],
-  "title": "Elderly Woman"
+  "title": "Baby Male 2-3 Months"
  },
  {
-  "id": "old_man",
+  "id": "baby_0203m",
   "category": "people",
-  "path": "people/old_man",
+  "path": "people/baby_0203m",
   "tags": [
-   "Geriatric",
-   "Male",
-   "Man",
-   "Old",
-   "Symbol",
-   "dhis2:old_man"
+   "Boy",
+   "Diaper",
+   "Girl",
+   "Infant"
   ],
-  "title": "Elderly Person"
+  "title": "Baby 2-3 Months"
  },
  {
-  "id": "ok",
+  "id": "baby_female_0203m",
   "category": "people",
-  "path": "people/ok",
+  "path": "people/baby_female_0203m",
   "tags": [
-   "Face",
-   "Happy",
-   "OK",
-   "Okay",
-   "Smile",
-   "dhis2:ok"
+   "Diaper",
+   "Girl",
+   "Infant",
+   "dhis2:baby_male_0203m"
   ],
-  "title": "Smile"
+  "title": "Baby Female 2-3 Months"
+ },
+ {
+  "id": "factory_worker",
+  "category": "people",
+  "path": "people/factory_worker",
+  "tags": [
+   "Factory",
+   "Helmet",
+   "Plant",
+   "Worker",
+   "dhis2:factory_worker"
+  ],
+  "title": "Person Factory Worker"
+ },
+ {
+  "id": "agriculture_worker_alt",
+  "category": "people",
+  "path": "people/agriculture_worker_alt",
+  "tags": [
+   "Agricultural Worker",
+   "Farmhand",
+   "Pitchfork",
+   "dhis2:agricultural_worker"
+  ],
+  "title": "Person Farmer ALT"
+ },
+ {
+  "id": "domestic_worker_alt",
+  "category": "people",
+  "path": "people/domestic_worker_alt",
+  "tags": [
+   "Cleaner",
+   "Labor",
+   "Plumber",
+   "dhis2:domestic_worker"
+  ],
+  "title": "Person Domestic Worker ALT"
+ },
+ {
+  "id": "agriculture_worker",
+  "category": "people",
+  "path": "people/agriculture_worker",
+  "tags": [
+   "Agricultural Worker",
+   "Farmhand",
+   "Pitchfork",
+   "dhis2:agricultural_worker"
+  ],
+  "title": "Person Farmer"
+ },
+ {
+  "id": "travel_alt",
+  "category": "people",
+  "path": "people/travel_alt",
+  "tags": [
+   "Flight",
+   "Person",
+   "Suitcase",
+   "Travel",
+   "dhis2:travel"
+  ],
+  "title": "Person Traveller ALT"
+ },
+ {
+  "id": "plantation_worker_alt",
+  "category": "people",
+  "path": "people/plantation_worker_alt",
+  "tags": [
+   "Agriculture",
+   "Farmer",
+   "Pitchfork",
+   "Plantation",
+   "Worker",
+   "dhis2:plantation_worker"
+  ],
+  "title": "Person Plantation Worker ALT"
+ },
+ {
+  "id": "prisoner",
+  "category": "people",
+  "path": "people/prisoner",
+  "tags": [
+   "Detainee",
+   "Incarceration",
+   "Inmate",
+   "Prison",
+   "dhis2:prisoner"
+  ],
+  "title": "Person Prisoner"
  },
  {
   "id": "officer",
@@ -3602,77 +5318,46 @@
    "Worker",
    "dhis2:officer"
   ],
-  "title": "Police Officer"
+  "title": "Person Police Officer"
  },
  {
-  "id": "nurse",
+  "id": "domestic_worker",
   "category": "people",
-  "path": "people/nurse",
+  "path": "people/domestic_worker",
   "tags": [
-   "HCW",
-   "Healthcare Worker",
-   "Hospital Staff",
-   "Nurse",
-   "Staff Nurse",
-   "Worker",
-   "dhis2:nurse"
+   "Cleaner",
+   "Labor",
+   "Plumber",
+   "dhis2:domestic_worker"
   ],
-  "title": "Nurse"
+  "title": "Person Domestic Worker"
  },
  {
-  "id": "not_ok",
+  "id": "travel",
   "category": "people",
-  "path": "people/not_ok",
+  "path": "people/travel",
   "tags": [
-   "Bad",
-   "Face",
-   "Frown",
-   "Negative",
-   "dhis2:not_ok"
-  ],
-  "title": "Frown"
- },
- {
-  "id": "neutral",
-  "category": "people",
-  "path": "people/neutral",
-  "tags": [
-   "Face",
-   "Neutral",
-   "OK",
-   "Okay",
-   "dhis2:neutral"
-  ],
-  "title": "Neutral"
- },
- {
-  "id": "nausea",
-  "category": "people",
-  "path": "people/nausea",
-  "tags": [
-   "Cold",
-   "Hot",
+   "Flight",
    "Person",
-   "Shaking",
-   "Sick",
-   "Symptom",
-   "Temperature",
-   "Vomit",
-   "dhis2:nausea"
+   "Suitcase",
+   "Travel",
+   "dhis2:travel"
   ],
-  "title": "Nausea"
+  "title": "Person Traveller"
  },
  {
-  "id": "msm",
+  "id": "plantation_worker",
   "category": "people",
-  "path": "people/msm",
+  "path": "people/plantation_worker",
   "tags": [
-   "Male",
-   "Man",
-   "Sex",
-   "dhis2:msm"
+   "Agriculture",
+   "Farmer",
+   "Pitchfork",
+   "Plantation",
+   "Worker",
+   "dhis2:plantation_worker"
   ],
-  "title": "Men Who Have Sex With Men"
+  "title": "Person Plantation Worker"
  },
  {
   "id": "miner_worker",
@@ -3680,81 +5365,90 @@
   "path": "people/miner_worker",
   "tags": [
    "Helmet",
-   "Industry",
    "Miner",
    "Worker",
    "dhis2:miner_worker"
   ],
-  "title": "Miner"
+  "title": "Person Miner"
  },
  {
-  "id": "mental_disorders",
+  "id": "exercise_walking",
   "category": "people",
-  "path": "people/mental_disorders",
+  "path": "people/exercise_walking",
   "tags": [
-   "Brain",
-   "Head",
-   "Mental Health",
-   "Neurology",
-   "Spine",
-   "dhis2:mental_disorders"
-  ],
-  "title": "Mental Disorder"
- },
- {
-  "id": "measles",
-  "category": "people",
-  "path": "people/measles",
-  "tags": [
-   "Disease",
-   "Emoji",
-   "Face",
-   "Fever",
-   "Measles",
-   "dhis2:measles"
-  ],
-  "title": "Measles"
- },
- {
-  "id": "man",
-  "category": "people",
-  "path": "people/man",
-  "tags": [
-   "Boy",
-   "Gender",
-   "Male",
-   "Man",
-   "Sex",
-   "Symbol",
-   "dhis2:man"
-  ],
-  "title": "Man"
- },
- {
-  "id": "male_sex_worker",
-  "category": "people",
-  "path": "people/male_sex_worker",
-  "tags": [
-   "Male",
-   "Person",
-   "Prostitute",
-   "Worker",
-   "dhis2:sex_worker_male"
-  ],
-  "title": "Sex Worker"
- },
- {
-  "id": "male_and_female",
-  "category": "people",
-  "path": "people/male_and_female",
-  "tags": [
-   "Couple",
-   "Man",
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
    "People",
-   "Woman",
-   "dhis2:male_and_female"
+   "Physio",
+   "Physiotherapy",
+   "Walk"
   ],
-  "title": "Male and Female"
+  "title": "Activity Walk"
+ },
+ {
+  "id": "exercise_running",
+  "category": "people",
+  "path": "people/exercise_running",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Jog",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Run"
+  ],
+  "title": "Activity Run"
+ },
+ {
+  "id": "exercise_weights",
+  "category": "people",
+  "path": "people/exercise_weights",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Weightlifting",
+   "Weights"
+  ],
+  "title": "Activity Weights"
+ },
+ {
+  "id": "pregnant",
+  "category": "people",
+  "path": "people/pregnant",
+  "tags": [
+   "ANC",
+   "Mother",
+   "Person",
+   "Pregnancy",
+   "Woman",
+   "antenatal",
+   "dhis2:pregnant"
+  ],
+  "title": "Pregnant"
+ },
+ {
+  "id": "overweight",
+  "category": "conditions",
+  "path": "conditions/overweight",
+  "tags": [
+   "Obese",
+   "Overweight",
+   "Patient",
+   "People",
+   "Vitals",
+   "dhis2:overweight"
+  ],
+  "title": "Overweight"
  },
  {
   "id": "lactation",
@@ -3774,224 +5468,145 @@
   "title": "Nursing Mother"
  },
  {
-  "id": "i_training_class",
+  "id": "exercise_walk_supported",
   "category": "people",
-  "path": "people/i_training_class",
+  "path": "people/exercise_walk_supported",
   "tags": [
-   "Class",
-   "Person",
-   "Presentation",
-   "School",
-   "Teacher",
-   "Teaching",
-   "Train",
-   "dhis2:i_training_class"
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Walk"
   ],
-  "title": "Training"
+  "title": "Activity Supported Walk"
  },
  {
-  "id": "i_groups_perspective_crowd",
-  "category": "people",
-  "path": "people/i_groups_perspective_crowd",
+  "id": "vomiting",
+  "category": "conditions",
+  "path": "conditions/vomiting",
   "tags": [
-   "Community",
-   "Crowd",
-   "Group",
-   "Person",
-   "Three People",
-   "Users",
-   "dhis2:i_groups_perspective_crowd"
-  ],
-  "title": "Group"
- },
- {
-  "id": "health_worker",
-  "category": "people",
-  "path": "people/health_worker",
-  "tags": [],
-  "title": "Health Worker"
- },
- {
-  "id": "headache",
-  "category": "people",
-  "path": "people/headache",
-  "tags": [
-   "Headache",
-   "Illness",
+   "Gastro",
+   "Nausea",
    "Person",
    "Sick",
-   "Symptom dhis2:headache"
-  ],
-  "title": "Headache"
- },
- {
-  "id": "happy",
-  "category": "people",
-  "path": "people/happy",
-  "tags": [
-   "Content",
-   "Face",
-   "Joy",
-   "Laugh",
-   "Smile",
-   "dhis2:happy"
-  ],
-  "title": "Happy"
- },
- {
-  "id": "group_discussion_meetingx3",
-  "category": "people",
-  "path": "people/group_discussion_meetingx3",
-  "tags": [
-   "Chat",
-   "Discussion",
-   "Forum",
-   "Meeting",
-   "People",
-   "Speech",
-   "dhis2:group_discussion_meetingx3"
-  ],
-  "title": "Group Discussion"
- },
- {
-  "id": "group_discussion_meeting",
-  "category": "people",
-  "path": "people/group_discussion_meeting",
-  "tags": [
-   "Chat",
-   "Discussion",
-   "Forum",
-   "Meeting",
-   "People",
-   "Speech",
-   "dhis2:discussion_meeting"
-  ],
-  "title": "Discussion"
- },
- {
-  "id": "girl_1015y",
-  "category": "people",
-  "path": "people/girl_1015y",
-  "tags": [
-   "Child",
-   "Female",
-   "Girl",
-   "Teen",
-   "dhis2:girl_1015y"
-  ],
-  "title": "Girl 10-15 Years"
- },
- {
-  "id": "girl_0105y",
-  "category": "people",
-  "path": "people/girl_0105y",
-  "tags": [
-   "Child",
-   "Female",
-   "Girl",
-   "Toddler",
-   "dhis2:girl_0105y"
-  ],
-  "title": "Girl 1-5 Years"
- },
- {
-  "id": "forum",
-  "category": "people",
-  "path": "people/forum",
-  "tags": [
-   "Chat",
-   "Discussion",
-   "Forum",
-   "Meeting",
-   "People",
-   "Speech",
-   "dhis2:forum"
-  ],
-  "title": "Chat"
- },
- {
-  "id": "fever",
-  "category": "people",
-  "path": "people/fever",
-  "tags": [
-   "Face",
-   "Fever",
-   "Frown",
-   "Negative",
-   "Sick",
+   "Spew",
+   "Stomach Flu",
    "Symptom",
-   "Thermometer",
-   "dhis2:fever"
+   "Throw Up",
+   "dhis2:vomiting"
   ],
-  "title": "Fever"
+  "title": "Vomiting"
  },
  {
-  "id": "fetus",
+  "id": "baby_female_0306m",
   "category": "people",
-  "path": "people/fetus",
+  "path": "people/baby_female_0306m",
   "tags": [
-   "ANC",
-   "Antenatal",
-   "Baby",
-   "Placenta",
-   "Umbilical Cord",
-   "dhis2:fetus"
-  ],
-  "title": "Fetus"
- },
- {
-  "id": "female_sex_worker",
-  "category": "people",
-  "path": "people/female_sex_worker",
-  "tags": [
+   "Crawl",
+   "Diaper",
    "Female",
+   "Girl",
+   "Infant",
+   "dhis2:baby_female"
+  ],
+  "title": "Baby Female 3-6 Months"
+ },
+ {
+  "id": "baby_male_0306m",
+  "category": "people",
+  "path": "people/baby_male_0306m",
+  "tags": [
+   "Boy",
+   "Crawl",
+   "Diaper",
+   "Girl",
+   "Infant",
+   "dhis2:baby_male"
+  ],
+  "title": "Baby Male 3-6 Months"
+ },
+ {
+  "id": "baby_0306m",
+  "category": "people",
+  "path": "people/baby_0306m",
+  "tags": [
+   "Boy",
+   "Crawl",
+   "Diaper",
+   "Female",
+   "Girl",
+   "Infant",
+   "Male"
+  ],
+  "title": "Baby 3-6 months"
+ },
+ {
+  "id": "baby_female_0203m_alt",
+  "category": "people",
+  "path": "people/baby_female_0203m_alt",
+  "tags": [
+   "Diaper",
+   "Girl",
+   "Infant",
+   "dhis2:baby_male_0203m"
+  ],
+  "title": "Baby Female 2-3 Months ALT"
+ },
+ {
+  "id": "baby_male_0203m_alt",
+  "category": "people",
+  "path": "people/baby_male_0203m_alt",
+  "tags": [
+   "Boy",
+   "Diaper",
+   "Infant",
+   "dhis2:baby_male_0203m"
+  ],
+  "title": "Baby Male 2-3 Months ALT"
+ },
+ {
+  "id": "baby_0203_alt",
+  "category": "people",
+  "path": "people/baby_0203_alt",
+  "tags": [
+   "Boy",
+   "Diaper",
+   "Girl",
+   "Infant"
+  ],
+  "title": "Baby 2-3 Months ALT"
+ },
+ {
+  "id": "spraying",
+  "category": "people",
+  "path": "people/spraying",
+  "tags": [
+   "Crop Spray",
+   "Herbicide",
+   "Insecticide",
    "Person",
-   "Prostitute",
-   "Woman",
    "Worker",
-   "dhis2:sex_worker_male"
+   "dhis2:spraying"
   ],
-  "title": "Sex Worker Female"
+  "title": "Spraying"
  },
  {
-  "id": "female_and_male",
+  "id": "agriculture",
   "category": "people",
-  "path": "people/female_and_male",
+  "path": "people/agriculture",
   "tags": [
-   "Couple",
-   "Man",
-   "People",
-   "Woman",
-   "dhis2:female_and_male"
-  ],
-  "title": "Female and Male"
- },
- {
-  "id": "factory_worker",
-  "category": "people",
-  "path": "people/factory_worker",
-  "tags": [
-   "Factory",
-   "Helmet",
+   "Ecology",
+   "Environment",
+   "Hands",
+   "Leaf",
    "Plant",
-   "Worker",
-   "dhis2:factory_worker"
+   "Seed",
+   "dhis2:agriculture"
   ],
-  "title": "Factory Worker"
- },
- {
-  "id": "expectorate",
-  "category": "people",
-  "path": "people/expectorate",
-  "tags": [
-   "Aerosol",
-   "Cough",
-   "Emoji",
-   "Face",
-   "Sneeze",
-   "dhis2:expectorate"
-  ],
-  "title": "Expectorate"
+  "title": "Agriculture"
  },
  {
   "id": "elderly",
@@ -4011,16 +5626,76 @@
   "title": "Elderly People"
  },
  {
-  "id": "domestic_worker",
+  "id": "rmnh",
   "category": "people",
-  "path": "people/domestic_worker",
+  "path": "people/rmnh",
   "tags": [
-   "Cleaner",
-   "Labor",
-   "Plumber",
-   "dhis2:domestic_worker"
+   "Antenatal",
+   "Baby",
+   "Child",
+   "Mother",
+   "Postnatal",
+   "RMNH",
+   "dhis2:rmnh"
   ],
-  "title": "Domestic Worker"
+  "title": "Reproductive Maternal and Newborn Health"
+ },
+ {
+  "id": "young_people",
+  "category": "people",
+  "path": "people/young_people",
+  "tags": [
+   "Boy",
+   "Child",
+   "Female",
+   "Girl",
+   "Kids",
+   "Male",
+   "Teen",
+   "Young",
+   "Youth",
+   "dhis2:young_people"
+  ],
+  "title": "Youth"
+ },
+ {
+  "id": "female_sex_worker",
+  "category": "people",
+  "path": "people/female_sex_worker",
+  "tags": [
+   "Female",
+   "Person",
+   "Prostitute",
+   "Woman",
+   "Worker",
+   "dhis2:sex_worker_male"
+  ],
+  "title": "Sex Worker Female"
+ },
+ {
+  "id": "male_sex_worker",
+  "category": "people",
+  "path": "people/male_sex_worker",
+  "tags": [
+   "Male",
+   "Person",
+   "Prostitute",
+   "Worker",
+   "dhis2:sex_worker_male"
+  ],
+  "title": "Sex Worker"
+ },
+ {
+  "id": "health_worker",
+  "category": "people",
+  "path": "people/health_worker",
+  "tags": [
+   "Doctor",
+   "Health Provider",
+   "Nurse",
+   "dhis2:health_worker"
+  ],
+  "title": "Person Health Worker"
  },
  {
   "id": "doctor_male",
@@ -4033,7 +5708,7 @@
    "Stethoscope",
    "dhis2:doctor_female"
   ],
-  "title": "Male Doctor"
+  "title": "Person Male Doctor"
  },
  {
   "id": "doctor_female",
@@ -4046,7 +5721,7 @@
    "Woman",
    "dhis2:doctor_female"
   ],
-  "title": "Female Doctor"
+  "title": "Person Female Doctor"
  },
  {
   "id": "doctor",
@@ -4062,76 +5737,6 @@
   "title": "Doctor"
  },
  {
-  "id": "diarrhea",
-  "category": "people",
-  "path": "people/diarrhea",
-  "tags": [
-   "Diarrhea",
-   "Feces",
-   "Person",
-   "Sick",
-   "Symptom",
-   "dhis2:diarrhea"
-  ],
-  "title": "Diarrhea"
- },
- {
-  "id": "diabetes",
-  "category": "people",
-  "path": "people/diabetes",
-  "tags": [],
-  "title": "Diabetes"
- },
- {
-  "id": "deaf",
-  "category": "people",
-  "path": "people/deaf",
-  "tags": [],
-  "title": "Deaf"
- },
- {
-  "id": "coughing",
-  "category": "people",
-  "path": "people/coughing",
-  "tags": [
-   "Aerosol",
-   "Cough",
-   "Expectorate",
-   "Mouth",
-   "Sneeze",
-   "Symptom",
-   "dhis2:coughing"
-  ],
-  "title": "Coughing"
- },
- {
-  "id": "construction_worker",
-  "category": "people",
-  "path": "people/construction_worker",
-  "tags": [
-   "Builder",
-   "Construction",
-   "Helmet",
-   "Worker",
-   "dhis2:construction_worker"
-  ],
-  "title": "Construction Worker"
- },
- {
-  "id": "clean_hands",
-  "category": "people",
-  "path": "people/clean_hands",
-  "tags": [
-   "Clean",
-   "Fingers",
-   "Hand",
-   "Hygiene",
-   "Sanitation",
-   "dhis2:clean_hands"
-  ],
-  "title": "Clean Hands"
- },
- {
   "id": "city_worker",
   "category": "people",
   "path": "people/city_worker",
@@ -4145,69 +5750,19 @@
   "title": "Business Person"
  },
  {
-  "id": "chills_fever",
+  "id": "group_discussion_meetingx3",
   "category": "people",
-  "path": "people/chills_fever",
+  "path": "people/group_discussion_meetingx3",
   "tags": [
-   "Chills",
-   "Cold",
-   "Hot",
-   "Person",
-   "Shaking",
-   "Sick",
-   "Symptom",
-   "Temperature",
-   "dhis2:chills_fever"
+   "Chat",
+   "Discussion",
+   "Forum",
+   "Meeting",
+   "People",
+   "Speech",
+   "dhis2:group_discussion_meetingx3"
   ],
-  "title": "Fever"
- },
- {
-  "id": "chills",
-  "category": "people",
-  "path": "people/chills",
-  "tags": [
-   "Cold",
-   "Freezing",
-   "Hypothermia",
-   "Person",
-   "Shake",
-   "Symptom",
-   "dhis2:chills"
-  ],
-  "title": "Chills"
- },
- {
-  "id": "child_program",
-  "category": "people",
-  "path": "people/child_program",
-  "tags": [
-   "Boy",
-   "Child",
-   "Female",
-   "Girl",
-   "Kids",
-   "Male",
-   "Young",
-   "Youth",
-   "dhis2:child_program"
-  ],
-  "title": "Children"
- },
- {
-  "id": "child_cognition",
-  "category": "people",
-  "path": "people/child_cognition",
-  "tags": [
-   "Brain",
-   "Education",
-   "Head",
-   "Learning",
-   "Mental Health",
-   "Neurology",
-   "Spine",
-   "dhis2:child_cognition"
-  ],
-  "title": "Child Cognition"
+  "title": "Group Discussion"
  },
  {
   "id": "child_care",
@@ -4222,77 +5777,252 @@
   "title": "Child care"
  },
  {
-  "id": "boy_1015y",
-  "category": "people",
-  "path": "people/boy_1015y",
+  "id": "coughing_alt",
+  "category": "conditions",
+  "path": "conditions/coughing_alt",
   "tags": [
-   "Boy",
-   "Child",
+   "Aerosol",
+   "Cough",
+   "Expectorate",
+   "Mouth",
+   "Sneeze",
+   "Symptom",
+   "dhis2:coughing"
+  ],
+  "title": "Coughing"
+ },
+ {
+  "id": "transgender",
+  "category": "symbols",
+  "path": "symbols/transgender",
+  "tags": [
+   "Gender",
+   "Sex",
+   "Symbol",
+   "Trans",
+   "Transgender",
+   "dhis2:transgender"
+  ],
+  "title": "Transgender"
+ },
+ {
+  "id": "pwid",
+  "category": "people",
+  "path": "people/pwid",
+  "tags": [
+   "Arm",
+   "Drugs",
+   "IV",
+   "Intravenous",
+   "Narcotics",
+   "Needle",
+   "People",
+   "dhis2:pwid"
+  ],
+  "title": "People Who Inject Drugs"
+ },
+ {
+  "id": "fetus",
+  "category": "people",
+  "path": "people/fetus",
+  "tags": [
+   "ANC",
+   "Antenatal",
+   "Baby",
+   "Placenta",
+   "Umbilical Cord",
+   "dhis2:fetus"
+  ],
+  "title": "Fetus"
+ },
+ {
+  "id": "pregnant_32w",
+  "category": "people",
+  "path": "people/pregnant_32w",
+  "tags": [
+   "ANC",
+   "Antenatal",
+   "Mother",
+   "Person",
+   "Pregnancy",
+   "Woman",
+   "dhis2:pregnant_32w"
+  ],
+  "title": "32 Weeks Fetus"
+ },
+ {
+  "id": "pregnant_0812w",
+  "category": "people",
+  "path": "people/pregnant_0812w",
+  "tags": [
+   "ANC",
+   "Antenatal",
+   "Mother",
+   "Person",
+   "Pregnancy",
+   "Woman",
+   "dhis2:pregnant_0812w"
+  ],
+  "title": "8-12 Weeks Fetus"
+ },
+ {
+  "id": "pregnant_2426w",
+  "category": "people",
+  "path": "people/pregnant_2426w",
+  "tags": [
+   "ANC",
+   "Antenatal",
+   "Mother",
+   "Person",
+   "Pregnancy",
+   "Woman",
+   "dhis2:pregnant_2426w"
+  ],
+  "title": "24-26 Weeks Fetus"
+ },
+ {
+  "id": "pregnant_3638w",
+  "category": "people",
+  "path": "people/pregnant_3638w",
+  "tags": [
+   "ANC",
+   "Antenatal",
+   "Mother",
+   "Person",
+   "Pregnancy",
+   "Woman",
+   "dhis2:pregnant_3638w"
+  ],
+  "title": "36-38 Weeks Fetus"
+ },
+ {
+  "id": "forest_persons",
+  "category": "places",
+  "path": "places/forest_persons",
+  "tags": [
+   "Nature",
+   "Person",
+   "Tree",
+   "Walking",
+   "Woods",
+   "dhis2:forest_persons"
+  ],
+  "title": "Person in Forest"
+ },
+ {
+  "id": "old_man",
+  "category": "people",
+  "path": "people/old_man",
+  "tags": [
+   "Geriatric",
    "Male",
-   "Teen",
-   "dhis2:boy_1015y"
+   "Man",
+   "Old",
+   "Symbol",
+   "dhis2:old_man"
   ],
-  "title": "Boy 10-15 Years"
+  "title": "Elderly Man"
  },
  {
-  "id": "boy_0105y",
+  "id": "old_woman",
   "category": "people",
-  "path": "people/boy_0105y",
+  "path": "people/old_woman",
   "tags": [
-   "Boy",
-   "Child",
-   "Male",
-   "Toddler",
-   "dhis2:boy_0105y"
-  ],
-  "title": "Boy 1-5 Years"
- },
- {
-  "id": "baby_male_0306m",
-  "category": "people",
-  "path": "people/baby_male_0306m",
-  "tags": [
-   "Boy",
-   "Crawl",
-   "Diaper",
-   "Girl",
-   "Infant",
-   "dhis2:baby_male"
-  ],
-  "title": "Baby"
- },
- {
-  "id": "baby_male_0203m",
-  "category": "people",
-  "path": "people/baby_male_0203m",
-  "tags": [
-   "Boy",
-   "Diaper",
-   "Girl",
-   "Infant",
-   "dhis2:baby_male_0203m"
-  ],
-  "title": "Baby 2-3 Months"
- },
- {
-  "id": "baby_female_0306m",
-  "category": "people",
-  "path": "people/baby_female_0306m",
-  "tags": [
-   "Crawl",
-   "Diaper",
    "Female",
-   "Infant",
-   "dhis2:baby_female"
+   "Geriatric",
+   "Old",
+   "Symbol",
+   "Woman",
+   "dhis2:old_woman"
   ],
-  "title": "Baby Girl"
+  "title": "Elderly Woman"
  },
  {
-  "id": "asthma",
+  "id": "person",
   "category": "people",
-  "path": "people/asthma",
-  "tags": [],
-  "title": "Asthma"
+  "path": "people/person",
+  "tags": [
+   "Adult",
+   "Avatar",
+   "Man",
+   "Parent",
+   "User",
+   "Woman",
+   "dhis2:person"
+  ],
+  "title": "Person"
+ },
+ {
+  "id": "sweating",
+  "category": "conditions",
+  "path": "conditions/sweating",
+  "tags": [
+   "Fever",
+   "Illness",
+   "Person",
+   "Sick",
+   "Symptom dhis2:sweating",
+   "Temperature"
+  ],
+  "title": "Sweating"
+ },
+ {
+  "id": "symptom",
+  "category": "people",
+  "path": "people/symptom",
+  "tags": [
+   "Body",
+   "Diagnosis",
+   "Exam",
+   "Symptoms",
+   "Triage"
+  ],
+  "title": "Symptoms"
+ },
+ {
+  "id": "underweight",
+  "category": "conditions",
+  "path": "conditions/underweight",
+  "tags": [
+   "Patient",
+   "People",
+   "Thin",
+   "Underweight",
+   "Vitals",
+   "dhis2:underweight"
+  ],
+  "title": "Underweight"
+ },
+ {
+  "id": "i_training_class",
+  "category": "people",
+  "path": "people/i_training_class",
+  "tags": [
+   "Class",
+   "Person",
+   "Presentation",
+   "School",
+   "Teacher",
+   "Teaching",
+   "Train",
+   "dhis2:i_training_class"
+  ],
+  "title": "Training"
+ },
+ {
+  "id": "traumatism",
+  "category": "people",
+  "path": "people/traumatism",
+  "tags": [
+   "ER",
+   "Emergency",
+   "Injury",
+   "Patient",
+   "People",
+   "Trauma",
+   "dhis2:traumatism"
+  ],
+  "title": "Trauma"
  },
  {
   "id": "ancv",
@@ -4308,37 +6038,1294 @@
   "title": "Antenatal Care Visit"
  },
  {
-  "id": "allergies",
-  "category": "people",
-  "path": "people/allergies",
-  "tags": [],
-  "title": "Allergies"
- },
- {
-  "id": "agriculture_worker",
-  "category": "people",
-  "path": "people/agriculture_worker",
+  "id": "chills",
+  "category": "conditions",
+  "path": "conditions/chills",
   "tags": [
-   "Agricultural Worker",
-   "Farmhand",
-   "Pitchfork",
-   "dhis2:agricultural_worker"
+   "Cold",
+   "Freezing",
+   "Hypothermia",
+   "Person",
+   "Shake",
+   "Symptom",
+   "dhis2:chills"
   ],
-  "title": "Farmer"
+  "title": "Chills"
  },
  {
-  "id": "agriculture",
-  "category": "people",
-  "path": "people/agriculture",
+  "id": "chills_fever",
+  "category": "conditions",
+  "path": "conditions/chills_fever",
   "tags": [
-   "Ecology",
-   "Environment",
+   "Chills",
+   "Cold",
+   "Hot",
+   "Person",
+   "Shaking",
+   "Sick",
+   "Symptom",
+   "Temperature",
+   "dhis2:chills_fever"
+  ],
+  "title": "Fever"
+ },
+ {
+  "id": "back_pain",
+  "category": "conditions",
+  "path": "conditions/back_pain",
+  "tags": [
+   "Arthritis",
+   "Pain",
+   "Person",
+   "Spine",
+   "Symptom",
+   "dhis2:back_pain"
+  ],
+  "title": "Back Pain"
+ },
+ {
+  "id": "nausea",
+  "category": "conditions",
+  "path": "conditions/nausea",
+  "tags": [
+   "Cold",
+   "Hot",
+   "Person",
+   "Shaking",
+   "Sick",
+   "Symptom",
+   "Temperature",
+   "Vomit",
+   "dhis2:nausea"
+  ],
+  "title": "Nausea"
+ },
+ {
+  "id": "woman",
+  "category": "people",
+  "path": "people/woman",
+  "tags": [
+   "Female",
+   "Gender",
+   "Girl",
+   "Sex",
+   "Symbol",
+   "Woman",
+   "dhis2:woman"
+  ],
+  "title": "Woman"
+ },
+ {
+  "id": "headache",
+  "category": "conditions",
+  "path": "conditions/headache",
+  "tags": [
+   "Headache",
+   "Illness",
+   "Person",
+   "Sick",
+   "Symptom dhis2:headache"
+  ],
+  "title": "Headache"
+ },
+ {
+  "id": "boy_1015y",
+  "category": "people",
+  "path": "people/boy_1015y",
+  "tags": [
+   "Boy",
+   "Child",
+   "Male",
+   "Teen",
+   "dhis2:boy_1015y"
+  ],
+  "title": "Child 10-15 Years"
+ },
+ {
+  "id": "llin",
+  "category": "devices",
+  "path": "devices/llin",
+  "tags": [
+   "Device",
+   "Insecticide",
+   "Long Lasting Insecticidal Nets",
+   "Mosquito",
+   "dhis2:llin"
+  ],
+  "title": "Bed Net"
+ },
+ {
+  "id": "contraceptive_injection",
+  "category": "family",
+  "path": "family/contraceptive_injection",
+  "tags": [
+   "Contraceptive",
+   "Family Planning",
+   "Injection",
+   "dhis2:contraceptive_injection"
+  ],
+  "title": "Contraceptive Injection"
+ },
+ {
+  "id": "blood_pressure_2",
+  "category": "devices",
+  "path": "devices/blood_pressure_2",
+  "tags": [
+   "BP",
+   "Cardiology",
+   "Device",
+   "Heart",
+   "Hypertension",
+   "dhis2:blood_pressure_2"
+  ],
+  "title": "Blood Pressure Monitor ALT"
+ },
+ {
+  "id": "blood_pressure_monitor",
+  "category": "devices",
+  "path": "devices/blood_pressure_monitor",
+  "tags": [
+   "BP",
+   "Cardiology",
+   "Device",
+   "Heart",
+   "Hypertension",
+   "dhis2:blood_pressure_monitor"
+  ],
+  "title": "Blood Pressure Monitor"
+ },
+ {
+  "id": "copper_iud",
+  "category": "family",
+  "path": "family/copper_iud",
+  "tags": [
+   "Contraceptive",
+   "Family Planning",
+   "IUD",
+   "Intrauterine Device",
+   "dhis2:copper_iud"
+  ],
+  "title": "Copper Intrauterine Device"
+ },
+ {
+  "id": "cold_chain",
+  "category": "devices",
+  "path": "devices/cold_chain",
+  "tags": [
+   "Cold",
+   "Cold Chain",
+   "Cool",
+   "Freezer",
+   "Low",
+   "Refrigeration",
+   "Temperature",
+   "Thermometer",
+   "dhis2:cold_chain"
+  ],
+  "title": "Cold Temperature"
+ },
+ {
+  "id": "fever",
+  "category": "devices",
+  "path": "devices/fever",
+  "tags": [
+   "Fever",
+   "High",
+   "Temperature",
+   "Thermometer",
+   "dhis2:fever"
+  ],
+  "title": "High Temperature"
+ },
+ {
+  "id": "clinical_a",
+  "category": "devices",
+  "path": "devices/clinical_a",
+  "tags": [
+   "Diagnostic",
+   "Lab",
+   "Liquid",
+   "Science",
+   "dhis2:clinical_a"
+  ],
+  "title": "Test Tube"
+ },
+ {
+  "id": "sayana_press",
+  "category": "family",
+  "path": "family/sayana_press",
+  "tags": [
+   "Contraceptive",
+   "Family Planning",
+   "dhis2:syana_press"
+  ],
+  "title": "Syana Press"
+ },
+ {
+  "id": "treated_water",
+  "category": "devices",
+  "path": "devices/treated_water",
+  "tags": [
+   "Clean Water",
+   "Drinking Water",
+   "Hygeine",
+   "dhis2:treated_water"
+  ],
+  "title": "Treated Water"
+ },
+ {
+  "id": "tac",
+  "category": "devices",
+  "path": "devices/tac",
+  "tags": [
+   "CAT Scan",
+   "CT Scan",
+   "Computed Tomography",
+   "Diagnostic Imaging",
+   "Radiology",
+   "dhis2:tac"
+  ],
+  "title": "CT Scan"
+ },
+ {
+  "id": "intensity_concentration_bioassays",
+  "category": "diagnostics",
+  "path": "diagnostics/intensity_concentration_bioassays",
+  "tags": [
+   "Diagnostic",
+   "Malaria",
+   "Mosquito",
+   "dhis2:intensity_concentration_bioassays"
+  ],
+  "title": "Intensity Concentration Bioassays"
+ },
+ {
+  "id": "discriminating_concentration_bioassays",
+  "category": "devices",
+  "path": "devices/discriminating_concentration_bioassays",
+  "tags": [
+   "Mosquito",
+   "Test",
+   "dhis2:discriminating_concentration_bioassays"
+  ],
+  "title": "Discriminating Concentration Bioassays"
+ },
+ {
+  "id": "rdt_result_pv_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_pv_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_pv_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result PV"
+ },
+ {
+  "id": "rdt_result_pf_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_pf_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_pf_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result PF"
+ },
+ {
+  "id": "rdt_result_pf_invalid_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_pf_invalid_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_pf_invalid_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result PF Invalid"
+ },
+ {
+  "id": "rdt_result_neg_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_neg_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_neg_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result Negative"
+ },
+ {
+  "id": "rdt_result_mixed_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_mixed_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_mixed_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result Mixed"
+ },
+ {
+  "id": "rdt_result_mixed_invalid_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_mixed_invalid_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_mixed_invalid_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result Mixed Invalid"
+ },
+ {
+  "id": "rdt_result_neg_invalid_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_neg_invalid_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_neg_invalid_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result Negative Invalid"
+ },
+ {
+  "id": "rdt_result_pv_invalid_rectangular",
+  "category": "diagnostics",
+  "path": "diagnostics/rdt_result_pv_invalid_rectangular",
+  "tags": [
+   "Diagnostic",
+   "RDT",
+   "Testing",
+   "dhis2:rdt_result_pv_invalid_rectangular"
+  ],
+  "title": "Rapid Diagnostic Testing Result PV Invalid"
+ },
+ {
+  "id": "contraceptive_voucher",
+  "category": "family",
+  "path": "family/contraceptive_voucher",
+  "tags": [
+   "Condom",
+   "Contraception",
+   "Sperm",
+   "dhis2:contraceptive_voucher"
+  ],
+  "title": "Contraceptive"
+ },
+ {
+  "id": "pneumonia",
+  "category": "conditions",
+  "path": "conditions/pneumonia",
+  "tags": [
+   "Lung",
+   "Lungs",
+   "Organ",
+   "Pneumonia",
+   "dhis2:pneumonia"
+  ],
+  "title": "Pneumonia"
+ },
+ {
+  "id": "animal_cow",
+  "category": "symbols",
+  "path": "symbols/animal_cow",
+  "tags": [
+   "Animal",
+   "Beef",
+   "Farm Animal",
+   "Milk",
+   "Zoonotic Diseases"
+  ],
+  "title": "Animal Cow"
+ },
+ {
+  "id": "animal_spider",
+  "category": "symbols",
+  "path": "symbols/animal_spider",
+  "tags": [
+   "Animal",
+   "Arachnid",
+   "Bite",
+   "Disease",
+   "Insect",
+   "Poison",
+   "Zoonotic Diseases"
+  ],
+  "title": "Animal Spider"
+ },
+ {
+  "id": "animal_tick",
+  "category": "symbols",
+  "path": "symbols/animal_tick",
+  "tags": [
+   "Animal",
+   "Disease",
+   "Insect",
+   "Zoonotic Diseases"
+  ],
+  "title": "Animal Tick"
+ },
+ {
+  "id": "assembly_point",
+  "category": "symbols",
+  "path": "symbols/assembly_point",
+  "tags": [
+   "Emergency",
+   "Navigation",
+   "Wayfinding"
+  ],
+  "title": "Assembly Point"
+ },
+ {
+  "id": "disinfecting_wipes",
+  "category": "devices",
+  "path": "devices/disinfecting_wipes",
+  "tags": [
+   "Antibacterial",
+   "Cleaning",
+   "PPE",
+   "Sanitation"
+  ],
+  "title": "PPE Disinfecting Wipes"
+ },
+ {
+  "id": "guide_dog",
+  "category": "symbols",
+  "path": "symbols/guide_dog",
+  "tags": [
+   "Animal",
+   "Blind",
+   "Service Animal",
+   "Sight"
+  ],
+  "title": "Guide Dog"
+ },
+ {
+  "id": "spleen",
+  "category": "body",
+  "path": "body/spleen",
+  "tags": [
+   "Body",
+   "Human",
+   "Immune System",
+   "Lymphatic System",
+   "Organs",
+   "Spleen"
+  ],
+  "title": "Spleen"
+ },
+ {
+  "id": "ventilator",
+  "category": "devices",
+  "path": "devices/ventilator",
+  "tags": [
+   "Breathing",
+   "Device",
+   "Lungs"
+  ],
+  "title": "Ventilator"
+ },
+ {
+  "id": "ventilator_alt",
+  "category": "devices",
+  "path": "devices/ventilator_alt",
+  "tags": [
+   "Breathing",
+   "Device",
+   "Lungs"
+  ],
+  "title": "Ventilator ALT"
+ },
+ {
+  "id": "unhealthy_food",
+  "category": "objects",
+  "path": "objects/unhealthy_food",
+  "tags": [
+   "Fast Food",
+   "Food",
+   "French Fries",
+   "Fried Food",
+   "Nutrition"
+  ],
+  "title": "Unhealthy Food"
+ },
+ {
+  "id": "ui_zoom_in",
+  "category": "symbols",
+  "path": "symbols/ui_zoom_in",
+  "tags": [
+   "Magnifying Glass",
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Zoom In"
+ },
+ {
+  "id": "ui_zoom_out",
+  "category": "symbols",
+  "path": "symbols/ui_zoom_out",
+  "tags": [
+   "Magnifying Glass",
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Zoom Out"
+ },
+ {
+  "id": "ui_zoom",
+  "category": "symbols",
+  "path": "symbols/ui_zoom",
+  "tags": [
+   "Find",
+   "Magnifying Glass",
+   "Navigation",
+   "Search",
+   "User Interface"
+  ],
+  "title": "UI Zoom"
+ },
+ {
+  "id": "ui_settings",
+  "category": "symbols",
+  "path": "symbols/ui_settings",
+  "tags": [
+   "Navigation",
+   "Preferences",
+   "User Interface"
+  ],
+  "title": "Settings"
+ },
+ {
+  "id": "ui_secure",
+  "category": "symbols",
+  "path": "symbols/ui_secure",
+  "tags": [
+   "Lock",
+   "Navigation",
+   "Security",
+   "User Interface"
+  ],
+  "title": "Secure"
+ },
+ {
+  "id": "ui_preferences",
+  "category": "symbols",
+  "path": "symbols/ui_preferences",
+  "tags": [
+   "Navigation",
+   "Settings",
+   "User Interface"
+  ],
+  "title": "Preferences"
+ },
+ {
+  "id": "ui_folder_family",
+  "category": "symbols",
+  "path": "symbols/ui_folder_family",
+  "tags": [
+   "Data",
+   "Folder",
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Family Folder"
+ },
+ {
+  "id": "ui_folder",
+  "category": "symbols",
+  "path": "symbols/ui_folder",
+  "tags": [
+   "Data",
+   "Folder",
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Folder"
+ },
+ {
+  "id": "ui_menu",
+  "category": "symbols",
+  "path": "symbols/ui_menu",
+  "tags": [
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Menu"
+ },
+ {
+  "id": "ui_menu_grid",
+  "category": "symbols",
+  "path": "symbols/ui_menu_grid",
+  "tags": [
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI Menu Grid"
+ },
+ {
+  "id": "social_work",
+  "category": "specialties",
+  "path": "specialties/social_work",
+  "tags": [
+   "Care",
+   "Department",
    "Hands",
-   "Leaf",
-   "Plant",
-   "Seed",
-   "dhis2:agriculture"
+   "Heart",
+   "Social Worker",
+   "Speciality"
   ],
-  "title": "Agriculture"
+  "title": "Social Work"
+ },
+ {
+  "id": "intensive_care_unit",
+  "category": "specialties",
+  "path": "specialties/intensive_care_unit",
+  "tags": [
+   "Department",
+   "ICU",
+   "NICU",
+   "Speciality"
+  ],
+  "title": "Intensive Care Unit"
+ },
+ {
+  "id": "pediatrics",
+  "category": "specialties",
+  "path": "specialties/pediatrics",
+  "tags": [
+   "Baby",
+   "Child",
+   "Department",
+   "Pediatrician",
+   "Speciality"
+  ],
+  "title": "Pediatrics"
+ },
+ {
+  "id": "gym",
+  "category": "specialties",
+  "path": "specialties/gym",
+  "tags": [
+   "Department",
+   "Exercise",
+   "Gymnasium",
+   "Speciality",
+   "Weights"
+  ],
+  "title": "Gym"
+ },
+ {
+  "id": "physical_therapy",
+  "category": "specialties",
+  "path": "specialties/physical_therapy",
+  "tags": [
+   "Assisted Walking",
+   "Department",
+   "PT",
+   "Speciality"
+  ],
+  "title": "Physical Therapy"
+ },
+ {
+  "id": "pediatric_surgery",
+  "category": "people",
+  "path": "people/pediatric_surgery",
+  "tags": [
+   "Antenatal Care",
+   "Baby",
+   "Child",
+   "Pediatrics",
+   "Surgery"
+  ],
+  "title": "Pediatric Surgery"
+ },
+ {
+  "id": "neuro_surgery",
+  "category": "people",
+  "path": "people/neuro_surgery",
+  "tags": [
+   "Brain",
+   "Brain Surgery",
+   "Neurology",
+   "Surgery"
+  ],
+  "title": "Neurosurgery"
+ },
+ {
+  "id": "geriatrics",
+  "category": "specialties",
+  "path": "specialties/geriatrics",
+  "tags": [
+   "Cane",
+   "Department",
+   "Elderly",
+   "Speciality"
+  ],
+  "title": "Geriatrics"
+ },
+ {
+  "id": "database",
+  "category": "symbols",
+  "path": "symbols/database",
+  "tags": [
+   "DB",
+   "Data",
+   "Database",
+   "Storage"
+  ],
+  "title": "Database"
+ },
+ {
+  "id": "contact_lenses",
+  "category": "devices",
+  "path": "devices/contact_lenses",
+  "tags": [
+   "Corrective Lens",
+   "Ophthalmology",
+   "Sight",
+   "Vision"
+  ],
+  "title": "Contact Lens"
+ },
+ {
+  "id": "community_healthworker",
+  "category": "people",
+  "path": "people/community_healthworker",
+  "tags": [
+   "ASHA",
+   "CHEW",
+   "CHW",
+   "Healthcare Worker",
+   "Nurse",
+   "Village"
+  ],
+  "title": "Community Healthcare Worker"
+ },
+ {
+  "id": "chaplaincy",
+  "category": "specialties",
+  "path": "specialties/chaplaincy",
+  "tags": [
+   "Department",
+   "Prayer",
+   "Religion",
+   "Speciality",
+   "Spirituality"
+  ],
+  "title": "Chaplaincy"
+ },
+ {
+  "id": "cast",
+  "category": "devices",
+  "path": "devices/cast",
+  "tags": [
+   "Arm",
+   "Broken Arm",
+   "Limb",
+   "Splint"
+  ],
+  "title": "Cast"
+ },
+ {
+  "id": "ui_user_profile",
+  "category": "symbols",
+  "path": "symbols/ui_user_profile",
+  "tags": [
+   "Navigation",
+   "User Interface"
+  ],
+  "title": "UI User Profile"
+ },
+ {
+  "id": "network_5g",
+  "category": "symbols",
+  "path": "symbols/network_5g",
+  "tags": [
+   "Bandwidth",
+   "Connection",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:5g"
+  ],
+  "title": "Network 5G"
+ },
+ {
+  "id": "network_4g",
+  "category": "symbols",
+  "path": "symbols/network_4g",
+  "tags": [
+   "Bandwidth",
+   "Connection",
+   "LTE",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:4g"
+  ],
+  "title": "Network 4G"
+ },
+ {
+  "id": "medium_bars",
+  "category": "symbols",
+  "path": "symbols/medium_bars",
+  "tags": [
+   "Connection",
+   "Medium",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:medium_bars"
+  ],
+  "title": "Network Medium Bars"
+ },
+ {
+  "id": "low_bars",
+  "category": "symbols",
+  "path": "symbols/low_bars",
+  "tags": [
+   "Connection",
+   "Network",
+   "Phone",
+   "Slow",
+   "Speed",
+   "dhis2:low_bars"
+  ],
+  "title": "Network Low Bars"
+ },
+ {
+  "id": "high_bars",
+  "category": "symbols",
+  "path": "symbols/high_bars",
+  "tags": [
+   "Connection",
+   "Fast",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:high_bars"
+  ],
+  "title": "Network High Bars"
+ },
+ {
+  "id": "3g",
+  "category": "symbols",
+  "path": "symbols/3g",
+  "tags": [
+   "Bandwidth",
+   "Connection",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:3g"
+  ],
+  "title": "Network 3G"
+ },
+ {
+  "id": "2g",
+  "category": "symbols",
+  "path": "symbols/2g",
+  "tags": [
+   "Bandwidth",
+   "Connection",
+   "Network",
+   "Phone",
+   "Speed",
+   "dhis2:2g"
+  ],
+  "title": "Network 2G"
+ },
+ {
+  "id": "home-quarantine",
+  "category": "symbols",
+  "path": "symbols/home-quarantine",
+  "tags": [
+   "Covid",
+   "Home",
+   "Isolation",
+   "Quarantine",
+   "Virus"
+  ],
+  "title": "Quarantine Home"
+ },
+ {
+  "id": "calendar-quarantine",
+  "category": "symbols",
+  "path": "symbols/calendar-quarantine",
+  "tags": [
+   "Calendar",
+   "Covid",
+   "Isolation",
+   "Quarantine",
+   "Virus"
+  ],
+  "title": "Calendar Quarantine"
+ },
+ {
+  "id": "social_distancing_alt",
+  "category": "symbols",
+  "path": "symbols/social_distancing_alt",
+  "tags": [
+   "Apart",
+   "Arrows",
+   "Between",
+   "Social Distance",
+   "Space"
+  ],
+  "title": "Social Distancing ALT"
+ },
+ {
+  "id": "intestinal-pain",
+  "category": "symptoms",
+  "path": "symptoms/intestinal-pain",
+  "tags": [
+   "Ache",
+   "Digestive System",
+   "Intestine",
+   "Pain",
+   "Stomach",
+   "Symptom"
+  ],
+  "title": "Intestinal Pain"
+ },
+ {
+  "id": "virus-shield",
+  "category": "symbols",
+  "path": "symbols/virus-shield",
+  "tags": [
+   "Covid",
+   "Protection",
+   "Vaccine",
+   "Virus"
+  ],
+  "title": "Shield Virus"
+ },
+ {
+  "id": "syringe-vaccine",
+  "category": "devices",
+  "path": "devices/syringe-vaccine",
+  "tags": [
+   "Covid",
+   "Injection",
+   "Syringe",
+   "Vaccine",
+   "Virus"
+  ],
+  "title": "Syringe Vaccine"
+ },
+ {
+  "id": "virus_alt",
+  "category": "symbols",
+  "path": "symbols/virus_alt",
+  "tags": [
+   "Covid",
+   "Epidemic",
+   "Infection",
+   "Infectious",
+   "Pandemic",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Virus ALT"
+ },
+ {
+  "id": "virus_patient",
+  "category": "symbols",
+  "path": "symbols/virus_patient",
+  "tags": [
+   "Covid",
+   "Epidemic",
+   "Human",
+   "Pandemic",
+   "Patient",
+   "Person",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Patient Virus"
+ },
+ {
+  "id": "global-pandemic",
+  "category": "symbols",
+  "path": "symbols/global-pandemic",
+  "tags": [
+   "Covid",
+   "Epidemic",
+   "Pandemic",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Global Pandemic"
+ },
+ {
+  "id": "globe",
+  "category": "symbols",
+  "path": "symbols/globe",
+  "tags": [
+   "Earth",
+   "Globe",
+   "Location",
+   "World"
+  ],
+  "title": "Globe"
+ },
+ {
+  "id": "chart-cured-decreasing",
+  "category": "symbols",
+  "path": "symbols/chart-cured-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Cured Decreasing"
+ },
+ {
+  "id": "chart-cured-increasing",
+  "category": "symbols",
+  "path": "symbols/chart-cured-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Cured Increasing"
+ },
+ {
+  "id": "chart-death-rate-increasing",
+  "category": "symbols",
+  "path": "symbols/chart-death-rate-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Death Rate Decreasing"
+ },
+ {
+  "id": "chart-death-rate-decreasing",
+  "category": "symbols",
+  "path": "symbols/chart-death-rate-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Death Rate Increasing"
+ },
+ {
+  "id": "chart-death-rate-stable",
+  "category": "symbols",
+  "path": "symbols/chart-death-rate-stable",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Death Rate Stable"
+ },
+ {
+  "id": "chart-infected-decreasing",
+  "category": "symbols",
+  "path": "symbols/chart-infected-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Graph",
+   "Metrics",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Infected Decreasing"
+ },
+ {
+  "id": "chart-infected-increasing",
+  "category": "symbols",
+  "path": "symbols/chart-infected-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Graph",
+   "Metrics",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Infected Increasing"
+ },
+ {
+  "id": "chart-infected-stable",
+  "category": "symbols",
+  "path": "symbols/chart-infected-stable",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Flat",
+   "Graph",
+   "Metrics",
+   "Stable",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Chart Infected Stable"
+ },
+ {
+  "id": "virus-mutation",
+  "category": "symbols",
+  "path": "symbols/virus-mutation",
+  "tags": [
+   "Adaptation",
+   "Change",
+   "Covid",
+   "Evolution",
+   "Mutation",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Virus Mutation"
+ },
+ {
+  "id": "dental_hygiene",
+  "category": "devices",
+  "path": "devices/dental_hygiene",
+  "tags": [
+   "Dental",
+   "Dentist",
+   "Hygiene",
+   "Teeth",
+   "Toothbrush",
+   "Toothpaste"
+  ],
+  "title": "Dental Hygiene"
+ },
+ {
+  "id": "ppe_santizer_alt",
+  "category": "devices",
+  "path": "devices/ppe_santizer_alt",
+  "tags": [
+   "Infection Control",
+   "PPE"
+  ],
+  "title": "PPE Sanitizer ALT"
+ },
+ {
+  "id": "animal_chicken",
+  "category": "symbols",
+  "path": "symbols/animal_chicken",
+  "tags": [
+   "Bird Flu",
+   "Chicken",
+   "Chicken Pox",
+   "Farm",
+   "Poultry"
+  ],
+  "title": "Animal Chicken"
+ },
+ {
+  "id": "blood_cells",
+  "category": "body",
+  "path": "body/blood_cells",
+  "tags": [
+   "Blood",
+   "Body",
+   "Circulatory System",
+   "Human",
+   "Platelets"
+  ],
+  "title": "Blood Cells"
+ },
+ {
+  "id": "enzyme",
+  "category": "body",
+  "path": "body/enzyme",
+  "tags": [
+   "Body",
+   "Digestive System",
+   "Human",
+   "Microscopic"
+  ],
+  "title": "Enzyme"
+ },
+ {
+  "id": "fingerprint",
+  "category": "symbols",
+  "path": "symbols/fingerprint",
+  "tags": [
+   "Body",
+   "Finger",
+   "Fingerprint",
+   "Human",
+   "ID",
+   "Scan",
+   "identification"
+  ],
+  "title": "Fingerprint"
+ },
+ {
+  "id": "skeleton",
+  "category": "body",
+  "path": "body/skeleton",
+  "tags": [
+   "Body",
+   "Death",
+   "Head",
+   "Human",
+   "Skeletal System",
+   "Skeleton"
+  ],
+  "title": "Skeleton"
+ },
+ {
+  "id": "skull",
+  "category": "body",
+  "path": "body/skull",
+  "tags": [
+   "Body",
+   "Death",
+   "Head",
+   "Human",
+   "Skeletal System",
+   "Skeleton"
+  ],
+  "title": "Skull"
  }
 ]

@@ -2263,9 +2263,9 @@
   "title": "Warning"
  },
  {
-  "id": "wold_care",
+  "id": "world_care",
   "category": "people",
-  "path": "people/wold_care",
+  "path": "people/world_care",
   "tags": [
    "Activism",
    "Environment",
@@ -5001,8 +5001,8 @@
  },
  {
   "id": "ribbon",
-  "category": "symbols",
-  "path": "symbols/ribbon",
+  "category": "conditions",
+  "path": "conditions/ribbon",
   "tags": [
    "AIDS",
    "Campaign",
@@ -5182,9 +5182,9 @@
   "title": "Outpatient"
  },
  {
-  "id": "baby_male_0203m",
+  "id": "baby_male_0609m",
   "category": "people",
-  "path": "people/baby_male_0203m",
+  "path": "people/baby_male_0609m",
   "tags": [
    "Boy",
    "Diaper",
@@ -5206,9 +5206,9 @@
   "title": "Baby 2-3 Months"
  },
  {
-  "id": "baby_female_0203m",
+  "id": "baby_female_0609m",
   "category": "people",
-  "path": "people/baby_female_0203m",
+  "path": "people/baby_female_0609m",
   "tags": [
    "Diaper",
    "Girl",
@@ -5848,7 +5848,7 @@
    "Woman",
    "dhis2:pregnant_32w"
   ],
-  "title": "32 Weeks Fetus"
+  "title": "Fetus 32 Weeks"
  },
  {
   "id": "pregnant_0812w",
@@ -5863,7 +5863,7 @@
    "Woman",
    "dhis2:pregnant_0812w"
   ],
-  "title": "8-12 Weeks Fetus"
+  "title": "Fetus 8-12 Weeks"
  },
  {
   "id": "pregnant_2426w",
@@ -5878,7 +5878,7 @@
    "Woman",
    "dhis2:pregnant_2426w"
   ],
-  "title": "24-26 Weeks Fetus"
+  "title": "Fetus 24-26 Weeks"
  },
  {
   "id": "pregnant_3638w",
@@ -5893,7 +5893,7 @@
    "Woman",
    "dhis2:pregnant_3638w"
   ],
-  "title": "36-38 Weeks Fetus"
+  "title": "Fetus 36-38 Weeks"
  },
  {
   "id": "forest_persons",
@@ -6982,8 +6982,8 @@
  },
  {
   "id": "intestinal-pain",
-  "category": "symptoms",
-  "path": "symptoms/intestinal-pain",
+  "category": "conditions",
+  "path": "conditions/intestinal-pain",
   "tags": [
    "Ache",
    "Digestive System",
@@ -7327,5 +7327,424 @@
    "Skeleton"
   ],
   "title": "Skull"
+ },
+ {
+  "id": "biochemistry_laboratory",
+  "category": "specialties",
+  "path": "specialties/biochemistry_laboratory",
+  "tags": [
+   "DNA",
+   "Laboratory",
+   "Science"
+  ],
+  "title": "Biochemistry Lab"
+ },
+ {
+  "id": "bladder",
+  "category": "body",
+  "path": "body/bladder",
+  "tags": [
+   "Organ",
+   "Urinary Tract",
+   "Urine"
+  ],
+  "title": "Bladder"
+ },
+ {
+  "id": "ears_nose_and_throat",
+  "category": "specialties",
+  "path": "specialties/ears_nose_and_throat",
+  "tags": [
+   "Ear",
+   "Nose",
+   "Throat"
+  ],
+  "title": "Ear Nose and Throat"
+ },
+ {
+  "id": "foot",
+  "category": "body",
+  "path": "body/foot",
+  "tags": [
+   "Ankle",
+   "Feet",
+   "Podiatrist",
+   "Podiatry",
+   "Toe"
+  ],
+  "title": "Foot"
+ },
+ {
+  "id": "gallbladder",
+  "category": "body",
+  "path": "body/gallbladder",
+  "tags": [
+   "Gallstone",
+   "Organ"
+  ],
+  "title": "Gallbladder"
+ },
+ {
+  "id": "lymph_nodes",
+  "category": "body",
+  "path": "body/lymph_nodes",
+  "tags": [
+   "Lymphatic System",
+   "Organ"
+  ],
+  "title": "Lymph Node"
+ },
+ {
+  "id": "nerve",
+  "category": "body",
+  "path": "body/nerve",
+  "tags": [
+   "Nervous System",
+   "Pain"
+  ],
+  "title": "Nerve"
+ },
+ {
+  "id": "pancreas",
+  "category": "body",
+  "path": "body/pancreas",
+  "tags": [
+   "Organ",
+   "Pancreatic"
+  ],
+  "title": "Pancreas"
+ },
+ {
+  "id": "sling",
+  "category": "devices",
+  "path": "devices/sling",
+  "tags": [
+   "Arm",
+   "Broken Arm",
+   "Cast",
+   "Injury",
+   "Sprain",
+   "Trauma"
+  ],
+  "title": "Sling"
+ },
+ {
+  "id": "sperm",
+  "category": "family",
+  "path": "family/sperm",
+  "tags": [
+   "Family Planning",
+   "Pregnancy",
+   "Reproductive System"
+  ],
+  "title": "Sperm"
+ },
+ {
+  "id": "urology",
+  "category": "specialties",
+  "path": "specialties/urology",
+  "tags": [
+   "Specialty"
+  ],
+  "title": "Urology"
+ },
+ {
+  "id": "nose",
+  "category": "body",
+  "path": "body/nose",
+  "tags": [
+   "Nose",
+   "Nostril",
+   "Smell"
+  ],
+  "title": "Nose"
+ },
+ {
+  "id": "loss-smell",
+  "category": "conditions",
+  "path": "conditions/loss-smell",
+  "tags": [
+   "Covid",
+   "Nose",
+   "Smell",
+   "Symptom"
+  ],
+  "title": "Loss of Smell"
+ },
+ {
+  "id": "viral_lung_infection",
+  "category": "conditions",
+  "path": "conditions/viral_lung_infection",
+  "tags": [
+   "Covid",
+   "Epidemic",
+   "Flu",
+   "Influenza",
+   "Pandemic",
+   "Symptom",
+   "Virus"
+  ],
+  "title": "Viral Lung Infection"
+ },
+ {
+  "id": "ppe-face-shield-alt",
+  "category": "devices",
+  "path": "devices/ppe-face-shield-alt",
+  "tags": [
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Face Shield ALT"
+ },
+ {
+  "id": "virus-sanitizer-spray",
+  "category": "devices",
+  "path": "devices/virus-sanitizer-spray",
+  "tags": [
+   "Antibacterial",
+   "Cleaner",
+   "PPE",
+   "Protection",
+   "Safety",
+   "Sanitizer"
+  ],
+  "title": "PPE Virus Sanitizer Spray"
+ },
+ {
+  "id": "virus-research",
+  "category": "symbols",
+  "path": "symbols/virus-research",
+  "tags": [
+   "Covid",
+   "Diagnostic",
+   "Lab",
+   "Magnify",
+   "Viral",
+   "Virus"
+  ],
+  "title": "Virus Research ALT"
+ },
+ {
+  "id": "virus_research_alt",
+  "category": "symbols",
+  "path": "symbols/virus_research_alt",
+  "tags": [
+   "Covid",
+   "Diagnostic",
+   "Lab",
+   "Magnify",
+   "Microscope",
+   "Viral",
+   "Virus"
+  ],
+  "title": "Virus Research"
+ },
+ {
+  "id": "virus_lab_research_syringe",
+  "category": "devices",
+  "path": "devices/virus_lab_research_syringe",
+  "tags": [
+   "Research",
+   "Syringe",
+   "Viral",
+   "Virus"
+  ],
+  "title": "Virus Lab Research"
+ },
+ {
+  "id": "virus_lab_research_test_tube",
+  "category": "devices",
+  "path": "devices/virus_lab_research_test_tube",
+  "tags": [
+   "Research",
+   "Test Tube",
+   "Viral",
+   "Virus"
+  ],
+  "title": "Virus Lab Research ALT"
+ },
+ {
+  "id": "liver-alt",
+  "category": "body",
+  "path": "body/liver-alt",
+  "tags": [
+   "Organ"
+  ],
+  "title": "Liver ALT"
+ },
+ {
+  "id": "palliative-care",
+  "category": "symbols",
+  "path": "symbols/palliative-care",
+  "tags": [
+   "Heart",
+   "Hearts",
+   "Palliative Care"
+  ],
+  "title": "Palliative Care"
+ },
+ {
+  "id": "hospice",
+  "category": "symbols",
+  "path": "symbols/hospice",
+  "tags": [
+   "Hospice Care",
+   "Hospital",
+   "Palliative Care"
+  ],
+  "title": "Hospice"
+ },
+ {
+  "id": "exercise_bicycle",
+  "category": "devices",
+  "path": "devices/exercise_bicycle",
+  "tags": [
+   "Bicycle",
+   "Bike",
+   "Exercise",
+   "Fitness",
+   "Gym",
+   "Rehab",
+   "Rehabilitation"
+  ],
+  "title": "Exercise Bicycle"
+ },
+ {
+  "id": "eyeglasses",
+  "category": "devices",
+  "path": "devices/eyeglasses",
+  "tags": [
+   "Corrective Lens",
+   "Eyeglasses",
+   "Eyes",
+   "Glasses",
+   "Optometrist",
+   "Optometry"
+  ],
+  "title": "Eyeglasses"
+ },
+ {
+  "id": "FHIR_logo",
+  "category": "symbols",
+  "path": "symbols/FHIR_logo",
+  "tags": [],
+  "title": "FHIR Logo"
+ },
+ {
+  "id": "patient_band_alt",
+  "category": "devices",
+  "path": "devices/patient_band_alt",
+  "tags": [
+   "Hospital",
+   "ID",
+   "Identification",
+   "Patient"
+  ],
+  "title": "Patient Band ALT"
+ },
+ {
+  "id": "patient_band",
+  "category": "devices",
+  "path": "devices/patient_band",
+  "tags": [
+   "Hospital",
+   "ID",
+   "Identification",
+   "Patient"
+  ],
+  "title": "Patient Band"
+ },
+ {
+  "id": "blood_vessel",
+  "category": "body",
+  "path": "body/blood_vessel",
+  "tags": [
+   "Blood",
+   "Body",
+   "Hematology",
+   "Vessel"
+  ],
+  "title": "Blood Vessel"
+ },
+ {
+  "id": "fruits",
+  "category": "symbols",
+  "path": "symbols/fruits",
+  "tags": [
+   "Apple",
+   "Food",
+   "Fruit",
+   "Fruits",
+   "Grape",
+   "Health",
+   "Healthy",
+   "Nutrition"
+  ],
+  "title": "Fruits"
+ },
+ {
+  "id": "intestine",
+  "category": "body",
+  "path": "body/intestine",
+  "tags": [
+   "Body",
+   "Digestive System",
+   "Intestine"
+  ],
+  "title": "Intestine"
+ },
+ {
+  "id": "alcohol",
+  "category": "symbols",
+  "path": "symbols/alcohol",
+  "tags": [
+   "Abuse",
+   "Alcohol",
+   "Beverage",
+   "Booze",
+   "Bottle",
+   "Consumable",
+   "Drug",
+   "Food",
+   "Glass",
+   "Wine"
+  ],
+  "title": "Alcohol"
+ },
+ {
+  "id": "varicose_vein",
+  "category": "conditions",
+  "path": "conditions/varicose_vein",
+  "tags": [
+   "Aging",
+   "Blood",
+   "Body",
+   "Elderly",
+   "Leg",
+   "Varicose",
+   "Vein",
+   "Vessel"
+  ],
+  "title": "Varicose Vein"
+ },
+ {
+  "id": "sonography",
+  "category": "specialties",
+  "path": "specialties/sonography",
+  "tags": [
+   "Antenatal",
+   "Baby",
+   "Fetus",
+   "Prenatal",
+   "Scan",
+   "Sonogram",
+   "Sonograph",
+   "Specialty",
+   "Test",
+   "Testing"
+  ],
+  "title": "Sonography"
  }
 ]

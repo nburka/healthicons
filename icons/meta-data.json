@@ -324,6 +324,7 @@
   "path": "places/market_stall",
   "tags": [
    "Awning",
+   "Building",
    "Shack",
    "Shop",
    "Stall",
@@ -336,6 +337,7 @@
   "category": "places",
   "path": "places/hospital",
   "tags": [
+   "Building",
    "Clinic",
    "Large Hospital",
    "Urban Hospital",
@@ -348,6 +350,7 @@
   "category": "places",
   "path": "places/home_alt",
   "tags": [
+   "Building",
    "Door",
    "House",
    "Roof",
@@ -373,6 +376,7 @@
   "category": "places",
   "path": "places/city",
   "tags": [
+   "Building",
    "Buildings",
    "Downtown",
    "Highrise",
@@ -388,6 +392,7 @@
   "category": "places",
   "path": "places/church",
   "tags": [
+   "Building",
    "Christian",
    "House of Worship",
    "Religion",
@@ -505,8 +510,8 @@
  },
  {
   "id": "oral_contraception_pillsx28",
-  "category": "family",
-  "path": "family/oral_contraception_pillsx28",
+  "category": "contraceptives",
+  "path": "contraceptives/oral_contraception_pillsx28",
   "tags": [
    "Birth Control Pills",
    "Contraception",
@@ -517,8 +522,8 @@
  },
  {
   "id": "oral_contraception_pillsx21",
-  "category": "family",
-  "path": "family/oral_contraception_pillsx21",
+  "category": "contraceptives",
+  "path": "contraceptives/oral_contraception_pillsx21",
   "tags": [
    "Birth Control Pills",
    "Contraception",
@@ -1013,63 +1018,6 @@
   "title": "Stethoscope"
  },
  {
-  "id": "ppe_sanitizer",
-  "category": "devices",
-  "path": "devices/ppe_sanitizer",
-  "tags": [
-   "Infection Control",
-   "PPE",
-   "dhis2:sanitizer"
-  ],
-  "title": "PPE Sanitizer"
- },
- {
-  "id": "ppe_mask_n95",
-  "category": "devices",
-  "path": "devices/ppe_mask_n95",
-  "tags": [
-   "Infection Control",
-   "PPE",
-   "dhis2:ppe_mask_n95"
-  ],
-  "title": "PPE Mask N95"
- },
- {
-  "id": "ppe_gown",
-  "category": "devices",
-  "path": "devices/ppe_gown",
-  "tags": [
-   "Clothes",
-   "Infection Control",
-   "dhis2:ppe_gown"
-  ],
-  "title": "PPE Gown"
- },
- {
-  "id": "ppe_gloves",
-  "category": "devices",
-  "path": "devices/ppe_gloves",
-  "tags": [
-   "Glove",
-   "Hands",
-   "Infection Control",
-   "PPE",
-   "dhis2:ppe_gloves"
-  ],
-  "title": "PPE Gloves"
- },
- {
-  "id": "ppe_face_mask",
-  "category": "devices",
-  "path": "devices/ppe_face_mask",
-  "tags": [
-   "Infection Control",
-   "PPE",
-   "dhis2:ppe_face_mask"
-  ],
-  "title": "PPE Face Mask"
- },
- {
   "id": "oxygen_tank",
   "category": "devices",
   "path": "devices/oxygen_tank",
@@ -1145,20 +1093,9 @@
   "title": "Microscope"
  },
  {
-  "id": "ppe-mask",
-  "category": "devices",
-  "path": "devices/ppe-mask",
-  "tags": [
-   "Infection Control",
-   "PPE",
-   "dhis2:ppe_mask"
-  ],
-  "title": "PPE Surgical Mask"
- },
- {
   "id": "male_condom",
-  "category": "family",
-  "path": "family/male_condom",
+  "category": "contraceptives",
+  "path": "contraceptives/male_condom",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1169,8 +1106,8 @@
  },
  {
   "id": "iud",
-  "category": "family",
-  "path": "family/iud",
+  "category": "contraceptives",
+  "path": "contraceptives/iud",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1195,8 +1132,8 @@
  },
  {
   "id": "implant",
-  "category": "family",
-  "path": "family/implant",
+  "category": "contraceptives",
+  "path": "contraceptives/implant",
   "tags": [
    "Device",
    "dhis2:implant"
@@ -1220,8 +1157,8 @@
  },
  {
   "id": "hormonal_ring",
-  "category": "family",
-  "path": "family/hormonal_ring",
+  "category": "contraceptives",
+  "path": "contraceptives/hormonal_ring",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1231,8 +1168,8 @@
  },
  {
   "id": "female_condom",
-  "category": "family",
-  "path": "family/female_condom",
+  "category": "contraceptives",
+  "path": "contraceptives/female_condom",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1243,8 +1180,8 @@
  },
  {
   "id": "family_planning",
-  "category": "family",
-  "path": "family/family_planning",
+  "category": "contraceptives",
+  "path": "contraceptives/family_planning",
   "tags": [
    "Condom",
    "Contraceptive",
@@ -1257,8 +1194,8 @@
  },
  {
   "id": "contraceptive_patch",
-  "category": "family",
-  "path": "family/contraceptive_patch",
+  "category": "contraceptives",
+  "path": "contraceptives/contraceptive_patch",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -1269,8 +1206,8 @@
  },
  {
   "id": "contraceptive_diaphragm",
-  "category": "family",
-  "path": "family/contraceptive_diaphragm",
+  "category": "contraceptives",
+  "path": "contraceptives/contraceptive_diaphragm",
   "tags": [
    "Contraceptive",
    "Diaphragm",
@@ -1307,9 +1244,9 @@
   "title": "Blood Bag"
  },
  {
-  "id": "heart",
+  "id": "heart_organ",
   "category": "body",
-  "path": "body/heart",
+  "path": "body/heart_organ",
   "tags": [
    "Cardiac",
    "Cardiologist",
@@ -1332,18 +1269,6 @@
    "Teeth"
   ],
   "title": "Tooth"
- },
- {
-  "id": "stomach",
-  "category": "body",
-  "path": "body/stomach",
-  "tags": [
-   "Digestive System",
-   "Gut",
-   "Intestine",
-   "Organ"
-  ],
-  "title": "Stomach"
  },
  {
   "id": "neurology",
@@ -1461,10 +1386,11 @@
   "path": "symbols/smoking_cessation",
   "tags": [
    "Banned",
+   "Cessation",
    "Smoking",
    "Tobacco"
   ],
-  "title": "No Smoking"
+  "title": "No Smoking ALT"
  },
  {
   "id": "smoking",
@@ -1554,8 +1480,8 @@
  },
  {
   "id": "prescription_document",
-  "category": "symbols",
-  "path": "symbols/prescription_document",
+  "category": "objects",
+  "path": "objects/prescription_document",
   "tags": [
    "Medication",
    "Pharmacy",
@@ -1649,8 +1575,8 @@
  },
  {
   "id": "nutrition",
-  "category": "symbols",
-  "path": "symbols/nutrition",
+  "category": "nutrition",
+  "path": "nutrition/nutrition",
   "tags": [
    "Apple",
    "Carrot",
@@ -1695,8 +1621,8 @@
  },
  {
   "id": "megaphone",
-  "category": "symbols",
-  "path": "symbols/megaphone",
+  "category": "objects",
+  "path": "objects/megaphone",
   "tags": [
    "Announcement",
    "Noise",
@@ -1932,20 +1858,6 @@
   "title": "Location"
  },
  {
-  "id": "exercise",
-  "category": "symbols",
-  "path": "symbols/exercise",
-  "tags": [
-   "Fitness",
-   "Strong",
-   "Weightlifting",
-   "Weights",
-   "Wellness",
-   "dhis2:exercise"
-  ],
-  "title": "Exercise"
- },
- {
   "id": "electricity",
   "category": "symbols",
   "path": "symbols/electricity",
@@ -1974,29 +1886,32 @@
  },
  {
   "id": "animal_donkey",
-  "category": "symbols",
-  "path": "symbols/animal_donkey",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_donkey",
   "tags": [
    "Animal",
    "Ass",
    "Farm",
    "Mule",
+   "Zoonoses",
+   "Zoonotic",
    "dhis2:donkey"
   ],
-  "title": "Animal Donkey"
+  "title": "Donkey"
  },
  {
   "id": "diabetes_measure",
-  "category": "symbols",
-  "path": "symbols/diabetes_measure",
+  "category": "devices",
+  "path": "devices/diabetes_measure",
   "tags": [
    "Blood Sugar",
    "DM",
    "Diabetes",
+   "Glucose",
    "Strip",
    "dhis2:diabetes_measure"
   ],
-  "title": "Diabetes Measure"
+  "title": "Glucometer"
  },
  {
   "id": "diabetes",
@@ -2090,6 +2005,7 @@
   "category": "symbols",
   "path": "symbols/clinical_fe",
   "tags": [
+   "Chart",
    "Clinical Note",
    "Doctor Note",
    "Document",
@@ -2104,6 +2020,7 @@
   "category": "symbols",
   "path": "symbols/clinical_f",
   "tags": [
+   "Chart",
    "Clinical Note",
    "Doctor Note",
    "Document",
@@ -2144,6 +2061,7 @@
   "path": "symbols/cardiogram_e",
   "tags": [
    "Cardiology",
+   "Chart",
    "Heart",
    "Heartbeat",
    "dhis2:cardiogram_e"
@@ -2177,8 +2095,8 @@
  },
  {
   "id": "calendar",
-  "category": "symbols",
-  "path": "symbols/calendar",
+  "category": "objects",
+  "path": "objects/calendar",
   "tags": [
    "Appointment",
    "Cal",
@@ -2189,8 +2107,8 @@
  },
  {
   "id": "book",
-  "category": "symbols",
-  "path": "symbols/book",
+  "category": "objects",
+  "path": "objects/book",
   "tags": [
    "Book",
    "Dictionary",
@@ -2203,8 +2121,8 @@
  },
  {
   "id": "award_trophy",
-  "category": "symbols",
-  "path": "symbols/award_trophy",
+  "category": "objects",
+  "path": "objects/award_trophy",
   "tags": [
    "Prize",
    "Success",
@@ -2388,8 +2306,8 @@
  },
  {
   "id": "forum",
-  "category": "people",
-  "path": "people/forum",
+  "category": "symbols",
+  "path": "symbols/forum",
   "tags": [
    "Chat",
    "Discussion",
@@ -2461,6 +2379,8 @@
    "Learning",
    "Mental Health",
    "Neurology",
+   "Psychiatry",
+   "Psychology",
    "Spine",
    "dhis2:child_cognition"
   ],
@@ -2521,6 +2441,7 @@
   "category": "places",
   "path": "places/village",
   "tags": [
+   "Building",
    "Camp",
    "Houses",
    "Huts",
@@ -2535,6 +2456,7 @@
   "category": "places",
   "path": "places/ministry_of_health",
   "tags": [
+   "Building",
    "Government",
    "Hospital",
    "Office",
@@ -2549,6 +2471,7 @@
   "path": "places/home",
   "tags": [
    "Accommodation",
+   "Building",
    "Door",
    "House",
    "Roof"
@@ -3423,10 +3346,11 @@
  },
  {
   "id": "register_book",
-  "category": "symbols",
-  "path": "symbols/register_book",
+  "category": "objects",
+  "path": "objects/register_book",
   "tags": [
    "Book",
+   "Chart",
    "Document",
    "Documentation",
    "Health Record",
@@ -3436,69 +3360,6 @@
    "Symbol"
   ],
   "title": "Health Register Book"
- },
- {
-  "id": "chart_bar",
-  "category": "symbols",
-  "path": "symbols/chart_bar",
-  "tags": [
-   "Bar Chart",
-   "Data",
-   "Graph",
-   "Visualization"
-  ],
-  "title": "Chart Bars"
- },
- {
-  "id": "chart_bar_stacked",
-  "category": "symbols",
-  "path": "symbols/chart_bar_stacked",
-  "tags": [
-   "Bar Chart",
-   "Data",
-   "Graph",
-   "Visualization"
-  ],
-  "title": "Chart Split Bars"
- },
- {
-  "id": "chart_line",
-  "category": "symbols",
-  "path": "symbols/chart_line",
-  "tags": [
-   "Data",
-   "Graph",
-   "Line Chart",
-   "Node",
-   "Visualization"
-  ],
-  "title": "Chart Line"
- },
- {
-  "id": "chart_line_stacked",
-  "category": "symbols",
-  "path": "symbols/chart_line_stacked",
-  "tags": [
-   "Data",
-   "Graph",
-   "Line Chart",
-   "Node",
-   "Visualization"
-  ],
-  "title": "Chart Double Line"
- },
- {
-  "id": "chart_pie",
-  "category": "symbols",
-  "path": "symbols/chart_pie",
-  "tags": [
-   "Data",
-   "Graph",
-   "Node",
-   "Pie Chart",
-   "Visualization"
-  ],
-  "title": "Chart Pie"
  },
  {
   "id": "blood_a_n",
@@ -3807,6 +3668,7 @@
   "category": "places",
   "path": "places/temple",
   "tags": [
+   "Building",
    "House of Worship",
    "Religion",
    "Worship"
@@ -3818,6 +3680,7 @@
   "category": "places",
   "path": "places/temple_alt",
   "tags": [
+   "Building",
    "House of Worship",
    "Religion",
    "Worship"
@@ -3829,6 +3692,7 @@
   "category": "places",
   "path": "places/mosque",
   "tags": [
+   "Building",
    "House of Worship",
    "Islam",
    "Muslim",
@@ -3842,6 +3706,7 @@
   "category": "places",
   "path": "places/emergency_post",
   "tags": [
+   "Building",
    "Cross",
    "Emergency Post",
    "Tent",
@@ -3855,6 +3720,7 @@
   "category": "places",
   "path": "places/rural_post",
   "tags": [
+   "Building",
    "Hospital",
    "Rural Post",
    "Small Hospital",
@@ -3868,6 +3734,7 @@
   "path": "places/ambulatory_clinic",
   "tags": [
    "Ambulatory Clinic",
+   "Building",
    "Hospital",
    "Office",
    "Small Hospital",
@@ -3904,8 +3771,8 @@
  },
  {
   "id": "i_certificate_paper",
-  "category": "symbols",
-  "path": "symbols/i_certificate_paper",
+  "category": "objects",
+  "path": "objects/i_certificate_paper",
   "tags": [
    "Document",
    "Paper",
@@ -3928,8 +3795,8 @@
  },
  {
   "id": "health_worker_form",
-  "category": "symbols",
-  "path": "symbols/health_worker_form",
+  "category": "objects",
+  "path": "objects/health_worker_form",
   "tags": [
    "Doctor",
    "Document",
@@ -4013,6 +3880,7 @@
   "category": "symbols",
   "path": "symbols/default",
   "tags": [
+   "Chart",
    "Document",
    "Paper",
    "Test",
@@ -4046,17 +3914,6 @@
    "dhis2:i_schedule_school_date_time"
   ],
   "title": "Calendar Schedule"
- },
- {
-  "id": "hot_meal",
-  "category": "objects",
-  "path": "objects/hot_meal",
-  "tags": [
-   "Food",
-   "Meal",
-   "dhis2:hot_meal"
-  ],
-  "title": "Hot Meal"
  },
  {
   "id": "justice",
@@ -4620,44 +4477,6 @@
   "title": "Liver"
  },
  {
-  "id": "ppe_face_shield",
-  "category": "devices",
-  "path": "devices/ppe_face_shield",
-  "tags": [
-   "Hazardous Materials",
-   "PPE",
-   "Protection",
-   "Safety"
-  ],
-  "title": "PPE Face Shield"
- },
- {
-  "id": "ppe_goggles",
-  "category": "devices",
-  "path": "devices/ppe_goggles",
-  "tags": [
-   "Eye",
-   "Eye Protection",
-   "Hazardous Materials",
-   "PPE",
-   "Protection",
-   "Safety"
-  ],
-  "title": "PPE Goggles"
- },
- {
-  "id": "ppe_suit",
-  "category": "devices",
-  "path": "devices/ppe_suit",
-  "tags": [
-   "Hazardous Materials",
-   "Hazmat",
-   "Protection",
-   "Safety"
-  ],
-  "title": "PPE Suit"
- },
- {
   "id": "arm",
   "category": "body",
   "path": "body/arm",
@@ -4681,9 +4500,9 @@
   "title": "Cleaning"
  },
  {
-  "id": "defibrilator",
+  "id": "defibrillator",
   "category": "devices",
-  "path": "devices/defibrilator",
+  "path": "devices/defibrillator",
   "tags": [
    "Cardiology",
    "ER",
@@ -4691,7 +4510,7 @@
    "Emergency",
    "Heart"
   ],
-  "title": "Defibrilator"
+  "title": "Defibrillator"
  },
  {
   "id": "discharge",
@@ -4796,20 +4615,6 @@
   "title": "Pharmacy"
  },
  {
-  "id": "respirator",
-  "category": "devices",
-  "path": "devices/respirator",
-  "tags": [
-   "Breathing",
-   "Mask",
-   "Outbreak",
-   "PPE",
-   "Safety",
-   "Virus"
-  ],
-  "title": "PPE Respirator"
- },
- {
   "id": "rheumatology",
   "category": "specialties",
   "path": "specialties/rheumatology",
@@ -4839,6 +4644,7 @@
   "category": "places",
   "path": "places/rural_post_alt",
   "tags": [
+   "Building",
    "Clinic",
    "Hospital",
    "Local",
@@ -4923,22 +4729,27 @@
   "path": "specialties/outpatient_department",
   "tags": [
    "Department",
+   "Diagnosis",
    "Doctor",
+   "Exam",
    "Examination",
    "OPD",
    "Outpatient Department",
+   "Triage",
    "Triage"
   ],
   "title": "Outpatient"
  },
  {
-  "id": "malaria_outbreak",
-  "category": "symbols",
-  "path": "symbols/malaria_outbreak",
+  "id": "animal_mosquitos",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_mosquitos",
   "tags": [
    "Malaria",
    "Mosquito",
    "Outbreak",
+   "Zoonoses",
+   "Zoonotic Disease",
    "dhis2:malaria_outbreak"
   ],
   "title": "Mosquitos"
@@ -4988,13 +4799,15 @@
  },
  {
   "id": "mosquito",
-  "category": "symbols",
-  "path": "symbols/mosquito",
+  "category": "zoonoses",
+  "path": "zoonoses/mosquito",
   "tags": [
    "Animal",
    "Disease",
    "Insect",
    "Malaria",
+   "Zoonoses",
+   "Zoonotic Disease",
    "dhis2:mosquito"
   ],
   "title": "Mosquito"
@@ -5171,11 +4984,15 @@
   "path": "people/outpatient",
   "tags": [
    "Checkup",
+   "Diagnosis",
    "Doctor",
+   "Exam",
+   "Examination",
    "Hospital",
    "OPD",
    "Outpatient Department",
    "Patient",
+   "Triage",
    "Visit",
    "dhis2:outpatient"
   ],
@@ -5372,56 +5189,6 @@
   "title": "Person Miner"
  },
  {
-  "id": "exercise_walking",
-  "category": "people",
-  "path": "people/exercise_walking",
-  "tags": [
-   "Exercise",
-   "Fitness",
-   "Lifestyle",
-   "Patient",
-   "People",
-   "Physio",
-   "Physiotherapy",
-   "Walk"
-  ],
-  "title": "Activity Walk"
- },
- {
-  "id": "exercise_running",
-  "category": "people",
-  "path": "people/exercise_running",
-  "tags": [
-   "Exercise",
-   "Fitness",
-   "Jog",
-   "Lifestyle",
-   "Patient",
-   "People",
-   "Physio",
-   "Physiotherapy",
-   "Run"
-  ],
-  "title": "Activity Run"
- },
- {
-  "id": "exercise_weights",
-  "category": "people",
-  "path": "people/exercise_weights",
-  "tags": [
-   "Exercise",
-   "Fitness",
-   "Lifestyle",
-   "Patient",
-   "People",
-   "Physio",
-   "Physiotherapy",
-   "Weightlifting",
-   "Weights"
-  ],
-  "title": "Activity Weights"
- },
- {
   "id": "pregnant",
   "category": "people",
   "path": "people/pregnant",
@@ -5466,22 +5233,6 @@
    "dhis2:lactation"
   ],
   "title": "Nursing Mother"
- },
- {
-  "id": "exercise_walk_supported",
-  "category": "people",
-  "path": "people/exercise_walk_supported",
-  "tags": [
-   "Exercise",
-   "Fitness",
-   "Lifestyle",
-   "Patient",
-   "People",
-   "Physio",
-   "Physiotherapy",
-   "Walk"
-  ],
-  "title": "Activity Supported Walk"
  },
  {
   "id": "vomiting",
@@ -6156,8 +5907,8 @@
  },
  {
   "id": "contraceptive_injection",
-  "category": "family",
-  "path": "family/contraceptive_injection",
+  "category": "contraceptives",
+  "path": "contraceptives/contraceptive_injection",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -6196,8 +5947,8 @@
  },
  {
   "id": "copper_iud",
-  "category": "family",
-  "path": "family/copper_iud",
+  "category": "contraceptives",
+  "path": "contraceptives/copper_iud",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -6252,8 +6003,8 @@
  },
  {
   "id": "sayana_press",
-  "category": "family",
-  "path": "family/sayana_press",
+  "category": "contraceptives",
+  "path": "contraceptives/sayana_press",
   "tags": [
    "Contraceptive",
    "Family Planning",
@@ -6408,8 +6159,8 @@
  },
  {
   "id": "contraceptive_voucher",
-  "category": "family",
-  "path": "family/contraceptive_voucher",
+  "category": "contraceptives",
+  "path": "contraceptives/contraceptive_voucher",
   "tags": [
    "Condom",
    "Contraception",
@@ -6433,43 +6184,17 @@
  },
  {
   "id": "animal_cow",
-  "category": "symbols",
-  "path": "symbols/animal_cow",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_cow",
   "tags": [
    "Animal",
    "Beef",
    "Farm Animal",
    "Milk",
+   "Zoonoses",
    "Zoonotic Diseases"
   ],
-  "title": "Animal Cow"
- },
- {
-  "id": "animal_spider",
-  "category": "symbols",
-  "path": "symbols/animal_spider",
-  "tags": [
-   "Animal",
-   "Arachnid",
-   "Bite",
-   "Disease",
-   "Insect",
-   "Poison",
-   "Zoonotic Diseases"
-  ],
-  "title": "Animal Spider"
- },
- {
-  "id": "animal_tick",
-  "category": "symbols",
-  "path": "symbols/animal_tick",
-  "tags": [
-   "Animal",
-   "Disease",
-   "Insect",
-   "Zoonotic Diseases"
-  ],
-  "title": "Animal Tick"
+  "title": "Cow"
  },
  {
   "id": "assembly_point",
@@ -6481,18 +6206,6 @@
    "Wayfinding"
   ],
   "title": "Assembly Point"
- },
- {
-  "id": "disinfecting_wipes",
-  "category": "devices",
-  "path": "devices/disinfecting_wipes",
-  "tags": [
-   "Antibacterial",
-   "Cleaning",
-   "PPE",
-   "Sanitation"
-  ],
-  "title": "PPE Disinfecting Wipes"
  },
  {
   "id": "guide_dog",
@@ -6541,19 +6254,6 @@
    "Lungs"
   ],
   "title": "Ventilator ALT"
- },
- {
-  "id": "unhealthy_food",
-  "category": "objects",
-  "path": "objects/unhealthy_food",
-  "tags": [
-   "Fast Food",
-   "Food",
-   "French Fries",
-   "Fried Food",
-   "Nutrition"
-  ],
-  "title": "Unhealthy Food"
  },
  {
   "id": "ui_zoom_in",
@@ -7076,138 +6776,6 @@
   "title": "Globe"
  },
  {
-  "id": "chart-cured-decreasing",
-  "category": "symbols",
-  "path": "symbols/chart-cured-decreasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Death",
-   "Graph",
-   "Metrics",
-   "Mortality",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Cured Decreasing"
- },
- {
-  "id": "chart-cured-increasing",
-  "category": "symbols",
-  "path": "symbols/chart-cured-increasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Death",
-   "Graph",
-   "Metrics",
-   "Mortality",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Cured Increasing"
- },
- {
-  "id": "chart-death-rate-increasing",
-  "category": "symbols",
-  "path": "symbols/chart-death-rate-increasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Death",
-   "Graph",
-   "Metrics",
-   "Mortality",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Death Rate Decreasing"
- },
- {
-  "id": "chart-death-rate-decreasing",
-  "category": "symbols",
-  "path": "symbols/chart-death-rate-decreasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Death",
-   "Graph",
-   "Metrics",
-   "Mortality",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Death Rate Increasing"
- },
- {
-  "id": "chart-death-rate-stable",
-  "category": "symbols",
-  "path": "symbols/chart-death-rate-stable",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Death",
-   "Graph",
-   "Metrics",
-   "Mortality",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Death Rate Stable"
- },
- {
-  "id": "chart-infected-decreasing",
-  "category": "symbols",
-  "path": "symbols/chart-infected-decreasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Graph",
-   "Metrics",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Infected Decreasing"
- },
- {
-  "id": "chart-infected-increasing",
-  "category": "symbols",
-  "path": "symbols/chart-infected-increasing",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Graph",
-   "Metrics",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Infected Increasing"
- },
- {
-  "id": "chart-infected-stable",
-  "category": "symbols",
-  "path": "symbols/chart-infected-stable",
-  "tags": [
-   "Chart",
-   "Covid",
-   "Flat",
-   "Graph",
-   "Metrics",
-   "Stable",
-   "Viral",
-   "Virology",
-   "Virus"
-  ],
-  "title": "Chart Infected Stable"
- },
- {
   "id": "virus-mutation",
   "category": "symbols",
   "path": "symbols/virus-mutation",
@@ -7246,19 +6814,6 @@
    "PPE"
   ],
   "title": "PPE Sanitizer ALT"
- },
- {
-  "id": "animal_chicken",
-  "category": "symbols",
-  "path": "symbols/animal_chicken",
-  "tags": [
-   "Bird Flu",
-   "Chicken",
-   "Chicken Pox",
-   "Farm",
-   "Poultry"
-  ],
-  "title": "Animal Chicken"
  },
  {
   "id": "blood_cells",
@@ -7405,16 +6960,6 @@
   "title": "Nerve"
  },
  {
-  "id": "pancreas",
-  "category": "body",
-  "path": "body/pancreas",
-  "tags": [
-   "Organ",
-   "Pancreatic"
-  ],
-  "title": "Pancreas"
- },
- {
   "id": "sling",
   "category": "devices",
   "path": "devices/sling",
@@ -7430,8 +6975,8 @@
  },
  {
   "id": "sperm",
-  "category": "family",
-  "path": "family/sperm",
+  "category": "contraceptives",
+  "path": "contraceptives/sperm",
   "tags": [
    "Family Planning",
    "Pregnancy",
@@ -7485,18 +7030,6 @@
    "Virus"
   ],
   "title": "Viral Lung Infection"
- },
- {
-  "id": "ppe-face-shield-alt",
-  "category": "devices",
-  "path": "devices/ppe-face-shield-alt",
-  "tags": [
-   "Hazardous Materials",
-   "PPE",
-   "Protection",
-   "Safety"
-  ],
-  "title": "PPE Face Shield ALT"
  },
  {
   "id": "virus-sanitizer-spray",
@@ -7597,21 +7130,6 @@
   "title": "Hospice"
  },
  {
-  "id": "exercise_bicycle",
-  "category": "devices",
-  "path": "devices/exercise_bicycle",
-  "tags": [
-   "Bicycle",
-   "Bike",
-   "Exercise",
-   "Fitness",
-   "Gym",
-   "Rehab",
-   "Rehabilitation"
-  ],
-  "title": "Exercise Bicycle"
- },
- {
   "id": "eyeglasses",
   "category": "devices",
   "path": "devices/eyeglasses",
@@ -7629,8 +7147,15 @@
   "id": "FHIR_logo",
   "category": "symbols",
   "path": "symbols/FHIR_logo",
-  "tags": [],
-  "title": "FHIR Logo"
+  "tags": [
+   "FHIR",
+   "HL7",
+   "Informatics",
+   "Interoperability",
+   "Logo",
+   "Standards"
+  ],
+  "title": "FHIR"
  },
  {
   "id": "patient_band_alt",
@@ -7670,8 +7195,8 @@
  },
  {
   "id": "fruits",
-  "category": "symbols",
-  "path": "symbols/fruits",
+  "category": "nutrition",
+  "path": "nutrition/fruits",
   "tags": [
    "Apple",
    "Food",
@@ -7697,8 +7222,8 @@
  },
  {
   "id": "alcohol",
-  "category": "symbols",
-  "path": "symbols/alcohol",
+  "category": "nutrition",
+  "path": "nutrition/alcohol",
   "tags": [
    "Abuse",
    "Alcohol",
@@ -7746,5 +7271,1812 @@
    "Testing"
   ],
   "title": "Sonography"
+ },
+ {
+  "id": "sonogram",
+  "category": "devices",
+  "path": "devices/sonogram",
+  "tags": [
+   "Antenatal",
+   "Baby",
+   "Birth",
+   "Device",
+   "Fetus",
+   "Prenatal",
+   "Scan",
+   "Sonogram",
+   "Sonograph",
+   "Sonography"
+  ],
+  "title": "Sonogram"
+ },
+ {
+  "id": "general_surgery",
+  "category": "specialties",
+  "path": "specialties/general_surgery",
+  "tags": [
+   "Department",
+   "Group",
+   "Knife",
+   "Room",
+   "Scalpel",
+   "Speciality",
+   "Surgery",
+   "Surgical"
+  ],
+  "title": "Surgical Department"
+ },
+ {
+  "id": "pain",
+  "category": "conditions",
+  "path": "conditions/pain",
+  "tags": [
+   "Ache",
+   "Agony",
+   "Back",
+   "Cramp",
+   "Hurt",
+   "Pain",
+   "Sore",
+   "Trauma"
+  ],
+  "title": "Pain"
+ },
+ {
+  "id": "interoperability",
+  "category": "symbols",
+  "path": "symbols/interoperability",
+  "tags": [
+   "FHIR",
+   "IT",
+   "Informatics",
+   "Interoperability",
+   "Standards",
+   "Tech",
+   "Technology",
+   "Terminology"
+  ],
+  "title": "Interoperability"
+ },
+ {
+  "id": "carbohydrates",
+  "category": "nutrition",
+  "path": "nutrition/carbohydrates",
+  "tags": [
+   "Bread",
+   "Carbohydrates",
+   "Carbs",
+   "Diet",
+   "Food",
+   "Nutrition",
+   "Wheat"
+  ],
+  "title": "Carbohydrates"
+ },
+ {
+  "id": "ppe_sanitizer",
+  "category": "ppe",
+  "path": "ppe/ppe_sanitizer",
+  "tags": [
+   "Infection Control",
+   "PPE",
+   "dhis2:sanitizer"
+  ],
+  "title": "PPE Sanitizer"
+ },
+ {
+  "id": "ppe_mask_n95",
+  "category": "ppe",
+  "path": "ppe/ppe_mask_n95",
+  "tags": [
+   "Infection Control",
+   "PPE",
+   "dhis2:ppe_mask_n95"
+  ],
+  "title": "PPE Mask N95"
+ },
+ {
+  "id": "ppe_gown",
+  "category": "ppe",
+  "path": "ppe/ppe_gown",
+  "tags": [
+   "Clothes",
+   "Infection Control",
+   "dhis2:ppe_gown"
+  ],
+  "title": "PPE Gown"
+ },
+ {
+  "id": "ppe_gloves",
+  "category": "ppe",
+  "path": "ppe/ppe_gloves",
+  "tags": [
+   "Glove",
+   "Hands",
+   "Infection Control",
+   "PPE",
+   "dhis2:ppe_gloves"
+  ],
+  "title": "PPE Gloves"
+ },
+ {
+  "id": "ppe_face_mask",
+  "category": "ppe",
+  "path": "ppe/ppe_face_mask",
+  "tags": [
+   "Infection Control",
+   "PPE",
+   "dhis2:ppe_face_mask"
+  ],
+  "title": "PPE Face Mask"
+ },
+ {
+  "id": "ppe-mask",
+  "category": "ppe",
+  "path": "ppe/ppe-mask",
+  "tags": [
+   "Infection Control",
+   "PPE",
+   "dhis2:ppe_mask"
+  ],
+  "title": "PPE Surgical Mask"
+ },
+ {
+  "id": "ppe_face_shield",
+  "category": "ppe",
+  "path": "ppe/ppe_face_shield",
+  "tags": [
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Face Shield"
+ },
+ {
+  "id": "ppe_goggles",
+  "category": "ppe",
+  "path": "ppe/ppe_goggles",
+  "tags": [
+   "Eye",
+   "Eye Protection",
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Goggles"
+ },
+ {
+  "id": "ppe_suit",
+  "category": "ppe",
+  "path": "ppe/ppe_suit",
+  "tags": [
+   "Hazardous Materials",
+   "Hazmat",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Suit"
+ },
+ {
+  "id": "respirator",
+  "category": "ppe",
+  "path": "ppe/respirator",
+  "tags": [
+   "Breathing",
+   "Mask",
+   "Outbreak",
+   "PPE",
+   "Safety",
+   "Virus"
+  ],
+  "title": "PPE Respirator"
+ },
+ {
+  "id": "disinfecting_wipes",
+  "category": "ppe",
+  "path": "ppe/disinfecting_wipes",
+  "tags": [
+   "Antibacterial",
+   "Cleaning",
+   "PPE",
+   "Sanitation"
+  ],
+  "title": "PPE Disinfecting Wipes"
+ },
+ {
+  "id": "ppe-face-shield-alt",
+  "category": "ppe",
+  "path": "ppe/ppe-face-shield-alt",
+  "tags": [
+   "Hazardous Materials",
+   "PPE",
+   "Protection",
+   "Safety"
+  ],
+  "title": "PPE Face Shield ALT"
+ },
+ {
+  "id": "hand-wipe-paper",
+  "category": "ppe",
+  "path": "ppe/hand-wipe-paper",
+  "tags": [
+   "Clean",
+   "Cleaning",
+   "Hand",
+   "PPE",
+   "Paper",
+   "Sanitation",
+   "Towel",
+   "Wipe"
+  ],
+  "title": "Hand Wipe Paper"
+ },
+ {
+  "id": "chart_bar",
+  "category": "graphs",
+  "path": "graphs/chart_bar",
+  "tags": [
+   "Bar Chart",
+   "Data",
+   "Graph",
+   "Visualization"
+  ],
+  "title": "Bar Chart"
+ },
+ {
+  "id": "chart_bar_stacked",
+  "category": "graphs",
+  "path": "graphs/chart_bar_stacked",
+  "tags": [
+   "Bar Chart",
+   "Data",
+   "Graph",
+   "Visualization"
+  ],
+  "title": "Split Bar Chart"
+ },
+ {
+  "id": "chart_line",
+  "category": "graphs",
+  "path": "graphs/chart_line",
+  "tags": [
+   "Data",
+   "Graph",
+   "Line Chart",
+   "Node",
+   "Visualization"
+  ],
+  "title": "Line Chart"
+ },
+ {
+  "id": "chart_line_stacked",
+  "category": "graphs",
+  "path": "graphs/chart_line_stacked",
+  "tags": [
+   "Data",
+   "Graph",
+   "Line Chart",
+   "Node",
+   "Visualization"
+  ],
+  "title": "Double Line Chart"
+ },
+ {
+  "id": "chart_pie",
+  "category": "graphs",
+  "path": "graphs/chart_pie",
+  "tags": [
+   "Data",
+   "Graph",
+   "Node",
+   "Pie Chart",
+   "Visualization"
+  ],
+  "title": "Pie Chart"
+ },
+ {
+  "id": "chart-cured-decreasing",
+  "category": "graphs",
+  "path": "graphs/chart-cured-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Cured Decreasing Line Chart"
+ },
+ {
+  "id": "chart-cured-increasing",
+  "category": "graphs",
+  "path": "graphs/chart-cured-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Cured Increasing Line Chart"
+ },
+ {
+  "id": "chart-death-rate-increasing",
+  "category": "graphs",
+  "path": "graphs/chart-death-rate-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Death Rate Decreasing Line Chart"
+ },
+ {
+  "id": "chart-death-rate-decreasing",
+  "category": "graphs",
+  "path": "graphs/chart-death-rate-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Death Rate Increasing Line Chart"
+ },
+ {
+  "id": "chart-death-rate-stable",
+  "category": "graphs",
+  "path": "graphs/chart-death-rate-stable",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Death",
+   "Graph",
+   "Metrics",
+   "Mortality",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Death Rate Stable Line Chart"
+ },
+ {
+  "id": "chart-infected-decreasing",
+  "category": "graphs",
+  "path": "graphs/chart-infected-decreasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Graph",
+   "Metrics",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Infected Decreasing Line Chart"
+ },
+ {
+  "id": "chart-infected-increasing",
+  "category": "graphs",
+  "path": "graphs/chart-infected-increasing",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Graph",
+   "Metrics",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Infected Increasing Line Chart"
+ },
+ {
+  "id": "chart-infected-stable",
+  "category": "graphs",
+  "path": "graphs/chart-infected-stable",
+  "tags": [
+   "Chart",
+   "Covid",
+   "Flat",
+   "Graph",
+   "Metrics",
+   "Stable",
+   "Viral",
+   "Virology",
+   "Virus"
+  ],
+  "title": "Infected Stable Line Chart"
+ },
+ {
+  "id": "hot_meal",
+  "category": "nutrition",
+  "path": "nutrition/hot_meal",
+  "tags": [
+   "Food",
+   "Meal",
+   "dhis2:hot_meal"
+  ],
+  "title": "Hot Meal"
+ },
+ {
+  "id": "unhealthy_food",
+  "category": "nutrition",
+  "path": "nutrition/unhealthy_food",
+  "tags": [
+   "Fast Food",
+   "Food",
+   "French Fries",
+   "Fried Food",
+   "Nutrition"
+  ],
+  "title": "Unhealthy Food"
+ },
+ {
+  "id": "medical_search",
+  "category": "symbols",
+  "path": "symbols/medical_search",
+  "tags": [
+   "Cross",
+   "Find",
+   "Glass",
+   "Magnifying",
+   "Medical",
+   "Plus",
+   "Search",
+   "Zoom"
+  ],
+  "title": "Medical Search ALT"
+ },
+ {
+  "id": "medical_search",
+  "category": "symbols",
+  "path": "symbols/medical_search",
+  "tags": [
+   "Find",
+   "Glass",
+   "Lab",
+   "Magnifying",
+   "Medical",
+   "Sample",
+   "Search",
+   "Test tube"
+  ],
+  "title": "Medical Search"
+ },
+ {
+  "id": "secure_communication",
+  "category": "symbols",
+  "path": "symbols/secure_communication",
+  "tags": [
+   "Bubble",
+   "Chat",
+   "Communication",
+   "Encrypted",
+   "Lock",
+   "Message",
+   "SMS",
+   "Secure",
+   "Speech",
+   "Talk"
+  ],
+  "title": "Chat Secure"
+ },
+ {
+  "id": "smoking_cessation_alt",
+  "category": "symbols",
+  "path": "symbols/smoking_cessation_alt",
+  "tags": [
+   "Banned",
+   "Cessation",
+   "Smoking",
+   "Stop",
+   "Tobacco",
+   "Unhealthy"
+  ],
+  "title": "No Smoking"
+ },
+ {
+  "id": "cancel",
+  "category": "symbols",
+  "path": "symbols/cancel",
+  "tags": [
+   "Cancel",
+   "Cessation",
+   "No Entry",
+   "None",
+   "Stop",
+   "Symbol"
+  ],
+  "title": "Cancel"
+ },
+ {
+  "id": "swim",
+  "category": "exercise",
+  "path": "exercise/swim",
+  "tags": [
+   "Aqua",
+   "Aquatics",
+   "Exercise",
+   "Fitness",
+   "Physio",
+   "Physiotherapy",
+   "Pool",
+   "Swim",
+   "Swimming",
+   "Therapy",
+   "Water"
+  ],
+  "title": "Swimming"
+ },
+ {
+  "id": "walking",
+  "category": "exercise",
+  "path": "exercise/walking",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physio",
+   "Physiotherapy",
+   "Walk"
+  ],
+  "title": "Activity Walk"
+ },
+ {
+  "id": "running",
+  "category": "exercise",
+  "path": "exercise/running",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Jog",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Run"
+  ],
+  "title": "Activity Run"
+ },
+ {
+  "id": "weights",
+  "category": "exercise",
+  "path": "exercise/weights",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Weightlifting",
+   "Weights"
+  ],
+  "title": "Activity Weights"
+ },
+ {
+  "id": "walk_supported",
+  "category": "exercise",
+  "path": "exercise/walk_supported",
+  "tags": [
+   "Exercise",
+   "Fitness",
+   "Lifestyle",
+   "Patient",
+   "People",
+   "Physio",
+   "Physiotherapy",
+   "Walk"
+  ],
+  "title": "Supported Walk"
+ },
+ {
+  "id": "toilet_paper",
+  "category": "devices",
+  "path": "devices/toilet_paper",
+  "tags": [
+   "Clean",
+   "Fecal",
+   "Feces",
+   "Paper",
+   "Poop",
+   "Sanitation",
+   "Sanitation",
+   "Toilet"
+  ],
+  "title": "Toilet Paper"
+ },
+ {
+  "id": "ultrasound_scanner",
+  "category": "devices",
+  "path": "devices/ultrasound_scanner",
+  "tags": [
+   "Baby",
+   "Childbirth",
+   "Device",
+   "Fetus",
+   "Maternity",
+   "Neonatal",
+   "Obgyn",
+   "Obstetrics",
+   "Prenatal",
+   "Scan",
+   "Ultrasound"
+  ],
+  "title": "Ultrasound Device"
+ },
+ {
+  "id": "medical_sample",
+  "category": "devices",
+  "path": "devices/medical_sample",
+  "tags": [
+   "Container",
+   "Exam",
+   "Fluid",
+   "Lab",
+   "Laboratory",
+   "Sample",
+   "Test",
+   "Test tube"
+  ],
+  "title": "Medical Sample"
+ },
+ {
+  "id": "breast_pump",
+  "category": "devices",
+  "path": "devices/breast_pump",
+  "tags": [
+   "Baby",
+   "Birth",
+   "Birthing",
+   "Breastfeed",
+   "Chest",
+   "Milk",
+   "Mother",
+   "Obgyn",
+   "Obstetrics",
+   "Parent",
+   "Postnatal"
+  ],
+  "title": "Breast Pump"
+ },
+ {
+  "id": "lactose",
+  "category": "nutrition",
+  "path": "nutrition/lactose",
+  "tags": [
+   "Cardiology",
+   "Food",
+   "Nutrition",
+   "Salt",
+   "Sodium",
+   "Unhealthy"
+  ],
+  "title": "Sodium"
+ },
+ {
+  "id": "sodium_free",
+  "category": "nutrition",
+  "path": "nutrition/sodium_free",
+  "tags": [
+   "Food",
+   "No",
+   "None",
+   "Nutrition",
+   "Salt",
+   "Sodium"
+  ],
+  "title": "Low Sodium"
+ },
+ {
+  "id": "pain_managment",
+  "category": "specialties",
+  "path": "specialties/pain_managment",
+  "tags": [
+   "Ache",
+   "Department",
+   "Hurt",
+   "Lightning",
+   "Pain",
+   "Speciality"
+  ],
+  "title": "Pain Management"
+ },
+ {
+  "id": "exercise_bicycle",
+  "category": "exercise",
+  "path": "exercise/exercise_bicycle",
+  "tags": [
+   "Bicycle",
+   "Bike",
+   "Exercise",
+   "Fitness",
+   "Gym",
+   "Physio",
+   "Physiotherapy",
+   "Rehab",
+   "Rehabilitation"
+  ],
+  "title": "Exercise Bicycle"
+ },
+ {
+  "id": "burn",
+  "category": "conditions",
+  "path": "conditions/burn",
+  "tags": [
+   "Burn",
+   "Condition",
+   "Emergency",
+   "Fire",
+   "Flame",
+   "Hand",
+   "Injury"
+  ],
+  "title": "Burn"
+ },
+ {
+  "id": "burn_unit",
+  "category": "specialties",
+  "path": "specialties/burn_unit",
+  "tags": [
+   "Burn",
+   "Emergency",
+   "Fire",
+   "Flame",
+   "Hand",
+   "Hospital",
+   "Injury",
+   "Speciality",
+   "Unit"
+  ],
+  "title": "Burn Unit"
+ },
+ {
+  "id": "dairy",
+  "category": "nutrition",
+  "path": "nutrition/dairy",
+  "tags": [
+   "Beverage",
+   "Cow",
+   "Dairy",
+   "Drink",
+   "Food",
+   "Lactose",
+   "Milk",
+   "Nutrition"
+  ],
+  "title": "Dairy"
+ },
+ {
+  "id": "lactose_free",
+  "category": "nutrition",
+  "path": "nutrition/lactose_free",
+  "tags": [
+   "Allergy",
+   "Beverage",
+   "Cow",
+   "Dairy",
+   "Drink",
+   "Food",
+   "Lactose",
+   "Lactose Free",
+   "Milk",
+   "Nutrition"
+  ],
+  "title": "Dairy Free"
+ },
+ {
+  "id": "exercise_yoga",
+  "category": "people",
+  "path": "people/exercise_yoga",
+  "tags": [
+   "Calm",
+   "Exercise",
+   "Fitness",
+   "Meditate",
+   "Meditation",
+   "Physio",
+   "Physiotherapy",
+   "Therapy"
+  ],
+  "title": "Yoga"
+ },
+ {
+  "id": "cpr",
+  "category": "people",
+  "path": "people/cpr",
+  "tags": [
+   "CPR",
+   "Cardiopulmonary",
+   "Emergency",
+   "First Aid",
+   "Pulmonary",
+   "Rescue",
+   "Resuscitation"
+  ],
+  "title": "CPR"
+ },
+ {
+  "id": "baby_formula",
+  "category": "nutrition",
+  "path": "nutrition/baby_formula",
+  "tags": [
+   "Baby",
+   "Baby Food",
+   "Dairy",
+   "Food",
+   "Milk",
+   "Milk Substitute",
+   "Mother",
+   "Postnatal"
+  ],
+  "title": "Baby Formula"
+ },
+ {
+  "id": "telemedicine",
+  "category": "symbols",
+  "path": "symbols/telemedicine",
+  "tags": [
+   "Computer",
+   "Consult",
+   "Doctor",
+   "Meeting",
+   "Virtual"
+  ],
+  "title": "Telemedicine"
+ },
+ {
+  "id": "exercise",
+  "category": "exercise",
+  "path": "exercise/exercise",
+  "tags": [
+   "Fitness",
+   "Physio",
+   "Physiotherapy",
+   "Strong",
+   "Weightlifting",
+   "Weights",
+   "Wellness",
+   "dhis2:exercise"
+  ],
+  "title": "Exercise"
+ },
+ {
+  "id": "vagina_alt",
+  "category": "body",
+  "path": "body/vagina_alt",
+  "tags": [
+   "Anatomy",
+   "Body",
+   "Female",
+   "Genitals",
+   "Organ",
+   "Reproductive System",
+   "Vagina",
+   "Vulva"
+  ],
+  "title": "Vulva"
+ },
+ {
+  "id": "penis_alt",
+  "category": "body",
+  "path": "body/penis_alt",
+  "tags": [
+   "Anatomy",
+   "Body",
+   "Genitals",
+   "Male",
+   "Organ",
+   "Reproductive System"
+  ],
+  "title": "Penis"
+ },
+ {
+  "id": "penis",
+  "category": "body",
+  "path": "body/penis",
+  "tags": [
+   "Anatomy",
+   "Body",
+   "Genitals",
+   "Male",
+   "Reproductive System"
+  ],
+  "title": "Penis"
+ },
+ {
+  "id": "testicles",
+  "category": "body",
+  "path": "body/testicles",
+  "tags": [
+   "Anatomy",
+   "Balls",
+   "Body",
+   "Genitals",
+   "Male",
+   "Organ",
+   "Reproductive System",
+   "Scrotum"
+  ],
+  "title": "Testicles"
+ },
+ {
+  "id": "chemical_burn",
+  "category": "conditions",
+  "path": "conditions/chemical_burn",
+  "tags": [
+   "Accident",
+   "Burn",
+   "Chemical",
+   "Condition",
+   "Flame",
+   "Flame",
+   "Hand",
+   "Injury",
+   "Lab",
+   "Laboratory",
+   "Test Tube"
+  ],
+  "title": "Chemical Burn"
+ },
+ {
+  "id": "pulse_oximeter_alt",
+  "category": "devices",
+  "path": "devices/pulse_oximeter_alt",
+  "tags": [
+   "Device",
+   "Finger",
+   "Measure",
+   "Oximeter",
+   "Oxygen",
+   "Pulse"
+  ],
+  "title": "Pulse Oximeter"
+ },
+ {
+  "id": "pulse_oximeter",
+  "category": "devices",
+  "path": "devices/pulse_oximeter",
+  "tags": [
+   "Device",
+   "Finger",
+   "Measure",
+   "Oximeter",
+   "Oxygen",
+   "Pulse"
+  ],
+  "title": "Pulse Oximeter"
+ },
+ {
+  "id": "animal_rat",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_rat",
+  "tags": [
+   "Animal",
+   "Mouse",
+   "Rat",
+   "Rodent",
+   "Zoonoses",
+   "Zoonotic Disease"
+  ],
+  "title": "Rat"
+ },
+ {
+  "id": "sugar",
+  "category": "nutrition",
+  "path": "nutrition/sugar",
+  "tags": [
+   "Cube",
+   "Food",
+   "Nutrition",
+   "Sucrose",
+   "Sugar",
+   "Sweetener"
+  ],
+  "title": "Sugar"
+ },
+ {
+  "id": "sugar_alt",
+  "category": "nutrition",
+  "path": "nutrition/sugar_alt",
+  "tags": [
+   "Food",
+   "Nutrition",
+   "Salt",
+   "Sodium",
+   "Spoon",
+   "Sucrose",
+   "Sugar",
+   "Sweetener"
+  ],
+  "title": "Sugar"
+ },
+ {
+  "id": "animal_pig",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_pig",
+  "tags": [
+   "Animal",
+   "Farm",
+   "Mammal",
+   "Pork",
+   "Zoonoses",
+   "Zoonotic Disease"
+  ],
+  "title": "Pig"
+ },
+ {
+  "id": "animal_bat",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_bat",
+  "tags": [
+   "Animal",
+   "Mammal",
+   "Zoonoses",
+   "Zoonotic Disease"
+  ],
+  "title": "Bat"
+ },
+ {
+  "id": "alcohol_cessation",
+  "category": "nutrition",
+  "path": "nutrition/alcohol_cessation",
+  "tags": [
+   "Alcohol",
+   "Cessation",
+   "Food",
+   "Liquor",
+   "Nutrition",
+   "Reduction",
+   "Wine"
+  ],
+  "title": "No Alcohol"
+ },
+ {
+  "id": "gluten",
+  "category": "nutrition",
+  "path": "nutrition/gluten",
+  "tags": [
+   "Celiac Disease",
+   "Cereal",
+   "Food",
+   "Gluten",
+   "Nutrition",
+   "Wheat"
+  ],
+  "title": "Gluten"
+ },
+ {
+  "id": "gluten_free",
+  "category": "nutrition",
+  "path": "nutrition/gluten_free",
+  "tags": [
+   "Celiac Disease",
+   "Cereal",
+   "Food",
+   "Gluten",
+   "Nutrition",
+   "Wheat"
+  ],
+  "title": "Gluten Free"
+ },
+ {
+  "id": "crisis_response_center_person",
+  "category": "people",
+  "path": "people/crisis_response_center_person",
+  "tags": [
+   "Alert",
+   "Computers",
+   "Emergency",
+   "Epidemiology",
+   "Headquarters",
+   "Monitors",
+   "Operations",
+   "Response",
+   "Statistics",
+   "Worker"
+  ],
+  "title": "Emergency Operations Person"
+ },
+ {
+  "id": "emergency_operations_center",
+  "category": "places",
+  "path": "places/emergency_operations_center",
+  "tags": [
+   "Building",
+   "Emergency",
+   "Headquarters",
+   "Operations",
+   "Response",
+   "Satellite"
+  ],
+  "title": "Emergency Operations Center"
+ },
+ {
+  "id": "animal_spider",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_spider",
+  "tags": [
+   "Animal",
+   "Arachnid",
+   "Bite",
+   "Disease",
+   "Insect",
+   "Poison",
+   "Zoonoses",
+   "Zoonotic Diseases"
+  ],
+  "title": "Spider"
+ },
+ {
+  "id": "animal_tick",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_tick",
+  "tags": [
+   "Animal",
+   "Disease",
+   "Insect",
+   "Zoonotic Diseases"
+  ],
+  "title": "Tick"
+ },
+ {
+  "id": "animal_chicken",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_chicken",
+  "tags": [
+   "Bird Flu",
+   "Chicken",
+   "Chicken Pox",
+   "Farm",
+   "Poultry",
+   "Zoonoses",
+   "Zoonotic Disease"
+  ],
+  "title": "Chicken"
+ },
+ {
+  "id": "medicine_mortar",
+  "category": "devices",
+  "path": "devices/medicine_mortar",
+  "tags": [
+   "Compound",
+   "Compounding",
+   "Medicine",
+   "Mix",
+   "Mortar",
+   "Pestle",
+   "Pharmacy"
+  ],
+  "title": "Mortar and Pestle"
+ },
+ {
+  "id": "medicine_bottle",
+  "category": "devices",
+  "path": "devices/medicine_bottle",
+  "tags": [
+   "Bottle",
+   "Capsule",
+   "Drug",
+   "Medication",
+   "Packaging",
+   "Pharmacy",
+   "Prescription"
+  ],
+  "title": "Medicine Container"
+ },
+ {
+  "id": "asthma_inhaler",
+  "category": "devices",
+  "path": "devices/asthma_inhaler",
+  "tags": [
+   "Allergy",
+   "Asthma",
+   "Breath",
+   "Breathing",
+   "Inhaler",
+   "Lung",
+   "Nebulizer",
+   "Puffer",
+   "Pump",
+   "Respiratory System"
+  ],
+  "title": "Inhaler"
+ },
+ {
+  "id": "hearing_aid",
+  "category": "devices",
+  "path": "devices/hearing_aid",
+  "tags": [
+   "Assistive",
+   "Audio",
+   "Audiology",
+   "Device",
+   "Ear",
+   "Hearing"
+  ],
+  "title": "Hearing Aid"
+ },
+ {
+  "id": "crutches",
+  "category": "devices",
+  "path": "devices/crutches",
+  "tags": [
+   "Assistive",
+   "Break",
+   "Crutch",
+   "Physical Therapy",
+   "Rehab",
+   "Rehabilitation"
+  ],
+  "title": "Crutch"
+ },
+ {
+  "id": "cane",
+  "category": "devices",
+  "path": "devices/cane",
+  "tags": [
+   "Assistive",
+   "Cane",
+   "Disability",
+   "Elderly",
+   "Older",
+   "Physiotherapy",
+   "Staff",
+   "Stick",
+   "Stick",
+   "Support",
+   "Walker",
+   "Walking"
+  ],
+  "title": "Cane"
+ },
+ {
+  "id": "test_tubes",
+  "category": "devices",
+  "path": "devices/test_tubes",
+  "tags": [
+   "Research",
+   "Sample",
+   "Test Tube",
+   "Vial"
+  ],
+  "title": "Test tubes"
+ },
+ {
+  "id": "anus",
+  "category": "body",
+  "path": "body/anus",
+  "tags": [
+   "Anatomy",
+   "Anus",
+   "Body",
+   "Bum",
+   "Intestinal System",
+   "Intestine"
+  ],
+  "title": "Anus"
+ },
+ {
+  "id": "heartbeat",
+  "category": "symbols",
+  "path": "symbols/heartbeat",
+  "tags": [
+   "Cardiology",
+   "Circulatory System",
+   "Device",
+   "Electrical",
+   "Heart",
+   "Heart attack",
+   "Heartbeat",
+   "Stroke",
+   "Symbol"
+  ],
+  "title": "Heartbeat"
+ },
+ {
+  "id": "vascular_surgery",
+  "category": "specialties",
+  "path": "specialties/vascular_surgery",
+  "tags": [
+   "Blood vessel",
+   "Department",
+   "Scalpel",
+   "Specialty",
+   "Surgery",
+   "Vascular system"
+  ],
+  "title": "Vascular Surgery"
+ },
+ {
+  "id": "stent",
+  "category": "devices",
+  "path": "devices/stent",
+  "tags": [
+   "Artery",
+   "Blood vessel",
+   "Device",
+   "Heart",
+   "Heart attack",
+   "Stent",
+   "Stroke",
+   "Surgery",
+   "Vein"
+  ],
+  "title": "Stent"
+ },
+ {
+  "id": "vagina",
+  "category": "body",
+  "path": "body/vagina",
+  "tags": [
+   "Anatomy",
+   "Body",
+   "Clitoris",
+   "Female",
+   "Genitals",
+   "Organ",
+   "Reproductive System",
+   "Vagina",
+   "Vulva"
+  ],
+  "title": "Vagina"
+ },
+ {
+  "id": "pancreatic_cancer",
+  "category": "conditions",
+  "path": "conditions/pancreatic_cancer",
+  "tags": [
+   "Cancer",
+   "Digestive",
+   "Gland",
+   "Growth",
+   "Insulin",
+   "Malignant",
+   "Organ",
+   "Pancreatic",
+   "Tumor"
+  ],
+  "title": "Pancreatic Cancer"
+ },
+ {
+  "id": "pancreas",
+  "category": "body",
+  "path": "body/pancreas",
+  "tags": [
+   "Digestive",
+   "Gland",
+   "Insulin",
+   "Organ",
+   "Pancreatic"
+  ],
+  "title": "Pancreas"
+ },
+ {
+  "id": "prostate_cancer",
+  "category": "conditions",
+  "path": "conditions/prostate_cancer",
+  "tags": [
+   "Bladder",
+   "Cancer",
+   "Gland",
+   "Growth",
+   "Malignant",
+   "Prostate",
+   "Tumor"
+  ],
+  "title": "Prostate Cancer"
+ },
+ {
+  "id": "prostate",
+  "category": "body",
+  "path": "body/prostate",
+  "tags": [
+   "Bladder",
+   "Gland",
+   "Organ",
+   "Prostate"
+  ],
+  "title": "Prostate"
+ },
+ {
+  "id": "stomach_cancer",
+  "category": "conditions",
+  "path": "conditions/stomach_cancer",
+  "tags": [
+   "Cancer",
+   "Digestive System",
+   "Growth",
+   "Gut",
+   "Intestine",
+   "Malignant",
+   "Organ",
+   "Tumor"
+  ],
+  "title": "Stomach Cancer"
+ },
+ {
+  "id": "stomach",
+  "category": "body",
+  "path": "body/stomach",
+  "tags": [
+   "Digestive System",
+   "Gut",
+   "Intestine",
+   "Organ"
+  ],
+  "title": "Stomach"
+ },
+ {
+  "id": "cancerous_cell_nuclei",
+  "category": "conditions",
+  "path": "conditions/cancerous_cell_nuclei",
+  "tags": [
+   "Cancer",
+   "Cell",
+   "Malignant",
+   "Nucleus",
+   "Tumor"
+  ],
+  "title": "Cancerous Cell Nuclei"
+ },
+ {
+  "id": "cell_nuclei",
+  "category": "body",
+  "path": "body/cell_nuclei",
+  "tags": [
+   "Body",
+   "Cell",
+   "Chromatin",
+   "Ribosomes"
+  ],
+  "title": "Cell Nuclei"
+ },
+ {
+  "id": "cochlear_implant",
+  "category": "devices",
+  "path": "devices/cochlear_implant",
+  "tags": [
+   "Assistive Device",
+   "Audio",
+   "Ear",
+   "Hearing",
+   "Hearing Aid",
+   "Sensory",
+   "Sound",
+   "Speech"
+  ],
+  "title": "Cochlear Implant"
+ },
+ {
+  "id": "urine_sample",
+  "category": "devices",
+  "path": "devices/urine_sample",
+  "tags": [
+   "Container",
+   "Cup",
+   "Kidney",
+   "Lab",
+   "Laboratory",
+   "Liquid",
+   "Sample"
+  ],
+  "title": "Urine Sample"
+ },
+ {
+  "id": "insurance_card",
+  "category": "objects",
+  "path": "objects/insurance_card",
+  "tags": [
+   "ID",
+   "ID Card",
+   "Identification",
+   "Insurance",
+   "License",
+   "Patient",
+   "Patient ID",
+   "Payment",
+   "User"
+  ],
+  "title": "Insurance Card"
+ },
+ {
+  "id": "head",
+  "category": "body",
+  "path": "body/head",
+  "tags": [
+   "Body",
+   "Centimeter",
+   "Diagnostic",
+   "Face",
+   "Head",
+   "Measure",
+   "Neck",
+   "Nose",
+   "Patient",
+   "Skull"
+  ],
+  "title": "Head"
+ },
+ {
+  "id": "colon",
+  "category": "body",
+  "path": "body/colon",
+  "tags": [
+   "Anus",
+   "Appendix",
+   "Bowel",
+   "Colon",
+   "Digestive System",
+   "Intestine",
+   "Organ"
+  ],
+  "title": "Colon"
+ },
+ {
+  "id": "orthotics",
+  "category": "devices",
+  "path": "devices/orthotics",
+  "tags": [
+   "Braces",
+   "Calipers",
+   "Foot",
+   "Footwear",
+   "Insole",
+   "Support"
+  ],
+  "title": "Orthotics"
+ },
+ {
+  "id": "thyroid",
+  "category": "body",
+  "path": "body/thyroid",
+  "tags": [
+   "Gland",
+   "Hormones",
+   "Metabolism",
+   "Neck",
+   "Thyroid"
+  ],
+  "title": "Thyroid"
+ },
+ {
+  "id": "qr_code",
+  "category": "symbols",
+  "path": "symbols/qr_code",
+  "tags": [
+   "Bar code",
+   "Barcode",
+   "Code",
+   "ID",
+   "Identification",
+   "Quick Response Code",
+   "Scan"
+  ],
+  "title": "QR Code"
+ },
+ {
+  "id": "icd",
+  "category": "symbols",
+  "path": "symbols/icd",
+  "tags": [
+   "Classification",
+   "Code",
+   "Informatics",
+   "Standard",
+   "Terminology",
+   "WHO"
+  ],
+  "title": "ICD"
+ },
+ {
+  "id": "icd_11",
+  "category": "symbols",
+  "path": "symbols/icd_11",
+  "tags": [
+   "Classification",
+   "Code",
+   "Informatics",
+   "Standard",
+   "Terminology",
+   "WHO"
+  ],
+  "title": "ICD 11"
+ },
+ {
+  "id": "icd_10",
+  "category": "symbols",
+  "path": "symbols/icd_10",
+  "tags": [
+   "Classification",
+   "Code",
+   "Informatics",
+   "Standard",
+   "Terminology",
+   "WHO"
+  ],
+  "title": "ICD 10"
+ },
+ {
+  "id": "icd_9",
+  "category": "symbols",
+  "path": "symbols/icd_9",
+  "tags": [
+   "Classification",
+   "Code",
+   "Informatics",
+   "Standard",
+   "Terminology",
+   "WHO"
+  ],
+  "title": "ICD 9"
+ },
+ {
+  "id": "height",
+  "category": "symbols",
+  "path": "symbols/height",
+  "tags": [
+   "BMI",
+   "Centimeter",
+   "Diagnostic",
+   "Foot",
+   "Height",
+   "Measure",
+   "Patient",
+   "Short",
+   "Tall"
+  ],
+  "title": "Height"
+ },
+ {
+  "id": "waist_circumference",
+  "category": "symbols",
+  "path": "symbols/waist_circumference",
+  "tags": [
+   "BMI",
+   "Centimeter",
+   "Diagnostic",
+   "Mass",
+   "Measure",
+   "Obese",
+   "Patient",
+   "Thin",
+   "Underweight",
+   "Waist"
+  ],
+  "title": "Waist Circumference"
+ },
+ {
+  "id": "head_circumference",
+  "category": "symbols",
+  "path": "symbols/head_circumference",
+  "tags": [
+   "Centimeter",
+   "Diagnostic",
+   "Head",
+   "Measure",
+   "Patient",
+   "Skull"
+  ],
+  "title": "Head Circumference"
+ },
+ {
+  "id": "animal_snake",
+  "category": "zoonoses",
+  "path": "zoonoses/animal_snake",
+  "tags": [
+   "Animal",
+   "Poison",
+   "Poisonous",
+   "Python",
+   "Snake",
+   "Venom",
+   "Zoonoses",
+   "Zoonotic Disease"
+  ],
+  "title": "Snake"
+ },
+ {
+  "id": "arm_circumference",
+  "category": "symbols",
+  "path": "symbols/arm_circumference",
+  "tags": [
+   "Arm",
+   "Centimeter",
+   "Diagnostic",
+   "Measure",
+   "Patient"
+  ],
+  "title": "Arm Circumference"
+ },
+ {
+  "id": "healthcare_it",
+  "category": "symbols",
+  "path": "symbols/healthcare_it",
+  "tags": [
+   "Computer",
+   "Device",
+   "Health",
+   "IT",
+   "Information technology",
+   "Laptop",
+   "Medicine",
+   "Technology"
+  ],
+  "title": "Health IT"
+ },
+ {
+  "id": "laptop",
+  "category": "objects",
+  "path": "objects/laptop",
+  "tags": [
+   "Computer",
+   "Device",
+   "Health",
+   "IT",
+   "Information technology",
+   "Laptop",
+   "Medicine",
+   "Technology"
+  ],
+  "title": "Laptop"
+ },
+ {
+  "id": "body_mass_index",
+  "category": "symbols",
+  "path": "symbols/body_mass_index",
+  "tags": [
+   "BMI",
+   "BMI",
+   "Diagnostic",
+   "Height",
+   "Mass",
+   "Measure",
+   "Obese",
+   "Thin",
+   "Underweight",
+   "Waist"
+  ],
+  "title": "Body Mass Index"
+ },
+ {
+  "id": "loinc",
+  "category": "symbols",
+  "path": "symbols/loinc",
+  "tags": [
+   "Classification",
+   "Code",
+   "Informatics",
+   "Lab",
+   "Standard",
+   "Terminology"
+  ],
+  "title": "LOINC"
  }
 ]
